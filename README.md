@@ -159,10 +159,11 @@ python scripts/verify_publication.py --verify-only
 
 Candidate regeneration takes several minutes because the complete build is
 performed twice to assert canonical equality. Phase 4 provenance includes new
-execution timestamps on every rerun; scientific predictions and metrics are
-compared byte-for-byte, while provenance is compared after removing only those
-execution-time fields. The original frozen Phase 4 artifact-tree fingerprint
-remains unchanged and is never replaced by a rerun fingerprint.
+execution timestamps and the current repository commit on every rerun.
+Scientific outputs are compared exactly after normalizing only those provenance
+fields; all non-provenance result files remain byte-identical. The original
+frozen Phase 4 artifact-tree fingerprint remains unchanged and is never
+replaced by a rerun fingerprint.
 
 See [the reproducibility guide](docs/reproducibility.md) for expected
 fingerprints and detailed commands.

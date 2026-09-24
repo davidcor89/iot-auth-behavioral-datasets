@@ -108,10 +108,18 @@ authorization and a new temporary output directory. It verifies:
 
 - all 45 primary and 9 grouped runs are present;
 - predictions, metrics, summaries, figure data, and frozen tables are
-  byte-identical;
-- run provenance is identical after removing only `created_at_utc`;
-- the execution manifest is identical after removing only start/completion
-  timestamps.
+  scientifically equivalent; non-provenance files remain byte-identical;
+- run provenance is identical after removing execution timestamps and
+  `repository_commit`;
+- the execution manifest is identical after removing execution timestamps and
+  `repository_commit`.
+
+`repository_commit` is deliberately normalized only by this publication
+comparison because a dedicated public repository has a different Git identity
+from the frozen research repository. The generated record still retains the
+actual public-repository commit. Dataset membership, features, predictions,
+metrics, seeds, configurations, and every frozen upstream fingerprint are
+compared without normalization.
 
 The original frozen Phase 4 tree fingerprint is:
 
@@ -120,9 +128,9 @@ sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11
 ```
 
 A rerun necessarily has a different whole-tree fingerprint because timestamps
-are provenance and `claim-audit.json` is a frozen post-execution review artifact
-rather than an orchestrator output. The verifier reports that distinction and
-never replaces the frozen fingerprint.
+and the current repository commit are provenance, and `claim-audit.json` is a
+frozen post-execution review artifact rather than an orchestrator output. The
+verifier reports that distinction and never replaces the frozen fingerprint.
 
 The expected sklearn 1.9 warning about the deprecated explicit Logistic
 Regression `penalty` parameter is retained rather than changing the frozen
@@ -155,4 +163,3 @@ The command refuses to overwrite an existing directory. It creates
 The snapshot can then be initialized as the dedicated USPN GitLab repository
 after the repository URL, namespace, visibility, license, and authorization are
 confirmed.
-

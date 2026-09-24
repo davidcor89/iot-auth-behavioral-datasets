@@ -48,6 +48,20 @@ class PublicationPackageTests(unittest.TestCase):
         self.assertEqual(payload["verification"]["grouped_runs"], 9)
         self.assertEqual(payload["verification"]["paper_artifacts"], 20)
 
+    def test_publication_comparison_normalizes_only_execution_provenance(self):
+        from scripts.verify_publication import _without_execution_metadata
+
+        payload = {
+            "repository_commit": "publication-commit",
+            "created_at_utc": "execution-time",
+            "prediction": 1,
+            "nested": {"completed_at_utc": "execution-time", "metric": 0.75},
+        }
+        self.assertEqual(
+            _without_execution_metadata(payload),
+            {"prediction": 1, "nested": {"metric": 0.75}},
+        )
+
     def test_publication_snapshot_is_allowlisted_hashable_and_path_neutral(self):
         with tempfile.TemporaryDirectory(prefix="icds-publication-test-") as directory:
             destination = Path(directory) / "snapshot"

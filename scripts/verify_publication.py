@@ -188,16 +188,37 @@ def reproduce_candidate() -> dict[str, Any]:
     return {"byte_identical": True, "files": compared}
 
 
-def _without_execution_time(value: Any) -> Any:
+def _without_execution_metadata(value: Any) -> Any:
     if isinstance(value, dict):
         return {
-            key: _without_execution_time(item)
+            key: _without_execution_metadata(item)
             for key, item in value.items()
-            if key not in {"created_at_utc", "started_at_utc", "completed_at_utc"}
+            if key not in {
+                "created_at_utc",
+                "started_at_utc",
+                "completed_at_utc",
+                # A dedicated publication repository necessarily has a new
+                # commit identity. This field is run provenance, not a
+                # scientific input or result.
+                "repository_commit",
+            }
         }
     if isinstance(value, list):
-        return [_without_execution_time(item) for item in value]
+        return [_without_execution_metadata(item) for item in value]
     return value
+
+
+def _scientific_file_value(path: Path) -> Any:
+    if path.suffix == ".jsonl":
+        with path.open(encoding="utf-8") as stream:
+            return [
+                _without_execution_metadata(json.loads(line))
+                for line in stream
+                if line.strip()
+            ]
+    if path.suffix == ".json":
+        return _without_execution_metadata(read_json(path))
+    return path.read_bytes()
 
 
 def reproduce_phase4() -> dict[str, Any]:
@@ -210,9 +231,11 @@ def reproduce_phase4() -> dict[str, Any]:
             cwd=ROOT, env=_environment(), check=True,
         )
         for relative in SCIENTIFIC_PHASE4_FILES:
-            assert_equal((output / relative).read_bytes(),
-                         (PHASE4_ROOT / relative).read_bytes(),
-                         f"reproduced scientific Phase-4 artifact {relative}")
+            assert_equal(
+                _scientific_file_value(output / relative),
+                _scientific_file_value(PHASE4_ROOT / relative),
+                f"reproduced scientific Phase-4 artifact {relative}",
+            )
 
         generated_provenance = list(output.glob("primary/**/run-provenance.json"))
         generated_provenance += list(output.glob("grouped/**/run-provenance.json"))
@@ -220,22 +243,29 @@ def reproduce_phase4() -> dict[str, Any]:
             relative = generated.relative_to(output)
             frozen = PHASE4_ROOT / relative
             assert_equal(
-                _without_execution_time(read_json(generated)),
-                _without_execution_time(read_json(frozen)),
+                _without_execution_metadata(read_json(generated)),
+                _without_execution_metadata(read_json(frozen)),
                 f"normalized Phase-4 provenance {relative}",
             )
 
-        generated_execution = _without_execution_time(read_json(output / "execution-manifest.json"))
-        frozen_execution = _without_execution_time(read_json(PHASE4_ROOT / "execution-manifest.json"))
+        generated_execution = _without_execution_metadata(
+            read_json(output / "execution-manifest.json")
+        )
+        frozen_execution = _without_execution_metadata(
+            read_json(PHASE4_ROOT / "execution-manifest.json")
+        )
         assert_equal(generated_execution, frozen_execution,
                      "normalized Phase-4 execution manifest")
         rerun_tree = read_json(output / "fingerprints.json")["artifact_tree_fingerprint"]
     return {
-        "scientific_files_byte_identical": len(SCIENTIFIC_PHASE4_FILES),
-        "normalized_provenance_files_identical": len(generated_provenance),
+        "scientific_files_equivalent": len(SCIENTIFIC_PHASE4_FILES),
+        "normalized_provenance_files_equivalent": len(generated_provenance),
         "frozen_tree_fingerprint": EXPECTED_PHASE4_TREE,
         "rerun_tree_fingerprint": rerun_tree,
-        "tree_difference_reason": "execution timestamps only; claim audit is a frozen post-run artifact",
+        "tree_difference_reason": (
+            "execution timestamps and publication-repository commit provenance; "
+            "claim audit is a frozen post-run artifact"
+        ),
     }
 
 
