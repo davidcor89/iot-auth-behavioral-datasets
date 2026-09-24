@@ -1,0 +1,23 @@
+# Explicit allowlist for the dedicated public snapshot.
+.gitignore
+.gitlab-ci.yml
+README.md
+requirements-publication.txt
+PUBLICATION_FILES.txt
+IoT_auth_simulator/**/*.py
+IoT_auth_simulator/ml/icds/*.json
+IoT_auth_simulator/simulator/data/output/.gitkeep
+artifacts/icds-timing-nonce-candidate/**/*
+artifacts/icds-ml-phase1/**/*
+artifacts/icds-ml-phase2/**/*
+artifacts/icds-ml-phase3/**/*
+artifacts/icds-ml-phase4/**/*
+artifacts/icds-paper-figures/**/*
+docs/reproducibility.md
+docs/dataset-and-manifests.md
+docs/paper-artifact-map.md
+docs/icds-phase4-scientific-results.md
+notebooks/icds_phase4_paper_artifacts.ipynb
+scripts/*.py
+tests/**/*.py
+

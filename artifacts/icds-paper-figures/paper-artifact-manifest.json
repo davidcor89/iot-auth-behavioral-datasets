@@ -1,0 +1,634 @@
+{
+  "artifacts": [
+    {
+      "artifact_type": "pdf",
+      "filename": "figure-1-primary-hard-negative-effect.pdf",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C0/C1 normal-subgroup false-positive behavior with repetitions",
+      "scientific_condition": "C0/C1",
+      "sha256": "d4b83edc927139e3cd13f793618eb7124f2251031b1df00fb3267f8bb1feec13",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "png",
+      "filename": "figure-1-primary-hard-negative-effect.png",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C0/C1 normal-subgroup false-positive behavior with repetitions",
+      "scientific_condition": "C0/C1",
+      "sha256": "bc175a7b8e84a3a1cabebadd7b4a3c9bd80ec07f33947cdf4a7a32f91cfb3f8f",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "svg",
+      "filename": "figure-1-primary-hard-negative-effect.svg",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C0/C1 normal-subgroup false-positive behavior with repetitions",
+      "scientific_condition": "C0/C1",
+      "sha256": "5fc87c5aed4ec3aebd0ab343d70b9e4a01aef34999e0f1853daa4a5f2b9654a3",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "pdf",
+      "filename": "figure-2-semantic-error-profile.pdf",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "direction-aware semantic FPR and anomaly-recall matrix",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "e8e8cd7d1f4205dd55a03d46631788eeb124add7661a599cb6156f5ea9df85b7",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "png",
+      "filename": "figure-2-semantic-error-profile.png",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "direction-aware semantic FPR and anomaly-recall matrix",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "5fd5f664f96609ba0872cdb489ed548d1e06164373cceab8e9528336cc86b5b1",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "svg",
+      "filename": "figure-2-semantic-error-profile.svg",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "direction-aware semantic FPR and anomaly-recall matrix",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "2fc6d47eff0ff639573783b048f033904ad1a05e272a33b21c0e3d69b923f008",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "pdf",
+      "filename": "figure-3-representation-sensitivity.pdf",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C1/C2 representation sensitivity with paired repetitions",
+      "scientific_condition": "C1/C2",
+      "sha256": "ddc763c294ae8d66e33c5f93221a52f97037e530db1b664082cfaa9414baa257",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "png",
+      "filename": "figure-3-representation-sensitivity.png",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C1/C2 representation sensitivity with paired repetitions",
+      "scientific_condition": "C1/C2",
+      "sha256": "f16a4b253049ed9dd6bccb341850878a2b423ee11c84d1f2aacf89595c759838",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "svg",
+      "filename": "figure-3-representation-sensitivity.svg",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C1/C2 representation sensitivity with paired repetitions",
+      "scientific_condition": "C1/C2",
+      "sha256": "779a5cf8396f92d7bf6c7913a3ee7835c2fe5636c6f4a00a60d35a8cd4e99cca",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "pdf",
+      "filename": "figure-4-device-grouped-sensitivity.pdf",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "one controlled device-disjoint partition with raw counts",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "c24b816542d824eb54c67ac48ace1514c48747f8e5679e435172f4fbcffd2fb4",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "png",
+      "filename": "figure-4-device-grouped-sensitivity.png",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "one controlled device-disjoint partition with raw counts",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "2e0448c61c4a0b76185e28cc2ea15b66cf03e02922fd5590ac1a89aad438d17b",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "svg",
+      "filename": "figure-4-device-grouped-sensitivity.svg",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "one controlled device-disjoint partition with raw counts",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "cb54deaf6ce73a9b6729d98a0101df361fe85da9fa425c2d4a6dd3ac51eedbbd",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "csv",
+      "filename": "table-a-primary-performance.csv",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "primary median/IQR performance summary",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "3dc40d7c60f39236a8d7997cd83301eebbbbfa4f138fc4f2f1b393e45b08b022",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "tex",
+      "filename": "table-a-primary-performance.tex",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "primary median/IQR performance summary",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "c7c51887c3a9d1289c156635bf9e253190930820586ac909bacbc266ef991c25",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "csv",
+      "filename": "table-b-semantic-boundary.csv",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C0/C1 Timing boundary behavior",
+      "scientific_condition": "C0/C1",
+      "sha256": "15528d7ab6c0fa4a9bfe3e1ac7388052e237989af851158bccae1219b964259e",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "tex",
+      "filename": "table-b-semantic-boundary.tex",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C0/C1 Timing boundary behavior",
+      "scientific_condition": "C0/C1",
+      "sha256": "e1322d0c305720a4412322ab18c90422c2874ad9bb8c7bf555b212614cf1eba4",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "csv",
+      "filename": "table-c-representation-sensitivity.csv",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C1/C2 Timing and aggregate metric comparison",
+      "scientific_condition": "C1/C2",
+      "sha256": "d6eed8ed0b114da8fc207ff414d76dce640df380c916bef635b0d6ee769d05cf",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "tex",
+      "filename": "table-c-representation-sensitivity.tex",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "C1/C2 Timing and aggregate metric comparison",
+      "scientific_condition": "C1/C2",
+      "sha256": "6e9a5f08169cfdc1b1b8cc2f03923480b696981d88edc9e5fe44975d24f7ddb8",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "csv",
+      "filename": "table-d-device-grouped-sensitivity.csv",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "device-grouped sensitivity with raw counts",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "f0277a0113487f233ae1515d69caa0c529be42b59aeeb491c06ec1e67246c371",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    },
+    {
+      "artifact_type": "tex",
+      "filename": "table-d-device-grouped-sensitivity.tex",
+      "generation_notebook": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "generation_script": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "purpose": "device-grouped sensitivity with raw counts",
+      "scientific_condition": "C0/C1/C2",
+      "sha256": "85c81f783d95de5c03ee15a97ec48309735d7d9a3b345c586a16e4c30ebabbc8",
+      "source_frozen_files": [
+        "claim-audit.json",
+        "grouped/grouped-sensitivity-table.json",
+        "grouped/per-run-metrics.json",
+        "grouped/predictions.jsonl",
+        "grouped/run-provenance.json",
+        "primary/aggregate-summary.json",
+        "primary/per-run-metrics.json",
+        "primary/predictions.jsonl",
+        "primary/run-provenance.json"
+      ],
+      "source_hashes": {
+        "claim-audit.json": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+        "grouped/grouped-sensitivity-table.json": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+        "grouped/per-run-metrics.json": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+        "grouped/predictions.jsonl": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+        "grouped/run-provenance.json": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+        "primary/aggregate-summary.json": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+        "primary/per-run-metrics.json": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+        "primary/predictions.jsonl": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+        "primary/run-provenance.json": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"
+      }
+    }
+  ],
+  "generated_at_utc": null,
+  "generation_policy": "deterministic read-only transformation; no model fitting",
+  "schema_version": "icds-paper-artifact-manifest-v1",
+  "source_execution_counts": {
+    "grouped_predictions": 819,
+    "grouped_runs": 9,
+    "primary_predictions": 3780,
+    "primary_runs": 45
+  },
+  "source_phase4_tree_fingerprint": "sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11"
+}

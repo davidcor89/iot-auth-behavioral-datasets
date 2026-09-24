@@ -1,0 +1,1082 @@
+[
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.041666666666666664,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.041666666666666664,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 1
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 1
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 8,
+    "false_positive_rate": 0.6666666666666666,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.041666666666666664,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 2
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 2
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 3
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 3
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 7,
+    "false_positive_rate": 0.5833333333333334,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 5,
+    "false_positive_rate": 0.4166666666666667,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 4
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 4
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 12,
+    "false_positive_rate": 1.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 9,
+    "false_positive_rate": 0.75,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C0",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 10,
+    "false_positive_rate": 0.8333333333333334,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "LR",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "DT",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "DT",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.041666666666666664,
+    "model": "RF",
+    "normal_count": 24,
+    "normal_role": "ordinary_normal",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:small_positive_causal_margin",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 0,
+    "false_positive_rate": 0.0,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "repetition": 5
+  },
+  {
+    "condition": "C1",
+    "false_positive_count": 1,
+    "false_positive_rate": 0.08333333333333333,
+    "model": "RF",
+    "normal_count": 12,
+    "normal_role": "hard_negative:fresh_nonce_cross_attempt",
+    "repetition": 5
+  }
+]

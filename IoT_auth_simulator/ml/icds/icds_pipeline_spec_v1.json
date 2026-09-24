@@ -1,0 +1,164 @@
+{
+  "feature_profiles": {
+    "C0": {
+      "feature_count": 90,
+      "profile": "C1"
+    },
+    "C1": {
+      "feature_count": 90,
+      "profile": "C1"
+    },
+    "C2": {
+      "excluded_features": [
+        "semantic_nonce_cross_attempt_value_count",
+        "semantic_nonce_max_attempt_sharing_count",
+        "semantic_timing_min_signed_causal_margin"
+      ],
+      "feature_count": 87,
+      "profile": "C2"
+    }
+  },
+  "forbidden_operations": [
+    "dataset_wide_preprocessing",
+    "test_dependent_preprocessing",
+    "imputation",
+    "constant_feature_removal",
+    "feature_selection",
+    "hyperparameter_search",
+    "threshold_tuning",
+    "model_ranking"
+  ],
+  "full_scientific_execution_requires_explicit_authorization": true,
+  "metrics": {
+    "aggregate": [
+      "anomaly_precision",
+      "anomaly_recall",
+      "anomaly_f1",
+      "balanced_accuracy",
+      "confusion_matrix"
+    ],
+    "anomaly_subgroups": [
+      "anomaly:timestamp_inconsistency",
+      "anomaly:nonce_reuse"
+    ],
+    "contract_version": "icds-binary-metric-contract-v1",
+    "normal_subgroups": [
+      "ordinary_normal",
+      "hard_negative:small_positive_causal_margin",
+      "hard_negative:legitimate_same_attempt_nonce_recurrence",
+      "hard_negative:fresh_nonce_cross_attempt"
+    ]
+  },
+  "model_seed_policy": {
+    "family_bases": {
+      "DT": 52000,
+      "LR": 51000,
+      "RF": 53000
+    },
+    "formula": "family_base + repetition; identical across C0/C1/C2",
+    "repetitions": {
+      "1": {
+        "DT": 52001,
+        "LR": 51001,
+        "RF": 53001
+      },
+      "2": {
+        "DT": 52002,
+        "LR": 51002,
+        "RF": 53002
+      },
+      "3": {
+        "DT": 52003,
+        "LR": 51003,
+        "RF": 53003
+      },
+      "4": {
+        "DT": 52004,
+        "LR": 51004,
+        "RF": 53004
+      },
+      "5": {
+        "DT": 52005,
+        "LR": 51005,
+        "RF": 53005
+      }
+    }
+  },
+  "models": {
+    "DT": {
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "splitter": "best"
+    },
+    "LR": {
+      "C": 1.0,
+      "class_weight": null,
+      "max_iter": 1000,
+      "penalty": "l2",
+      "solver": "liblinear"
+    },
+    "RF": {
+      "bootstrap": true,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 200,
+      "n_jobs": 1
+    }
+  },
+  "prediction_horizon": "post_trace_offline",
+  "prediction_schema_version": "icds-test-prediction-record-v1",
+  "prediction_unit": "one complete canonical scientific trace",
+  "preprocessing": {
+    "DT": {
+      "pipeline": [
+        "DecisionTreeClassifier"
+      ],
+      "scaling": null
+    },
+    "LR": {
+      "feature_filtering": null,
+      "imputation": null,
+      "pipeline": [
+        "StandardScaler",
+        "LogisticRegression"
+      ],
+      "scaler_fit_scope": "current_training_cohort_only"
+    },
+    "RF": {
+      "pipeline": [
+        "RandomForestClassifier"
+      ],
+      "scaling": null
+    }
+  },
+  "run_provenance_schema_version": "icds-ml-run-provenance-v1",
+  "schema_version": "icds-leakage-safe-baseline-pipeline-v1",
+  "scientific_role": "evaluation instrument for the ICDS dataset methodology",
+  "specification_fingerprint": "sha256:e130ddb1af2b394409b9e1f058a4874d26a809b400d344585bc8ba0b9df60e74",
+  "target_mapping": {
+    "anomaly": 1,
+    "normal": 0
+  },
+  "threshold_policy": {
+    "positive_class": "anomaly",
+    "predicted_anomaly_probability_greater_than_or_equal": 0.5,
+    "tuned": false
+  },
+  "upstream_fingerprints": {
+    "candidate_file_sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce",
+    "candidate_fingerprint": "sha256:be34fcbce532d4791cf3f27f056146215fdd255d1e28415e00e3e77f248d3f5c",
+    "feature_spec_file_sha256": "f425fcc081a12f20335e21692b8156260793e02829159e54ec1f4f426c8f54bb",
+    "phase1_C1": "sha256:4f3510f849c978dc30d89e4b661446133669503f51abff9e6517521dd747008f",
+    "phase1_C2": "sha256:39c7a57dd4c989bfc70c88379235467254760255318b06b90ff5713de2a3368e",
+    "phase2_file_sha256": "f7b851266e720a25db45e5430cf7b09aa501fd84fb7a057aad2779d6d1d8aa64",
+    "phase2_manifest": "sha256:8e11d3a31dec7d9ad57fe59a6a658f58bfb7919e7bd744fb1600b594bcf0b8ed"
+  }
+}

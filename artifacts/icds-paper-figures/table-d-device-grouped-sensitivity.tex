@@ -1,0 +1,15 @@
+\begin{tabular}{lllllllllllll}
+\toprule
+model & condition & anomaly\_f1 & balanced\_accuracy & timing\_hn\_fp & timing\_hn\_count & timing\_hn\_fpr & timing\_anomaly\_tp & timing\_anomaly\_count & timing\_anomaly\_recall & nonce\_anomaly\_tp & nonce\_anomaly\_count & nonce\_anomaly\_recall \\
+\midrule
+LR & C0 & 0.742 & 0.882 & 16 & 16 & 1.000 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+LR & C1 & 0.679 & 0.803 & 11 & 16 & 0.688 & 7 & 12 & 0.583 & 11 & 11 & 1.000 \\
+LR & C2 & 0.679 & 0.803 & 7 & 16 & 0.438 & 7 & 12 & 0.583 & 11 & 11 & 1.000 \\
+DT & C0 & 0.742 & 0.882 & 16 & 16 & 1.000 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+DT & C1 & 1.000 & 1.000 & 0 & 16 & 0.000 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+DT & C2 & 1.000 & 1.000 & 0 & 16 & 0.000 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+RF & C0 & 0.767 & 0.897 & 14 & 16 & 0.875 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+RF & C1 & 1.000 & 1.000 & 0 & 16 & 0.000 & 12 & 12 & 1.000 & 11 & 11 & 1.000 \\
+RF & C2 & 0.818 & 0.869 & 1 & 16 & 0.062 & 7 & 12 & 0.583 & 11 & 11 & 1.000 \\
+\bottomrule
+\end{tabular}

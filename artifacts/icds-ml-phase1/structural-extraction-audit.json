@@ -1,0 +1,36 @@
+{
+  "audit_fingerprint": "sha256:3c3ed5230d02e02a740d3c3b293dfba246a49179959798308632a4c61d21cbf1",
+  "c2_excluded_features": [
+    "semantic_nonce_cross_attempt_value_count",
+    "semantic_nonce_max_attempt_sharing_count",
+    "semantic_timing_min_signed_causal_margin"
+  ],
+  "c2_is_subset_of_c1": true,
+  "candidate_fingerprint": "sha256:be34fcbce532d4791cf3f27f056146215fdd255d1e28415e00e3e77f248d3f5c",
+  "candidate_schema_version": "4d4c3b-timing-nonce-candidate-v1",
+  "dataset_level_fitting_performed": false,
+  "determinism": {
+    "c1_feature_rows_fingerprint": "sha256:4f3510f849c978dc30d89e4b661446133669503f51abff9e6517521dd747008f",
+    "c2_feature_rows_fingerprint": "sha256:39c7a57dd4c989bfc70c88379235467254760255318b06b90ff5713de2a3368e",
+    "repeat_extraction_identical": true,
+    "trace_order_independent": true
+  },
+  "extraction_failures": 0,
+  "extractor_version": "icds-o03-trace-feature-extractor-v1",
+  "feature_counts": {
+    "C1": 90,
+    "C2": 87
+  },
+  "feature_spec_version": "icds-o03-trace-feature-contract-v1",
+  "labels_or_privileged_metadata_read_by_extractor": false,
+  "missing_or_non_applicable_counts_c1": {},
+  "observable_grammar_support": {
+    "traces_with_observable_challenge_attempt": 336,
+    "traces_with_reconstructed_timing_relation": 336,
+    "traces_without_observable_challenge_attempt": 0,
+    "traces_without_reconstructed_timing_relation": 0
+  },
+  "predictive_analysis_performed": false,
+  "schema_version": "icds-o03-phase1-structural-audit-v1",
+  "traces_processed": 336
+}

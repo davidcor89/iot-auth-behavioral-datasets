@@ -1,0 +1,33 @@
+{
+  "schema_version": "icds-phase4-claim-audit-v1",
+  "directly_supported": [
+    "Under the frozen candidate, O03 contract, post-trace task, and baseline configurations, C0 training produced high false-positive rates on the small-positive Timing hard-negative role while ordinary-normal false positives remained near zero.",
+    "Replacing half of the ordinary-normal C0 training class with semantic hard negatives changed boundary false-positive behavior in every model family, with the largest and most consistent change on the Timing hard-negative role.",
+    "For Decision Tree and Random Forest, C1 strongly reduced Timing-hard-negative false positives and increased aggregate F1 and balanced accuracy without reducing median Timing-anomaly or Nonce-anomaly recall.",
+    "For Logistic Regression, C1 reduced Timing-hard-negative false positives only partially and showed a model-specific Timing-anomaly recall trade-off, while Nonce-anomaly recall remained unchanged.",
+    "Removing the three C1 predicate-equivalent relation features affected model families differently: Logistic Regression and Random Forest showed lower aggregate outcomes and Timing-anomaly recall, while Decision Tree median outcomes were largely retained.",
+    "In the single approved device-disjoint sensitivity split, the strong Decision Tree and Random Forest C0-to-C1 pattern persisted, whereas Logistic Regression retained a partial Timing-hard-negative reduction with lower aggregate outcomes and Timing-anomaly recall.",
+    "Nonce-anomaly recall was comparatively stable across the frozen primary and grouped evaluations."
+  ],
+  "supported_with_qualification": [
+    "Semantic hard-negative training can change measured separability and error distribution, restricted to this controlled Timing/Nonce synthetic candidate and frozen evaluation protocol.",
+    "Explicitly reconstructed semantic-relation features materially support separability for some baseline families, particularly Logistic Regression and Random Forest, but this dependence is not universal across the three baselines.",
+    "The device-disjoint results provide secondary descriptive sensitivity evidence for one 48/16-device synthetic partition; they are not a powered generalization estimate.",
+    "The observed effects concern complete-trace offline classification under O03 and do not establish event-time or operational monitoring performance."
+  ],
+  "not_supported": [
+    "A new or superior anomaly detector",
+    "A best classifier or model-family ranking",
+    "General behavioral anomaly detection",
+    "Unseen-anomaly detection",
+    "Universal IoT authentication anomaly detection",
+    "Operational IDS effectiveness",
+    "Real-world representativeness",
+    "Synthetic-to-operational transfer",
+    "Universal observability",
+    "Distributed-monitor sufficiency",
+    "Sequence-model necessity",
+    "Generalization outside the Timing and Nonce families",
+    "Universal device-independent or unseen-population generalization"
+  ]
+}

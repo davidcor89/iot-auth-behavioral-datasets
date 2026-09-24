@@ -1,0 +1,2342 @@
+{
+  "attempt_reconstruction": {
+    "boundary_event": "challenge_sent",
+    "generalization_status": "researcher_review_required_before_other datasets",
+    "privileged_auth_attempt_id_used": false,
+    "rule": "each challenge_sent begins a new ordered attempt segment",
+    "scope": "frozen controlled serial candidate grammar"
+  },
+  "extractor_version": "icds-o03-trace-feature-extractor-v1",
+  "features": [
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Number of O03 observations in the trace.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "trace_event_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "length of the ordered O03 trace",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `discovery` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_discovery_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'discovery')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `discovery` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_discovery_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'discovery') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `gateway_advertisement` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_gateway_advertisement_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'gateway_advertisement')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `gateway_advertisement` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_gateway_advertisement_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'gateway_advertisement') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `pairing_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_pairing_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'pairing_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `pairing_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_pairing_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'pairing_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `pairing_response` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_pairing_response_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'pairing_response')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `pairing_response` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_pairing_response_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'pairing_response') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `enrollment_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_enrollment_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'enrollment_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `enrollment_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_enrollment_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'enrollment_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `enrollment_confirmed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_enrollment_confirmed_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'enrollment_confirmed')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `enrollment_confirmed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_enrollment_confirmed_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'enrollment_confirmed') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `registration_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_registration_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'registration_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `registration_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_registration_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'registration_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `registration_confirmed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_registration_confirmed_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'registration_confirmed')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `registration_confirmed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_registration_confirmed_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'registration_confirmed') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `authentication_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `authentication_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `challenge_sent` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_challenge_sent_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'challenge_sent')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `challenge_sent` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_challenge_sent_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'challenge_sent') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `nonce_received` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_nonce_received_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'nonce_received')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `nonce_received` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_nonce_received_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'nonce_received') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `response_sent` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_response_sent_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'response_sent')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `response_sent` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_response_sent_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'response_sent') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `authentication_success` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_success_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_success')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `authentication_success` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_success_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_success') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `authentication_failure` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_failure_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_failure')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `authentication_failure` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_authentication_failure_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'authentication_failure') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `token_issued` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_issued_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_issued')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `token_issued` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_issued_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_issued') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `token_presented` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_presented_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_presented')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `token_presented` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_presented_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_presented') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `token_validated` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_validated_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_validated')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `token_validated` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_validated_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_validated') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `token_rejected` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_rejected_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_rejected')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `token_rejected` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_rejected_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_rejected') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `renewal_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_renewal_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'renewal_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `renewal_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_renewal_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'renewal_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `token_expired` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_expired_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_expired')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `token_expired` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_token_expired_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'token_expired') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `session_opened` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_session_opened_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'session_opened')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `session_opened` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_session_opened_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'session_opened') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `session_closed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_session_closed_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'session_closed')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `session_closed` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_session_closed_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'session_closed') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `access_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_request_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_request')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `access_request` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_request_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_request') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `access_granted` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_granted_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_granted')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `access_granted` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_granted_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_granted') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `access_denied` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_denied_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_denied')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `access_denied` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_access_denied_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'access_denied') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `retry` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_retry_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'retry')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `retry` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_retry_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'retry') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `timeout` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_timeout_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'timeout')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `timeout` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_timeout_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'timeout') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `disconnect` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_disconnect_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'disconnect')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "EventType is the fixed implementation-schema vocabulary, not a canonical Behavioral-model vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `disconnect` observations.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_event_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "event_type_disconnect_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(event_type == 'disconnect') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `success` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_success_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'success')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `success` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_success_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'success') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `failure` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_failure_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'failure')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `failure` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_failure_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'failure') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Count of schema-defined `pending` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_pending_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'pending')",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Frequency of schema-defined `pending` results.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_result",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "result_pending_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "result"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(result == 'pending') / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Failure-reason strings have no declared closed vocabulary; literal values are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Observations carrying any failure reason.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_failure_reason",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "failure_reason_present_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "failure_reason"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(non-null failure_reason)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Failure-reason strings have no declared closed vocabulary; literal values are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Fraction carrying any failure reason.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_failure_reason",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "failure_reason_present_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "failure_reason"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(non-null failure_reason) / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "This is a cardinality summary, not a learned categorical vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Distinct non-null failure reasons.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_failure_reason",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "failure_reason_distinct_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "failure_reason"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "cardinality(non-null failure_reason)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "retry_count is required integer trace-prefix evidence on every O03 row."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Sum of observable cumulative retry counts.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_retry",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "retry_count_sum",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "retry_count"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "sum(retry_count)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "retry_count is required integer trace-prefix evidence on every O03 row."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Mean observable cumulative retry count.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_retry",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "retry_count_mean",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "retry_count"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "mean(retry_count)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "retry_count is required integer trace-prefix evidence on every O03 row."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Maximum observable cumulative retry count.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_retry",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "retry_count_max",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "retry_count"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "max(retry_count)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Literal topic identities are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Distinct non-null observed topic strings.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_resource",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "topic_distinct_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "topic"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "cardinality(non-null topic)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Literal resource identities are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Distinct non-null observed resource strings.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_resource",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "resource_distinct_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "resource_id"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "cardinality(non-null resource_id)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Requested actions have no declared closed dataset-contract vocabulary; literal values are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Observations carrying a requested action.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_resource",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "requested_action_present_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "requested_action"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(non-null requested_action)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Requested actions have no declared closed dataset-contract vocabulary; literal values are not encoded."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Fraction carrying a requested action.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_resource",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "requested_action_present_frequency",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "requested_action"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(non-null requested_action) / trace_event_count",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "This is a cardinality summary, not a learned categorical vocabulary."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Distinct non-null requested actions.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_resource",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "requested_action_distinct_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "requested_action"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "cardinality(non-null requested_action)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Maximum minus minimum observed timestamp.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "observed_trace_duration",
+      "output_type": "number",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_timestamp"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "max(observed_timestamp) - min(observed_timestamp)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Number of actual inter-event gaps.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "observed_inter_event_delay_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "trace_event_count - 1",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Min of actual observed inter-event delays.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "null when fewer than two observations; no dataset-level imputation is performed",
+      "name": "observed_inter_event_delay_min",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "min(observed_delay_since_previous_event[rows 2..N])",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Max of actual observed inter-event delays.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "null when fewer than two observations; no dataset-level imputation is performed",
+      "name": "observed_inter_event_delay_max",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "max(observed_delay_since_previous_event[rows 2..N])",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Mean of actual observed inter-event delays.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "null when fewer than two observations; no dataset-level imputation is performed",
+      "name": "observed_inter_event_delay_mean",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "mean(observed_delay_since_previous_event[rows 2..N])",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Median of actual observed inter-event delays.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "null when fewer than two observations; no dataset-level imputation is performed",
+      "name": "observed_inter_event_delay_median",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "median(observed_delay_since_previous_event[rows 2..N])",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "The first row's exporter-defined zero is excluded because it is not an inter-event gap."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Population Stddev of actual observed inter-event delays.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_timing",
+      "missing_non_applicable_handling": "null when fewer than two observations; no dataset-level imputation is performed",
+      "name": "observed_inter_event_delay_population_stddev",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "population_stddev(observed_delay_since_previous_event[rows 2..N])",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Observations carrying a nonce value.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_nonce_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "nonce_bearing_observation_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(non-null nonce)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Distinct observed nonce values.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_nonce_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "nonce_distinct_value_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "cardinality(non-null nonce)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "Repetition includes normal propagation across challenge/receipt/response events and does not infer attempt boundaries."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Nonce values occurring on more than one observation.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_nonce_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "nonce_repeated_value_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(values with multiplicity > 1)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Maximum observation multiplicity of one nonce.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_nonce_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "nonce_max_multiplicity",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "max(value multiplicity), or 0 with no nonce",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "This equality summary does not infer authentication attempts."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Nonce observations beyond each value's first occurrence.",
+      "feature_class": "generic_observable_summary",
+      "feature_group": "generic_nonce_structure",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "nonce_repeated_observation_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "sum(max(multiplicity - 1, 0))",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "For the frozen controlled serial grammar, each challenge_sent begins one observable authentication-attempt segment."
+      ],
+      "c1_included": true,
+      "c2_included": true,
+      "complete_trace_required": true,
+      "description": "Reconstructed nonce_received to response_sent relations within observable attempt segments.",
+      "feature_class": "semantic_relation_feature",
+      "feature_group": "semantic_timing_relation",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "semantic_timing_relation_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": false,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type",
+        "nonce",
+        "observed_timestamp"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(first unmatched later response_sent with equal nonce per nonce_received inside each challenge segment)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "For the frozen controlled serial grammar, each challenge_sent begins one observable authentication-attempt segment."
+      ],
+      "c1_included": true,
+      "c2_included": false,
+      "complete_trace_required": true,
+      "description": "Minimum signed response_sent minus nonce_received observed timestamp.",
+      "feature_class": "semantic_relation_feature",
+      "feature_group": "semantic_timing_relation",
+      "missing_non_applicable_handling": "null when no complete observable relation exists; no dataset-level imputation is performed",
+      "name": "semantic_timing_min_signed_causal_margin",
+      "output_type": "number|null",
+      "predicate_equivalent_direct_rule_proxy": true,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type",
+        "nonce",
+        "observed_timestamp"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "min(response_sent.observed_timestamp - nonce_received.observed_timestamp) over reconstructed relations",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "For the frozen controlled serial grammar, each challenge_sent begins one observable authentication-attempt segment."
+      ],
+      "c1_included": true,
+      "c2_included": false,
+      "complete_trace_required": true,
+      "description": "Nonce values present in more than one reconstructed attempt segment.",
+      "feature_class": "semantic_relation_feature",
+      "feature_group": "semantic_nonce_relation",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "semantic_nonce_cross_attempt_value_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": true,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type",
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "count(nonce values whose reconstructed-attempt cardinality > 1)",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    },
+    {
+      "assumptions": [
+        "For the frozen controlled serial grammar, each challenge_sent begins one observable authentication-attempt segment."
+      ],
+      "c1_included": true,
+      "c2_included": false,
+      "complete_trace_required": true,
+      "description": "Maximum reconstructed-attempt cardinality for any observed nonce.",
+      "feature_class": "semantic_relation_feature",
+      "feature_group": "semantic_nonce_relation",
+      "missing_non_applicable_handling": "not applicable; deterministic numeric zero",
+      "name": "semantic_nonce_max_attempt_sharing_count",
+      "output_type": "integer",
+      "predicate_equivalent_direct_rule_proxy": true,
+      "privileged_information_dependency": false,
+      "source_o03_fields": [
+        "event_type",
+        "nonce"
+      ],
+      "temporal_scope": "complete_trace",
+      "transformation": "max(number of reconstructed attempts containing each nonce), or 0 with no nonce",
+      "transformation_kind": "deterministic_per_trace",
+      "uses_future_information_relative_to_event_time": true
+    }
+  ],
+  "fixed_vocabularies": {
+    "event_type": {
+      "canonical_behavioral_vocabulary_claim": false,
+      "data_learned": false,
+      "source": "simulator.event_model.EventType implementation schema",
+      "values": [
+        "discovery",
+        "gateway_advertisement",
+        "pairing_request",
+        "pairing_response",
+        "enrollment_request",
+        "enrollment_confirmed",
+        "registration_request",
+        "registration_confirmed",
+        "authentication_request",
+        "challenge_sent",
+        "nonce_received",
+        "response_sent",
+        "authentication_success",
+        "authentication_failure",
+        "token_issued",
+        "token_presented",
+        "token_validated",
+        "token_rejected",
+        "renewal_request",
+        "token_expired",
+        "session_opened",
+        "session_closed",
+        "access_request",
+        "access_granted",
+        "access_denied",
+        "retry",
+        "timeout",
+        "disconnect"
+      ]
+    },
+    "failure_reason": {
+      "closed_vocabulary": false,
+      "policy": "structural presence/cardinality summaries only"
+    },
+    "requested_action": {
+      "closed_vocabulary": false,
+      "policy": "structural presence/cardinality summaries only"
+    },
+    "result": {
+      "data_learned": false,
+      "source": "simulator.event_model.EventResult implementation schema",
+      "values": [
+        "success",
+        "failure",
+        "pending"
+      ]
+    }
+  },
+  "learned_transformations": {
+    "implemented_in_phase_1": false,
+    "later_train_only_operations": [
+      "imputation fitted from samples",
+      "scaling",
+      "data-inferred categorical vocabularies",
+      "constant or near-constant filtering",
+      "feature selection",
+      "learned encoding"
+    ]
+  },
+  "observation_contract": "c1.6-development-derived-schema",
+  "prediction_horizon": "post_trace_offline",
+  "prediction_unit": "one complete canonical scientific trace",
+  "profiles": {
+    "C1": {
+      "description": "evidence-rich O03 trace representation",
+      "features": [
+        "trace_event_count",
+        "event_type_discovery_count",
+        "event_type_discovery_frequency",
+        "event_type_gateway_advertisement_count",
+        "event_type_gateway_advertisement_frequency",
+        "event_type_pairing_request_count",
+        "event_type_pairing_request_frequency",
+        "event_type_pairing_response_count",
+        "event_type_pairing_response_frequency",
+        "event_type_enrollment_request_count",
+        "event_type_enrollment_request_frequency",
+        "event_type_enrollment_confirmed_count",
+        "event_type_enrollment_confirmed_frequency",
+        "event_type_registration_request_count",
+        "event_type_registration_request_frequency",
+        "event_type_registration_confirmed_count",
+        "event_type_registration_confirmed_frequency",
+        "event_type_authentication_request_count",
+        "event_type_authentication_request_frequency",
+        "event_type_challenge_sent_count",
+        "event_type_challenge_sent_frequency",
+        "event_type_nonce_received_count",
+        "event_type_nonce_received_frequency",
+        "event_type_response_sent_count",
+        "event_type_response_sent_frequency",
+        "event_type_authentication_success_count",
+        "event_type_authentication_success_frequency",
+        "event_type_authentication_failure_count",
+        "event_type_authentication_failure_frequency",
+        "event_type_token_issued_count",
+        "event_type_token_issued_frequency",
+        "event_type_token_presented_count",
+        "event_type_token_presented_frequency",
+        "event_type_token_validated_count",
+        "event_type_token_validated_frequency",
+        "event_type_token_rejected_count",
+        "event_type_token_rejected_frequency",
+        "event_type_renewal_request_count",
+        "event_type_renewal_request_frequency",
+        "event_type_token_expired_count",
+        "event_type_token_expired_frequency",
+        "event_type_session_opened_count",
+        "event_type_session_opened_frequency",
+        "event_type_session_closed_count",
+        "event_type_session_closed_frequency",
+        "event_type_access_request_count",
+        "event_type_access_request_frequency",
+        "event_type_access_granted_count",
+        "event_type_access_granted_frequency",
+        "event_type_access_denied_count",
+        "event_type_access_denied_frequency",
+        "event_type_retry_count",
+        "event_type_retry_frequency",
+        "event_type_timeout_count",
+        "event_type_timeout_frequency",
+        "event_type_disconnect_count",
+        "event_type_disconnect_frequency",
+        "result_success_count",
+        "result_success_frequency",
+        "result_failure_count",
+        "result_failure_frequency",
+        "result_pending_count",
+        "result_pending_frequency",
+        "failure_reason_present_count",
+        "failure_reason_present_frequency",
+        "failure_reason_distinct_count",
+        "retry_count_sum",
+        "retry_count_mean",
+        "retry_count_max",
+        "topic_distinct_count",
+        "resource_distinct_count",
+        "requested_action_present_count",
+        "requested_action_present_frequency",
+        "requested_action_distinct_count",
+        "observed_trace_duration",
+        "observed_inter_event_delay_count",
+        "observed_inter_event_delay_min",
+        "observed_inter_event_delay_max",
+        "observed_inter_event_delay_mean",
+        "observed_inter_event_delay_median",
+        "observed_inter_event_delay_population_stddev",
+        "nonce_bearing_observation_count",
+        "nonce_distinct_value_count",
+        "nonce_repeated_value_count",
+        "nonce_max_multiplicity",
+        "nonce_repeated_observation_count",
+        "semantic_timing_relation_count",
+        "semantic_timing_min_signed_causal_margin",
+        "semantic_nonce_cross_attempt_value_count",
+        "semantic_nonce_max_attempt_sharing_count"
+      ]
+    },
+    "C2": {
+      "description": "relation-proxy-controlled O03 trace representation",
+      "excluded_direct_predicate_features": [
+        "semantic_timing_min_signed_causal_margin",
+        "semantic_nonce_cross_attempt_value_count",
+        "semantic_nonce_max_attempt_sharing_count"
+      ],
+      "features": [
+        "trace_event_count",
+        "event_type_discovery_count",
+        "event_type_discovery_frequency",
+        "event_type_gateway_advertisement_count",
+        "event_type_gateway_advertisement_frequency",
+        "event_type_pairing_request_count",
+        "event_type_pairing_request_frequency",
+        "event_type_pairing_response_count",
+        "event_type_pairing_response_frequency",
+        "event_type_enrollment_request_count",
+        "event_type_enrollment_request_frequency",
+        "event_type_enrollment_confirmed_count",
+        "event_type_enrollment_confirmed_frequency",
+        "event_type_registration_request_count",
+        "event_type_registration_request_frequency",
+        "event_type_registration_confirmed_count",
+        "event_type_registration_confirmed_frequency",
+        "event_type_authentication_request_count",
+        "event_type_authentication_request_frequency",
+        "event_type_challenge_sent_count",
+        "event_type_challenge_sent_frequency",
+        "event_type_nonce_received_count",
+        "event_type_nonce_received_frequency",
+        "event_type_response_sent_count",
+        "event_type_response_sent_frequency",
+        "event_type_authentication_success_count",
+        "event_type_authentication_success_frequency",
+        "event_type_authentication_failure_count",
+        "event_type_authentication_failure_frequency",
+        "event_type_token_issued_count",
+        "event_type_token_issued_frequency",
+        "event_type_token_presented_count",
+        "event_type_token_presented_frequency",
+        "event_type_token_validated_count",
+        "event_type_token_validated_frequency",
+        "event_type_token_rejected_count",
+        "event_type_token_rejected_frequency",
+        "event_type_renewal_request_count",
+        "event_type_renewal_request_frequency",
+        "event_type_token_expired_count",
+        "event_type_token_expired_frequency",
+        "event_type_session_opened_count",
+        "event_type_session_opened_frequency",
+        "event_type_session_closed_count",
+        "event_type_session_closed_frequency",
+        "event_type_access_request_count",
+        "event_type_access_request_frequency",
+        "event_type_access_granted_count",
+        "event_type_access_granted_frequency",
+        "event_type_access_denied_count",
+        "event_type_access_denied_frequency",
+        "event_type_retry_count",
+        "event_type_retry_frequency",
+        "event_type_timeout_count",
+        "event_type_timeout_frequency",
+        "event_type_disconnect_count",
+        "event_type_disconnect_frequency",
+        "result_success_count",
+        "result_success_frequency",
+        "result_failure_count",
+        "result_failure_frequency",
+        "result_pending_count",
+        "result_pending_frequency",
+        "failure_reason_present_count",
+        "failure_reason_present_frequency",
+        "failure_reason_distinct_count",
+        "retry_count_sum",
+        "retry_count_mean",
+        "retry_count_max",
+        "topic_distinct_count",
+        "resource_distinct_count",
+        "requested_action_present_count",
+        "requested_action_present_frequency",
+        "requested_action_distinct_count",
+        "observed_trace_duration",
+        "observed_inter_event_delay_count",
+        "observed_inter_event_delay_min",
+        "observed_inter_event_delay_max",
+        "observed_inter_event_delay_mean",
+        "observed_inter_event_delay_median",
+        "observed_inter_event_delay_population_stddev",
+        "nonce_bearing_observation_count",
+        "nonce_distinct_value_count",
+        "nonce_repeated_value_count",
+        "nonce_max_multiplicity",
+        "nonce_repeated_observation_count",
+        "semantic_timing_relation_count"
+      ]
+    }
+  },
+  "schema_version": "icds-o03-trace-feature-contract-v1",
+  "source_o03_fields": [
+    "event_type",
+    "observed_timestamp",
+    "observed_delay_since_previous_event",
+    "result",
+    "failure_reason",
+    "retry_count",
+    "token_id",
+    "nonce",
+    "topic",
+    "resource_id",
+    "requested_action"
+  ]
+}

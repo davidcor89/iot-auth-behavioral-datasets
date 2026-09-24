@@ -1,0 +1,46 @@
+# Ignore all CSV files
+*.csv
+*.tex
+!artifacts/icds-ml-phase4/**/*.csv
+!artifacts/icds-paper-figures/**/*.csv
+!artifacts/icds-paper-figures/**/*.tex
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment files
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Codex/agent workspace
+.agents/
+
+# Test/type/lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated simulator outputs
+IoT_auth_simulator/simulator/data/output/**
+!IoT_auth_simulator/simulator/data/output/
+!IoT_auth_simulator/simulator/data/output/.gitkeep
+
+# Generated analysis/model artifacts
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.log
+.ipynb_checkpoints/

@@ -1,0 +1,291 @@
+{
+  "completed_at_utc": "2026-09-20T21:25:48.156647+00:00",
+  "grouped": {
+    "per_run_metric_count": 9,
+    "prediction_count": 819,
+    "run_count": 9
+  },
+  "grouped_C2_basis": "C1 membership with frozen C2 feature profile",
+  "grouped_model_seed_index": 1,
+  "grouped_run_plan": [
+    {
+      "condition": "C0",
+      "model": "LR"
+    },
+    {
+      "condition": "C0",
+      "model": "DT"
+    },
+    {
+      "condition": "C0",
+      "model": "RF"
+    },
+    {
+      "condition": "C1",
+      "model": "LR"
+    },
+    {
+      "condition": "C1",
+      "model": "DT"
+    },
+    {
+      "condition": "C1",
+      "model": "RF"
+    },
+    {
+      "condition": "C2",
+      "model": "LR"
+    },
+    {
+      "condition": "C2",
+      "model": "DT"
+    },
+    {
+      "condition": "C2",
+      "model": "RF"
+    }
+  ],
+  "phase4_version": "icds-frozen-scientific-experiment-v1",
+  "post_result_adaptation_permitted": false,
+  "primary": {
+    "per_run_metric_count": 45,
+    "prediction_count": 3780,
+    "run_count": 45
+  },
+  "primary_run_plan": [
+    {
+      "condition": "C0",
+      "model": "LR",
+      "repetition": 1
+    },
+    {
+      "condition": "C0",
+      "model": "DT",
+      "repetition": 1
+    },
+    {
+      "condition": "C0",
+      "model": "RF",
+      "repetition": 1
+    },
+    {
+      "condition": "C1",
+      "model": "LR",
+      "repetition": 1
+    },
+    {
+      "condition": "C1",
+      "model": "DT",
+      "repetition": 1
+    },
+    {
+      "condition": "C1",
+      "model": "RF",
+      "repetition": 1
+    },
+    {
+      "condition": "C2",
+      "model": "LR",
+      "repetition": 1
+    },
+    {
+      "condition": "C2",
+      "model": "DT",
+      "repetition": 1
+    },
+    {
+      "condition": "C2",
+      "model": "RF",
+      "repetition": 1
+    },
+    {
+      "condition": "C0",
+      "model": "LR",
+      "repetition": 2
+    },
+    {
+      "condition": "C0",
+      "model": "DT",
+      "repetition": 2
+    },
+    {
+      "condition": "C0",
+      "model": "RF",
+      "repetition": 2
+    },
+    {
+      "condition": "C1",
+      "model": "LR",
+      "repetition": 2
+    },
+    {
+      "condition": "C1",
+      "model": "DT",
+      "repetition": 2
+    },
+    {
+      "condition": "C1",
+      "model": "RF",
+      "repetition": 2
+    },
+    {
+      "condition": "C2",
+      "model": "LR",
+      "repetition": 2
+    },
+    {
+      "condition": "C2",
+      "model": "DT",
+      "repetition": 2
+    },
+    {
+      "condition": "C2",
+      "model": "RF",
+      "repetition": 2
+    },
+    {
+      "condition": "C0",
+      "model": "LR",
+      "repetition": 3
+    },
+    {
+      "condition": "C0",
+      "model": "DT",
+      "repetition": 3
+    },
+    {
+      "condition": "C0",
+      "model": "RF",
+      "repetition": 3
+    },
+    {
+      "condition": "C1",
+      "model": "LR",
+      "repetition": 3
+    },
+    {
+      "condition": "C1",
+      "model": "DT",
+      "repetition": 3
+    },
+    {
+      "condition": "C1",
+      "model": "RF",
+      "repetition": 3
+    },
+    {
+      "condition": "C2",
+      "model": "LR",
+      "repetition": 3
+    },
+    {
+      "condition": "C2",
+      "model": "DT",
+      "repetition": 3
+    },
+    {
+      "condition": "C2",
+      "model": "RF",
+      "repetition": 3
+    },
+    {
+      "condition": "C0",
+      "model": "LR",
+      "repetition": 4
+    },
+    {
+      "condition": "C0",
+      "model": "DT",
+      "repetition": 4
+    },
+    {
+      "condition": "C0",
+      "model": "RF",
+      "repetition": 4
+    },
+    {
+      "condition": "C1",
+      "model": "LR",
+      "repetition": 4
+    },
+    {
+      "condition": "C1",
+      "model": "DT",
+      "repetition": 4
+    },
+    {
+      "condition": "C1",
+      "model": "RF",
+      "repetition": 4
+    },
+    {
+      "condition": "C2",
+      "model": "LR",
+      "repetition": 4
+    },
+    {
+      "condition": "C2",
+      "model": "DT",
+      "repetition": 4
+    },
+    {
+      "condition": "C2",
+      "model": "RF",
+      "repetition": 4
+    },
+    {
+      "condition": "C0",
+      "model": "LR",
+      "repetition": 5
+    },
+    {
+      "condition": "C0",
+      "model": "DT",
+      "repetition": 5
+    },
+    {
+      "condition": "C0",
+      "model": "RF",
+      "repetition": 5
+    },
+    {
+      "condition": "C1",
+      "model": "LR",
+      "repetition": 5
+    },
+    {
+      "condition": "C1",
+      "model": "DT",
+      "repetition": 5
+    },
+    {
+      "condition": "C1",
+      "model": "RF",
+      "repetition": 5
+    },
+    {
+      "condition": "C2",
+      "model": "LR",
+      "repetition": 5
+    },
+    {
+      "condition": "C2",
+      "model": "DT",
+      "repetition": 5
+    },
+    {
+      "condition": "C2",
+      "model": "RF",
+      "repetition": 5
+    }
+  ],
+  "repository_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
+  "schema_version": "icds-phase4-execution-manifest-v1",
+  "started_at_utc": "2026-09-20T21:25:45.250095+00:00",
+  "upstream": {
+    "candidate_fingerprint": "sha256:be34fcbce532d4791cf3f27f056146215fdd255d1e28415e00e3e77f248d3f5c",
+    "grouped_cohort_fingerprint": "sha256:b111c2710848bda6e3e1cfec2b9a018b65e95b7276116490a2e41599446bdf53",
+    "phase2_manifest_fingerprint": "sha256:8e11d3a31dec7d9ad57fe59a6a658f58bfb7919e7bd744fb1600b594bcf0b8ed",
+    "pipeline_spec_fingerprint": "sha256:e130ddb1af2b394409b9e1f058a4874d26a809b400d344585bc8ba0b9df60e74"
+  }
+}

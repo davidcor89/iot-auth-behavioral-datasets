@@ -1,0 +1,560 @@
+[
+  {
+    "condition": "C0",
+    "metrics": {
+      "anomaly_f1": 0.7419354838709677,
+      "anomaly_precision": 0.5897435897435898,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 0.8823529411764706,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 16,
+        "tn": 52,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 16,
+          "false_positive_rate": 1.0
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "LR",
+    "run_id": "sha256:19bf29eb677ae12af083134eba40275b9b1d0c36f12d18e2483c99bab3e7dafc",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C0",
+    "metrics": {
+      "anomaly_f1": 0.7419354838709677,
+      "anomaly_precision": 0.5897435897435898,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 0.8823529411764706,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 16,
+        "tn": 52,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 16,
+          "false_positive_rate": 1.0
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "DT",
+    "run_id": "sha256:8b437dadc700c768d5231034b97dbcee79a4bc82536c61944cabe77151a4373d",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C0",
+    "metrics": {
+      "anomaly_f1": 0.7666666666666667,
+      "anomaly_precision": 0.6216216216216216,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 0.8970588235294117,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 14,
+        "tn": 54,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 14,
+          "false_positive_rate": 0.875
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "RF",
+    "run_id": "sha256:d848cad27547625a21c1a6c1881b91d529c4be0ba28f57d58c3fd1b810a8ab9b",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C1",
+    "metrics": {
+      "anomaly_f1": 0.6792452830188679,
+      "anomaly_precision": 0.6,
+      "anomaly_recall": 0.782608695652174,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 0.5833333333333334,
+          "true_positive_count": 7
+        }
+      },
+      "balanced_accuracy": 0.80306905370844,
+      "confusion_matrix": {
+        "fn": 5,
+        "fp": 12,
+        "tn": 56,
+        "tp": 18
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 1,
+          "false_positive_rate": 0.09090909090909091
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 11,
+          "false_positive_rate": 0.6875
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "LR",
+    "run_id": "sha256:19b2547ab9d4263b578170aa9c8b6a969fadeb89eb18d7f0313d422a7d8f8b31",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C1",
+    "metrics": {
+      "anomaly_f1": 1.0,
+      "anomaly_precision": 1.0,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 68,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "DT",
+    "run_id": "sha256:d9823ae9f6c8fe3b007ce4debe6be8aae40b8b37c8bce2a2a8455cc66f36ed2e",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C1",
+    "metrics": {
+      "anomaly_f1": 1.0,
+      "anomaly_precision": 1.0,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 68,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "RF",
+    "run_id": "sha256:860b073ff439ddac970ce7d6af6de3d6b631f814bf27a1c9a80b630381d0104f",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C2",
+    "metrics": {
+      "anomaly_f1": 0.6792452830188679,
+      "anomaly_precision": 0.6,
+      "anomaly_recall": 0.782608695652174,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 0.5833333333333334,
+          "true_positive_count": 7
+        }
+      },
+      "balanced_accuracy": 0.80306905370844,
+      "confusion_matrix": {
+        "fn": 5,
+        "fp": 12,
+        "tn": 56,
+        "tp": 18
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 3,
+          "false_positive_rate": 0.1875
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 1,
+          "false_positive_rate": 0.09090909090909091
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 7,
+          "false_positive_rate": 0.4375
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 1,
+          "false_positive_rate": 0.04
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "LR",
+    "run_id": "sha256:e00ad2deec0e326a3a4931853c8678c357ec986bd0ad4b4218e5ea4f746c37e9",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C2",
+    "metrics": {
+      "anomaly_f1": 1.0,
+      "anomaly_precision": 1.0,
+      "anomaly_recall": 1.0,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 1.0,
+          "true_positive_count": 12
+        }
+      },
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 68,
+        "tp": 23
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "DT",
+    "run_id": "sha256:db9d6335586f72bdc06b03ea264018570c91ca663d047e3977f5de1e1c541f29",
+    "scope": "device_grouped_sensitivity"
+  },
+  {
+    "condition": "C2",
+    "metrics": {
+      "anomaly_f1": 0.8181818181818182,
+      "anomaly_precision": 0.8571428571428571,
+      "anomaly_recall": 0.782608695652174,
+      "anomaly_role_diagnostics": {
+        "anomaly:nonce_reuse": {
+          "count": 11,
+          "recall": 1.0,
+          "true_positive_count": 11
+        },
+        "anomaly:timestamp_inconsistency": {
+          "count": 12,
+          "recall": 0.5833333333333334,
+          "true_positive_count": 7
+        }
+      },
+      "balanced_accuracy": 0.8692455242966752,
+      "confusion_matrix": {
+        "fn": 5,
+        "fp": 3,
+        "tn": 65,
+        "tp": 18
+      },
+      "normal_role_diagnostics": {
+        "hard_negative:fresh_nonce_cross_attempt": {
+          "count": 16,
+          "false_positive_count": 2,
+          "false_positive_rate": 0.125
+        },
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "count": 11,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        },
+        "hard_negative:small_positive_causal_margin": {
+          "count": 16,
+          "false_positive_count": 1,
+          "false_positive_rate": 0.0625
+        },
+        "ordinary_normal": {
+          "count": 25,
+          "false_positive_count": 0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "prediction_count": 91,
+      "schema_version": "icds-binary-metric-contract-v1",
+      "scientific_role_counts": {
+        "anomaly:nonce_reuse": 11,
+        "anomaly:timestamp_inconsistency": 12,
+        "hard_negative:fresh_nonce_cross_attempt": 16,
+        "hard_negative:legitimate_same_attempt_nonce_recurrence": 11,
+        "hard_negative:small_positive_causal_margin": 16,
+        "ordinary_normal": 25
+      }
+    },
+    "model": "RF",
+    "run_id": "sha256:7aa5979fc947121b7846f8176a9d68c7bcf3b5a793712150e25430d138d1f167",
+    "scope": "device_grouped_sensitivity"
+  }
+]

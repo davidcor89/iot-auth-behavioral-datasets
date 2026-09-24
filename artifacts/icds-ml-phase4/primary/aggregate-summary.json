@@ -1,0 +1,1971 @@
+{
+  "by_model_condition": {
+    "DT": {
+      "C0": {
+        "anomaly_f1": {
+          "iqr": 0.013114754098360715,
+          "maximum": 0.8,
+          "median": 0.8,
+          "minimum": 0.7868852459016393,
+          "q1": 0.7868852459016393,
+          "q3": 0.8,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.7868852459016393,
+            0.8,
+            0.8,
+            0.7868852459016393,
+            0.8
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333415,
+          "maximum": 0.9,
+          "median": 0.9,
+          "minimum": 0.8916666666666666,
+          "q1": 0.8916666666666666,
+          "q3": 0.9,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8916666666666666,
+            0.9,
+            0.9,
+            0.8916666666666666,
+            0.9
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C1": {
+        "anomaly_f1": {
+          "iqr": 0.05882352941176472,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.9019607843137256,
+          "q1": 0.9411764705882353,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.9019607843137256,
+            1.0,
+            1.0,
+            1.0,
+            0.9411764705882353
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.9166666666666666,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.9166666666666666,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.025000000000000022,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.9458333333333333,
+          "q1": 0.975,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.9458333333333333,
+            1.0,
+            1.0,
+            1.0,
+            0.975
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C2": {
+        "anomaly_f1": {
+          "iqr": 0.11111111111111105,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.8846153846153847,
+          "q1": 0.888888888888889,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.888888888888889,
+            1.0,
+            1.0,
+            1.0,
+            0.8846153846153847
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.9166666666666666,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9166666666666666
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.050000000000000044,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 0.9375,
+          "q1": 0.95,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.95,
+            1.0,
+            1.0,
+            1.0,
+            0.9375
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.16666666666666666,
+          "maximum": 0.25,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.16666666666666666,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.041666666666666664,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.041666666666666664
+          ]
+        }
+      }
+    },
+    "LR": {
+      "C0": {
+        "anomaly_f1": {
+          "iqr": 0.013114754098360715,
+          "maximum": 0.8,
+          "median": 0.7868852459016393,
+          "minimum": 0.7741935483870968,
+          "q1": 0.7868852459016393,
+          "q3": 0.8,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.7741935483870968,
+            0.8,
+            0.7868852459016393,
+            0.7868852459016393,
+            0.8
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333415,
+          "maximum": 0.9,
+          "median": 0.8916666666666666,
+          "minimum": 0.8833333333333333,
+          "q1": 0.8916666666666666,
+          "q3": 0.9,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8833333333333333,
+            0.9,
+            0.8916666666666666,
+            0.8916666666666666,
+            0.9
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C1": {
+        "anomaly_f1": {
+          "iqr": 0.021428571428571463,
+          "maximum": 0.9056603773584906,
+          "median": 0.8135593220338984,
+          "minimum": 0.7636363636363636,
+          "q1": 0.7999999999999999,
+          "q3": 0.8214285714285714,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.7999999999999999,
+            0.8214285714285714,
+            0.7636363636363636,
+            0.9056603773584906,
+            0.8135593220338984
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.16666666666666663,
+          "maximum": 1.0,
+          "median": 0.9166666666666666,
+          "minimum": 0.75,
+          "q1": 0.8333333333333334,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8333333333333334,
+            0.9166666666666666,
+            0.75,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.025000000000000022,
+          "maximum": 0.9583333333333333,
+          "median": 0.9041666666666667,
+          "minimum": 0.8541666666666667,
+          "q1": 0.8833333333333333,
+          "q3": 0.9083333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8833333333333333,
+            0.9041666666666667,
+            0.8541666666666667,
+            0.9583333333333333,
+            0.9083333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 0.8333333333333334,
+          "median": 0.75,
+          "minimum": 0.4166666666666667,
+          "q1": 0.75,
+          "q3": 0.75,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.75,
+            0.75,
+            0.75,
+            0.4166666666666667,
+            0.8333333333333334
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C2": {
+        "anomaly_f1": {
+          "iqr": 0.1405335068314898,
+          "maximum": 0.8571428571428571,
+          "median": 0.75,
+          "minimum": 0.6785714285714286,
+          "q1": 0.6896551724137931,
+          "q3": 0.830188679245283,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.6896551724137931,
+            0.830188679245283,
+            0.6785714285714286,
+            0.8571428571428571,
+            0.75
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.16666666666666674,
+          "maximum": 1.0,
+          "median": 0.75,
+          "minimum": 0.5833333333333334,
+          "q1": 0.6666666666666666,
+          "q3": 0.8333333333333334,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.6666666666666666,
+            0.8333333333333334,
+            0.5833333333333334,
+            1.0,
+            0.75
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.09999999999999987,
+          "maximum": 0.9333333333333333,
+          "median": 0.8458333333333333,
+          "minimum": 0.7875,
+          "q1": 0.8,
+          "q3": 0.8999999999999999,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8,
+            0.8999999999999999,
+            0.7875,
+            0.9333333333333333,
+            0.8458333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.16666666666666669,
+          "maximum": 0.3333333333333333,
+          "median": 0.16666666666666666,
+          "minimum": 0.0,
+          "q1": 0.08333333333333333,
+          "q3": 0.25,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.3333333333333333,
+            0.0,
+            0.08333333333333333,
+            0.25,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.25,
+          "median": 0.16666666666666666,
+          "minimum": 0.0,
+          "q1": 0.08333333333333333,
+          "q3": 0.16666666666666666,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.16666666666666666,
+            0.08333333333333333,
+            0.25,
+            0.0,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.25000000000000006,
+          "maximum": 0.6666666666666666,
+          "median": 0.4166666666666667,
+          "minimum": 0.3333333333333333,
+          "q1": 0.3333333333333333,
+          "q3": 0.5833333333333334,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.5833333333333334,
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.4166666666666667
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.08333333333333333,
+          "median": 0.041666666666666664,
+          "minimum": 0.041666666666666664,
+          "q1": 0.041666666666666664,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.08333333333333333,
+            0.041666666666666664,
+            0.041666666666666664,
+            0.08333333333333333
+          ]
+        }
+      }
+    },
+    "RF": {
+      "C0": {
+        "anomaly_f1": {
+          "iqr": 0.015037593984962294,
+          "maximum": 0.8727272727272727,
+          "median": 0.8421052631578948,
+          "minimum": 0.8421052631578948,
+          "q1": 0.8421052631578948,
+          "q3": 0.8571428571428571,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.8421052631578948,
+            0.8571428571428571,
+            0.8421052631578948,
+            0.8727272727272727,
+            0.8421052631578948
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333304,
+          "maximum": 0.9416666666666667,
+          "median": 0.925,
+          "minimum": 0.925,
+          "q1": 0.925,
+          "q3": 0.9333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.925,
+            0.9333333333333333,
+            0.925,
+            0.9416666666666667,
+            0.925
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333337,
+          "maximum": 0.75,
+          "median": 0.75,
+          "minimum": 0.5833333333333334,
+          "q1": 0.6666666666666666,
+          "q3": 0.75,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.5833333333333334,
+            0.75
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C1": {
+        "anomaly_f1": {
+          "iqr": 0.020408163265306145,
+          "maximum": 1.0,
+          "median": 0.9795918367346939,
+          "minimum": 0.9600000000000001,
+          "q1": 0.9795918367346939,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            0.9795918367346939,
+            0.9795918367346939,
+            1.0,
+            0.9600000000000001
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333304,
+          "maximum": 1.0,
+          "median": 0.9916666666666667,
+          "minimum": 0.9833333333333334,
+          "q1": 0.9916666666666667,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            0.9916666666666667,
+            0.9916666666666667,
+            1.0,
+            0.9833333333333334
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.08333333333333333,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.041666666666666664,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.041666666666666664
+          ]
+        }
+      },
+      "C2": {
+        "anomaly_f1": {
+          "iqr": 0.01388888888888895,
+          "maximum": 0.9795918367346939,
+          "median": 0.8799999999999999,
+          "minimum": 0.7924528301886793,
+          "q1": 0.875,
+          "q3": 0.888888888888889,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.875,
+            0.8799999999999999,
+            0.888888888888889,
+            0.9795918367346939,
+            0.7924528301886793
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 1.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.08333333333333337,
+          "maximum": 1.0,
+          "median": 0.75,
+          "minimum": 0.6666666666666666,
+          "q1": 0.75,
+          "q3": 0.8333333333333334,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.75,
+            0.8333333333333334,
+            0.6666666666666666,
+            1.0,
+            0.75
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.01666666666666672,
+          "maximum": 0.9916666666666667,
+          "median": 0.9125,
+          "minimum": 0.8708333333333333,
+          "q1": 0.9083333333333333,
+          "q3": 0.925,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.9125,
+            0.925,
+            0.9083333333333333,
+            0.9916666666666667,
+            0.8708333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.16666666666666666,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.16666666666666666,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.08333333333333333,
+          "minimum": 0.0,
+          "q1": 0.08333333333333333,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.08333333333333333,
+            0.08333333333333333,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.125,
+          "maximum": 0.16666666666666666,
+          "median": 0.041666666666666664,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.125,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.125,
+            0.0,
+            0.041666666666666664,
+            0.16666666666666666
+          ]
+        }
+      }
+    }
+  },
+  "paired_differences_target_minus_source": {
+    "DT": {
+      "C0_to_C1": {
+        "anomaly_f1": {
+          "iqr": 0.05882352941176472,
+          "maximum": 0.21311475409836067,
+          "median": 0.19999999999999996,
+          "minimum": 0.11507553841208629,
+          "q1": 0.14117647058823524,
+          "q3": 0.19999999999999996,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.11507553841208629,
+            0.19999999999999996,
+            0.19999999999999996,
+            0.21311475409836067,
+            0.14117647058823524
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": -0.08333333333333337,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.08333333333333337,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.025000000000000022,
+          "maximum": 0.10833333333333339,
+          "median": 0.09999999999999998,
+          "minimum": 0.054166666666666696,
+          "q1": 0.07499999999999996,
+          "q3": 0.09999999999999998,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.054166666666666696,
+            0.09999999999999998,
+            0.09999999999999998,
+            0.10833333333333339,
+            0.07499999999999996
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": -0.08333333333333333,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            -0.08333333333333333,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333337,
+          "maximum": -0.9166666666666666,
+          "median": -1.0,
+          "minimum": -1.0,
+          "q1": -1.0,
+          "q3": -0.9166666666666666,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.9166666666666666,
+            -1.0,
+            -1.0,
+            -1.0,
+            -0.9166666666666666
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C1_to_C2": {
+        "anomaly_f1": {
+          "iqr": 0.013071895424836666,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": -0.05656108597285059,
+          "q1": -0.013071895424836666,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.013071895424836666,
+            0.0,
+            0.0,
+            0.0,
+            -0.05656108597285059
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333337,
+          "median": 0.0,
+          "minimum": -0.08333333333333337,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333337,
+            0.0,
+            0.0,
+            0.0,
+            -0.08333333333333337
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.0,
+          "maximum": 0.004166666666666652,
+          "median": 0.0,
+          "minimum": -0.03749999999999998,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.004166666666666652,
+            0.0,
+            0.0,
+            0.0,
+            -0.03749999999999998
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.16666666666666669,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.16666666666666669,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": -0.08333333333333333,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.08333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.041666666666666664,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.041666666666666664
+          ]
+        }
+      }
+    },
+    "LR": {
+      "C0_to_C1": {
+        "anomaly_f1": {
+          "iqr": 0.012247129579004867,
+          "maximum": 0.11877513145685126,
+          "median": 0.021428571428571352,
+          "minimum": -0.023248882265275772,
+          "q1": 0.013559322033898313,
+          "q3": 0.02580645161290318,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.02580645161290318,
+            0.021428571428571352,
+            -0.023248882265275772,
+            0.11877513145685126,
+            0.013559322033898313
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.16666666666666663,
+          "maximum": 0.0,
+          "median": -0.08333333333333337,
+          "minimum": -0.25,
+          "q1": -0.16666666666666663,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.16666666666666663,
+            -0.08333333333333337,
+            -0.25,
+            0.0,
+            0.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333304,
+          "maximum": 0.06666666666666665,
+          "median": 0.004166666666666652,
+          "minimum": -0.03749999999999987,
+          "q1": 0.0,
+          "q3": 0.008333333333333304,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.004166666666666652,
+            -0.03749999999999987,
+            0.06666666666666665,
+            0.008333333333333304
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": -0.08333333333333333,
+          "q1": -0.08333333333333333,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.08333333333333333,
+            0.0,
+            0.0,
+            -0.08333333333333333,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.0,
+          "maximum": -0.16666666666666663,
+          "median": -0.25,
+          "minimum": -0.5833333333333333,
+          "q1": -0.25,
+          "q3": -0.25,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.25,
+            -0.25,
+            -0.25,
+            -0.5833333333333333,
+            -0.16666666666666663
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": -0.041666666666666664,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.041666666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "C1_to_C2": {
+        "anomaly_f1": {
+          "iqr": 0.03654741484930146,
+          "maximum": 0.008760107816711549,
+          "median": -0.06355932203389836,
+          "minimum": -0.11034482758620678,
+          "q1": -0.08506493506493495,
+          "q3": -0.04851752021563349,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.11034482758620678,
+            0.008760107816711549,
+            -0.08506493506493495,
+            -0.04851752021563349,
+            -0.06355932203389836
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.08333333333333348,
+          "maximum": 0.0,
+          "median": -0.16666666666666663,
+          "minimum": -0.25,
+          "q1": -0.16666666666666674,
+          "q3": -0.08333333333333326,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.16666666666666674,
+            -0.08333333333333326,
+            -0.16666666666666663,
+            0.0,
+            -0.25
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.04166666666666685,
+          "maximum": -0.004166666666666763,
+          "median": -0.0625,
+          "minimum": -0.08333333333333326,
+          "q1": -0.06666666666666676,
+          "q3": -0.02499999999999991,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.08333333333333326,
+            -0.004166666666666763,
+            -0.06666666666666676,
+            -0.02499999999999991,
+            -0.0625
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.16666666666666669,
+          "maximum": 0.3333333333333333,
+          "median": 0.16666666666666666,
+          "minimum": 0.0,
+          "q1": 0.08333333333333333,
+          "q3": 0.25,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.3333333333333333,
+            0.0,
+            0.08333333333333333,
+            0.25,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.16666666666666669,
+          "median": 0.08333333333333333,
+          "minimum": 0.0,
+          "q1": 0.08333333333333333,
+          "q3": 0.16666666666666666,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.16666666666666666,
+            0.08333333333333333,
+            0.16666666666666669,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.3333333333333333,
+          "maximum": -0.08333333333333337,
+          "median": -0.16666666666666663,
+          "minimum": -0.4166666666666667,
+          "q1": -0.4166666666666667,
+          "q3": -0.08333333333333337,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.16666666666666663,
+            -0.4166666666666667,
+            -0.08333333333333337,
+            -0.08333333333333337,
+            -0.4166666666666667
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.08333333333333333,
+          "median": 0.041666666666666664,
+          "minimum": 0.041666666666666664,
+          "q1": 0.041666666666666664,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.041666666666666664,
+            0.08333333333333333,
+            0.041666666666666664,
+            0.041666666666666664,
+            0.08333333333333333
+          ]
+        }
+      }
+    },
+    "RF": {
+      "C0_to_C1": {
+        "anomaly_f1": {
+          "iqr": 0.015037593984962294,
+          "maximum": 0.1578947368421052,
+          "median": 0.12727272727272732,
+          "minimum": 0.11789473684210527,
+          "q1": 0.12244897959183676,
+          "q3": 0.13748657357679905,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.1578947368421052,
+            0.12244897959183676,
+            0.13748657357679905,
+            0.12727272727272732,
+            0.11789473684210527
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.008333333333333304,
+          "maximum": 0.07499999999999996,
+          "median": 0.05833333333333335,
+          "minimum": 0.05833333333333335,
+          "q1": 0.05833333333333335,
+          "q3": 0.06666666666666665,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.07499999999999996,
+            0.05833333333333335,
+            0.06666666666666665,
+            0.05833333333333335,
+            0.05833333333333335
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.08333333333333333,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333337,
+          "maximum": -0.5833333333333334,
+          "median": -0.6666666666666666,
+          "minimum": -0.75,
+          "q1": -0.75,
+          "q3": -0.6666666666666666,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.75,
+            -0.6666666666666666,
+            -0.6666666666666666,
+            -0.5833333333333334,
+            -0.75
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.041666666666666664,
+          "maximum": 0.041666666666666664,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.041666666666666664,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.041666666666666664,
+            0.0,
+            0.0,
+            0.041666666666666664
+          ]
+        }
+      },
+      "C1_to_C2": {
+        "anomaly_f1": {
+          "iqr": 0.034297052154195096,
+          "maximum": -0.020408163265306145,
+          "median": -0.09959183673469396,
+          "minimum": -0.16754716981132078,
+          "q1": -0.125,
+          "q3": -0.0907029478458049,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.125,
+            -0.09959183673469396,
+            -0.0907029478458049,
+            -0.020408163265306145,
+            -0.16754716981132078
+          ]
+        },
+        "anomaly_recall:anomaly:nonce_reuse": {
+          "iqr": 0.0,
+          "maximum": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "anomaly_recall:anomaly:timestamp_inconsistency": {
+          "iqr": 0.08333333333333337,
+          "maximum": 0.0,
+          "median": -0.25,
+          "minimum": -0.33333333333333337,
+          "q1": -0.25,
+          "q3": -0.16666666666666663,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.25,
+            -0.16666666666666663,
+            -0.33333333333333337,
+            0.0,
+            -0.25
+          ]
+        },
+        "balanced_accuracy": {
+          "iqr": 0.02083333333333337,
+          "maximum": -0.008333333333333304,
+          "median": -0.08333333333333337,
+          "minimum": -0.11250000000000004,
+          "q1": -0.08750000000000002,
+          "q3": -0.06666666666666665,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            -0.08750000000000002,
+            -0.06666666666666665,
+            -0.08333333333333337,
+            -0.008333333333333304,
+            -0.11250000000000004
+          ]
+        },
+        "normal_fpr:hard_negative:fresh_nonce_cross_attempt": {
+          "iqr": 0.0,
+          "maximum": 0.16666666666666666,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.16666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "normal_fpr:hard_negative:legitimate_same_attempt_nonce_recurrence": {
+          "iqr": 0.0,
+          "maximum": 0.16666666666666666,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.16666666666666666
+          ]
+        },
+        "normal_fpr:hard_negative:small_positive_causal_margin": {
+          "iqr": 0.08333333333333333,
+          "maximum": 0.08333333333333333,
+          "median": 0.08333333333333333,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333333,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.08333333333333333,
+            0.08333333333333333,
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        },
+        "normal_fpr:ordinary_normal": {
+          "iqr": 0.08333333333333334,
+          "maximum": 0.125,
+          "median": 0.041666666666666664,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 0.08333333333333334,
+          "summary_policy": "median; linear Q1/Q3 and IQR; min/max; all five raw values",
+          "values_by_repetition": [
+            0.0,
+            0.08333333333333334,
+            0.0,
+            0.041666666666666664,
+            0.125
+          ]
+        }
+      }
+    }
+  },
+  "quartile_method": "numpy linear quantiles",
+  "repetition_count": 5,
+  "schema_version": "icds-primary-summary-v1"
+}
