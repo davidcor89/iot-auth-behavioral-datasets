@@ -8,8 +8,8 @@
     },
     {
       "path": ".gitlab-ci.yml",
-      "sha256": "115f2d2af2b3f33c985b6cc037857e2ca1d0ec88b8298fc7ba5720214f528900",
-      "size": 492
+      "sha256": "7541282c53ba28cebf009d54417dda8877ab0e0c9496839b22c6fc190001c951",
+      "size": 562
     },
     {
       "path": "CITATION.cff",
@@ -1829,7 +1829,7 @@
   ],
   "schema_version": "icds-2026-publication-snapshot-v1",
   "selection_policy": "PUBLICATION_FILES.txt allowlist",
-  "source_repository_head": "b2c41c86da4eea0da3ab2ef6b266e4fd07babaac",
+  "source_repository_head": "2845bcfeb3d76cf4d971421e2aa679f6ab4f5ca4",
   "source_scientific_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
-  "total_bytes": 25771253
+  "total_bytes": 25771323
 }
