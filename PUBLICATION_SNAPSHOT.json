@@ -1,5 +1,5 @@
 {
-  "file_count": 362,
+  "file_count": 365,
   "files": [
     {
       "path": ".gitignore",
@@ -10,6 +10,11 @@
       "path": ".gitlab-ci.yml",
       "sha256": "115f2d2af2b3f33c985b6cc037857e2ca1d0ec88b8298fc7ba5720214f528900",
       "size": 492
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "30057a1f64096dfac74bf4d1d9f8858e07a422228ef0fb6e3ead3532ba9a0e62",
+      "size": 577
     },
     {
       "path": "IoT_auth_simulator/main.py",
@@ -487,14 +492,24 @@
       "size": 107864
     },
     {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "LICENSE-DATA",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "size": 18656
+    },
+    {
       "path": "PUBLICATION_FILES.txt",
-      "sha256": "cdbc9a7a5785e7387f5291b03773085ac96547c198783480b4a7af25c15d93f2",
-      "size": 643
+      "sha256": "ab43c3c027b39dbb0db432889cd63df7c32ebd40360a8e3cf30987bbe30e0af7",
+      "size": 676
     },
     {
       "path": "README.md",
-      "sha256": "4e477aa5f6e2efbc0ebdac44b81ebb355a6db77615ee90d77635b95cc054f93b",
-      "size": 9479
+      "sha256": "48c990006b0dd6cfebe12f206146fcabaaf60a4fcbe7876f6544e833d0b22773",
+      "size": 10415
     },
     {
       "path": "artifacts/icds-ml-phase1/structural-extraction-audit.json",
@@ -1814,7 +1829,7 @@
   ],
   "schema_version": "icds-2026-publication-snapshot-v1",
   "selection_policy": "PUBLICATION_FILES.txt allowlist",
-  "source_repository_head": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
+  "source_repository_head": "b2c41c86da4eea0da3ab2ef6b266e4fd07babaac",
   "source_scientific_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
-  "total_bytes": 25739693
+  "total_bytes": 25771253
 }

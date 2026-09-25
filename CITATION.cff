@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its generated scientific artifacts, please cite
+  this repository. The associated paper citation will be added when its final
+  bibliographic metadata is available.
+title: "IoT Authentication Simulator: ICDS 2026 Reproducibility Artifact"
+type: software
+authors:
+  - family-names: "Córdova Morales"
+    given-names: "David A."
+  - family-names: "Belhadj Sghaier"
+    given-names: "Lamia"
+repository-code: "https://gitlab.sorbonne-paris-nord.fr/david.cordovamorales/iot-authentication-simulator"
+license: Apache-2.0

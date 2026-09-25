@@ -2,6 +2,9 @@
 .gitignore
 .gitlab-ci.yml
 README.md
+CITATION.cff
+LICENSE
+LICENSE-DATA
 requirements-publication.txt
 PUBLICATION_FILES.txt
 IoT_auth_simulator/**/*.py
@@ -20,4 +23,3 @@ docs/icds-phase4-scientific-results.md
 notebooks/icds_phase4_paper_artifacts.ipynb
 scripts/*.py
 tests/**/*.py
-

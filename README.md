@@ -9,6 +9,17 @@ leakage-safe baseline evaluation, and paper-oriented figures and tables.
 The artifact is a controlled synthetic methodology study. It is not a
 general-purpose or production intrusion-detection system.
 
+Canonical repository:
+<https://gitlab.sorbonne-paris-nord.fr/david.cordovamorales/iot-authentication-simulator>
+
+Software/artifact developers:
+
+- David A. Córdova Morales — primary developer and maintainer;
+- Lamia Belhadj Sghaier — developer.
+
+These software credits do not assert the final authorship of the associated
+ICDS paper.
+
 ## Scientific scope
 
 The generator separates persistent device context, authentication/session
@@ -207,13 +218,26 @@ This artifact does not establish:
 The reported ML evidence is family-specific and restricted to O03,
 complete-trace offline classification, and the frozen LR/DT/RF baselines.
 
-## Citation and license
+## Citation
 
-The final paper title, complete author list, DOI, ORCIDs, institutional GitLab
-URL, and archival record have not yet been supplied in authoritative metadata.
-Consequently, this repository does not invent a `CITATION.cff` or Zenodo
-record.
+Software citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+It identifies the repository artifact and its software developers; it does not
+fabricate the associated paper citation. The final paper citation and DOI will
+be added when authoritative bibliographic metadata is available.
 
-No software/data license is currently present. Public redistribution and the
-proposed `icds-2026-artifact-v1.0` release therefore require a researcher
-license decision before publication.
+## Licensing
+
+This repository uses a dual-license boundary:
+
+- software and source code developed for this repository are licensed under
+  the [Apache License 2.0](LICENSE) (`Apache-2.0`);
+- repository-generated scientific datasets, frozen candidate data, experiment
+  artifacts, figures, tables, and scientific documentation are licensed, where
+  legally applicable, under the
+  [Creative Commons Attribution 4.0 International license](LICENSE-DATA)
+  (`CC-BY-4.0`).
+
+This licensing statement does not relicense third-party dependencies or
+materials. Each third-party component remains subject to its own license. The
+repository-level notice defines the boundary without modifying frozen generated
+files or their scientific fingerprints.
