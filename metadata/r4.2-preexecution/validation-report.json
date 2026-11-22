@@ -1,0 +1,61 @@
+{
+  "feature_set_checks": {
+    "A_count": 90,
+    "A_unique_ordered": true,
+    "B_count": 87,
+    "B_order_preserving_A_subsequence": true,
+    "B_unique_ordered": true,
+    "C_count": 89,
+    "C_exactly_A_minus_direct_timing": true,
+    "C_unique_ordered": true,
+    "D_count": 82,
+    "D_exactly_C_minus_seven_F2": true,
+    "D_unique_ordered": true,
+    "semantic_timing_relation_count_retained_C_D": true
+  },
+  "planned_run_checks": {
+    "A_anchor_count": 60,
+    "B_anchor_count": 60,
+    "anchor_artifact_hashes_verified": true,
+    "conditions": {
+      "C": 60,
+      "D": 60
+    },
+    "models": {
+      "DT": 40,
+      "LR": 40,
+      "RF": 40
+    },
+    "partitions": 20,
+    "resolved_manifest_references": true,
+    "run_count": 120,
+    "unique_planned_run_ids": 120
+  },
+  "prohibitions": {
+    "dataset_regenerated": false,
+    "model_construction_performed": false,
+    "model_fit_performed": false,
+    "partition_regenerated": false,
+    "prediction_performed": false,
+    "r4_1_artifacts_modified": false
+  },
+  "r4_1_aggregate_fingerprint": "sha256:cce473976d8ea079d5ad77031da21a2062a02aaae6121ce451ff0db49eacea34",
+  "r4_1_authoritative_inventory_files_verified": 566,
+  "r4_1_authoritative_inventory_hash_mismatches": 0,
+  "r4_1_authoritative_inventory_missing": 0,
+  "repository_branch": "research/r4.1-scientific-freeze",
+  "repository_head": "7ad3284f4c45f793c3f7ee10a678c3f73109bf53",
+  "schema_version": "r4.2-preexecution-validation-v1",
+  "source_hashes_sha256": {
+    "IoT_auth_simulator/ml/evaluation/metrics.py": "f2c212f17b76c4d067b2d27c9238044d1c0f00c24605ac391bef417ad16b1608",
+    "IoT_auth_simulator/ml/evaluation/pipeline.py": "0f972471678dcaed844d8e8cae016037b82e2b52cdd9cb6229c4b1cd3342539f",
+    "IoT_auth_simulator/ml/evaluation/trace_features.py": "33de12151cd8b292d7d7dd7181bf10a58fb3766efdb64b3dd81bfe399888b8bf",
+    "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json": "f425fcc081a12f20335e21692b8156260793e02829159e54ec1f4f426c8f54bb",
+    "artifacts/r4.1-device-disjoint-evaluation/execution-manifest.json": "d228e981934d1ecc49406a73f8d57c833064d7f55386a5903aa72403b00cee98",
+    "artifacts/r4.1-device-disjoint-evaluation/fingerprints.json": "c0727d0e961e59688e6b5b4ecad4f2f37f267cea7e3afcd9b291a332c2ca2d0d",
+    "artifacts/r4.1-device-disjoint-evaluation/run-matrix.json": "338b4d7089a6431a56b8d0029978395385fdef12c933153d3991a8de7445bbfe",
+    "artifacts/r4.1-device-disjoint-evaluation/run-provenance.json": "b3794a80099732871a3553edb6e60ac6add0b73df79f3aace926289fb9807fd4",
+    "metadata/r4.1-freeze/freeze-manifest.json": "71f39843a9afbee4b1a42c198808ca52969b247f6e70558e71b8f366b0f0636d"
+  },
+  "status": "PASS_READY_FOR_R4_2_EXECUTION_BUT_EXECUTION_NOT_AUTHORIZED"
+}

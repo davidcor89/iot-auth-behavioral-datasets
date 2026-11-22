@@ -1,0 +1,98 @@
+{
+  "artifact_count_excluding_inventory": 18,
+  "artifacts": [
+    {
+      "bytes": 649,
+      "path": "metadata/r4.2-preexecution/README.md",
+      "sha256": "410e5409e7935d7dd63bdad52e2bd3e91bf083de250326132faf2aad82b2f7a2"
+    },
+    {
+      "bytes": 1193,
+      "path": "metadata/r4.2-preexecution/audit/ambiguous-features.md",
+      "sha256": "33ca330b5e85c02fa01c8934a867f5fb37808f76dbb226d55d7d2d86eacc5067"
+    },
+    {
+      "bytes": 45308,
+      "path": "metadata/r4.2-preexecution/audit/candidate-feature-lists.json",
+      "sha256": "f18644e4f4db4f41de7f5e19e7b27ea1cacb60a0a29bd4e5fb36710ad6415225"
+    },
+    {
+      "bytes": 417,
+      "path": "metadata/r4.2-preexecution/audit/feature-family-counts.json",
+      "sha256": "b175f7055d0ecf047f42857f59ed34eed114227737c4a0e2c5dcba74cb050a00"
+    },
+    {
+      "bytes": 13118,
+      "path": "metadata/r4.2-preexecution/audit/feature-family-proposals.csv",
+      "sha256": "604949a105abadcd3ff5cadb7d467be25c208f0101b262936aa2dbcffdae7ea6"
+    },
+    {
+      "bytes": 67491,
+      "path": "metadata/r4.2-preexecution/audit/feature-lineage-90.csv",
+      "sha256": "5e8afb5183120e0ff204696215774ad09af18a6f49c4bf894627f5556abd1969"
+    },
+    {
+      "bytes": 178310,
+      "path": "metadata/r4.2-preexecution/audit/feature-lineage-90.json",
+      "sha256": "0f62d28adb3e652b7c90eb375a62af6a1f1cb44a96d65036b313b6f1ec1642d2"
+    },
+    {
+      "bytes": 9664,
+      "path": "metadata/r4.2-preexecution/audit/feature-order-and-fingerprints.json",
+      "sha256": "0746b349b5f4e2d88ffecb2a8ac7e216dc94a2b8a3b767120b72f2ef33e23d41"
+    },
+    {
+      "bytes": 15490,
+      "path": "metadata/r4.2-preexecution/audit/r4.2-feature-contract-report.md",
+      "sha256": "754b532e935d33c50bf22fb502bc143862295afe8d9ee84e97d2dac83d44f55e"
+    },
+    {
+      "bytes": 1964,
+      "path": "metadata/r4.2-preexecution/audit/source-reference-index.md",
+      "sha256": "4d7c4bbe3617a98c78ebf7345b34c3ccf0234cbca09f1b6ecd6ed51df023aa3b"
+    },
+    {
+      "bytes": 3067,
+      "path": "metadata/r4.2-preexecution/audit/timing-equivalence-and-redundancy.md",
+      "sha256": "3483afe46fca98edb5a38211d7025e4df5fd51a0dec79093f023f14b70aec055"
+    },
+    {
+      "bytes": 2918206,
+      "path": "metadata/r4.2-preexecution/execution-manifest-cd.json",
+      "sha256": "6c23dc6978185165e06917b3745eb03b6ed3900310a3884938aa41aaed8d4d46"
+    },
+    {
+      "bytes": 5125,
+      "path": "metadata/r4.2-preexecution/f2-generic-temporal-features.json",
+      "sha256": "f9593730492c6a04682dbe8876634e3c628270e9b9c33ad1ae9a62b22ddc91f6"
+    },
+    {
+      "bytes": 79993,
+      "path": "metadata/r4.2-preexecution/feature-contracts.json",
+      "sha256": "e61f02bc3c1f3be0b27f076c7f93fa6df6d8adaf1f7f3450222f4b8f3732e04f"
+    },
+    {
+      "bytes": 146029,
+      "path": "metadata/r4.2-preexecution/frozen-anchor-runs-ab.json",
+      "sha256": "26fe0d27a1d765ee95be077472a167de8ebee2a6dea262a0a5beecc02742eb87"
+    },
+    {
+      "bytes": 34188,
+      "path": "metadata/r4.2-preexecution/pipeline-compatibility.json",
+      "sha256": "f98d3275f23d74dcf225943ec3f39673a2c50173d8b28c3dbf77e3e200d10c80"
+    },
+    {
+      "bytes": 944,
+      "path": "metadata/r4.2-preexecution/provenance-note-2026-11-22.md",
+      "sha256": "c6882b975cf797c00ebb7b00edaf497acfce06ce9d7e6ada1d8aba7acd92000d"
+    },
+    {
+      "bytes": 2734,
+      "path": "metadata/r4.2-preexecution/validation-report.json",
+      "sha256": "0f8359fbb5f3ea4a008120a15000d8f779dd1c78770180f027713d38e845d680"
+    }
+  ],
+  "inventory_fingerprint": "sha256:29b2792d1555c51f1d0d5a9aac5ae549ac23c1d6e817023b8acc78e31aab5da1",
+  "inventory_scope": "all files under metadata/r4.2-preexecution except this self-referential inventory",
+  "schema_version": "r4.2-preexecution-durable-artifact-inventory-v1"
+}

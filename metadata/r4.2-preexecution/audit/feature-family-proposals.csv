@@ -1,0 +1,91 @@
+feature_index,feature_position,feature_name,proposed_primary_family,secondary_semantic_tag,review_status,classification_rationale
+0,1,trace_event_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+1,2,event_type_discovery_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+2,3,event_type_discovery_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+3,4,event_type_gateway_advertisement_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+4,5,event_type_gateway_advertisement_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+5,6,event_type_pairing_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+6,7,event_type_pairing_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+7,8,event_type_pairing_response_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+8,9,event_type_pairing_response_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+9,10,event_type_enrollment_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+10,11,event_type_enrollment_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+11,12,event_type_enrollment_confirmed_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+12,13,event_type_enrollment_confirmed_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+13,14,event_type_registration_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+14,15,event_type_registration_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+15,16,event_type_registration_confirmed_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+16,17,event_type_registration_confirmed_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+17,18,event_type_authentication_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+18,19,event_type_authentication_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+19,20,event_type_challenge_sent_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+20,21,event_type_challenge_sent_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+21,22,event_type_nonce_received_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+22,23,event_type_nonce_received_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+23,24,event_type_response_sent_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+24,25,event_type_response_sent_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+25,26,event_type_authentication_success_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+26,27,event_type_authentication_success_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+27,28,event_type_authentication_failure_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+28,29,event_type_authentication_failure_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+29,30,event_type_token_issued_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+30,31,event_type_token_issued_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+31,32,event_type_token_presented_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+32,33,event_type_token_presented_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+33,34,event_type_token_validated_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+34,35,event_type_token_validated_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+35,36,event_type_token_rejected_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+36,37,event_type_token_rejected_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+37,38,event_type_renewal_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+38,39,event_type_renewal_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+39,40,event_type_token_expired_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+40,41,event_type_token_expired_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+41,42,event_type_session_opened_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+42,43,event_type_session_opened_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+43,44,event_type_session_closed_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+44,45,event_type_session_closed_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+45,46,event_type_access_request_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+46,47,event_type_access_request_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+47,48,event_type_access_granted_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+48,49,event_type_access_granted_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+49,50,event_type_access_denied_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+50,51,event_type_access_denied_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+51,52,event_type_retry_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+52,53,event_type_retry_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+53,54,event_type_timeout_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+54,55,event_type_timeout_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+55,56,event_type_disconnect_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+56,57,event_type_disconnect_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+57,58,result_success_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+58,59,result_success_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+59,60,result_failure_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+60,61,result_failure_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+61,62,result_pending_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+62,63,result_pending_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+63,64,failure_reason_present_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+64,65,failure_reason_present_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+65,66,failure_reason_distinct_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+66,67,retry_count_sum,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+67,68,retry_count_mean,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+68,69,retry_count_max,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+69,70,topic_distinct_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+70,71,resource_distinct_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+71,72,requested_action_present_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+72,73,requested_action_present_frequency,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+73,74,requested_action_distinct_count,F3,contextual,code-grounded,Trace/event/result/resource context; no direct Timing predicate evaluation.
+74,75,observed_trace_duration,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+75,76,observed_inter_event_delay_count,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+76,77,observed_inter_event_delay_min,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+77,78,observed_inter_event_delay_max,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+78,79,observed_inter_event_delay_mean,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+79,80,observed_inter_event_delay_median,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+80,81,observed_inter_event_delay_population_stddev,F2,generic timing,code-grounded,Retrospective observed-time summary without direct predicate evaluation.
+81,82,nonce_bearing_observation_count,F4,other,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+82,83,nonce_distinct_value_count,F4,other,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+83,84,nonce_repeated_value_count,F4,other,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+84,85,nonce_max_multiplicity,F4,other,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+85,86,nonce_repeated_observation_count,F4,other,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+86,87,semantic_timing_relation_count,F3,direct Timing; contextual,AMBIGUOUS—researcher decision required,Counts reconstructed Timing-relation opportunities but does not evaluate sign/satisfaction; output is contextual support while pair selection is Timing-specific.
+87,88,semantic_timing_min_signed_causal_margin,F1,direct Timing,code-grounded,Direct signed causal-margin calculation over reconstructed nonce/response relations.
+88,89,semantic_nonce_cross_attempt_value_count,F4,direct Nonce,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.
+89,90,semantic_nonce_max_attempt_sharing_count,F4,direct Nonce,code-grounded,Nonce evidence retained as other admissible detector-facing evidence.

@@ -1,0 +1,19 @@
+{
+  "schema_version": "r4.2-feature-family-counts-audit-v1",
+  "status": "audit proposal; not approved",
+  "primary_decision": "semantic_timing_relation_count provisionally F3, flagged ambiguous",
+  "counts": {
+    "F1": 1,
+    "F2": 7,
+    "F3": 75,
+    "F4": 7
+  },
+  "total": 90,
+  "alternative_if_semantic_timing_relation_count_is_F1": {
+    "F1": 2,
+    "F2": 7,
+    "F3": 74,
+    "F4": 7,
+    "total": 90
+  }
+}

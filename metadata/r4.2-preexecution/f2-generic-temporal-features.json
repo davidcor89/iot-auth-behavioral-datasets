@@ -1,0 +1,117 @@
+{
+  "family": "F2",
+  "family_name": "Generic temporal evidence",
+  "feature_count": 7,
+  "features": [
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_trace_duration",
+      "full90_index": 74,
+      "full90_position": 75,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_timestamp"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "max(observed_timestamp) - min(observed_timestamp)",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "220-224; 468; 500"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_count",
+      "full90_index": 75,
+      "full90_position": 76,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "len(observed_delay_since_previous_event[rows 2..N])",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "225-231; 469; 501"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_min",
+      "full90_index": 76,
+      "full90_position": 77,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "min/max/mean/median/population_stddev of observed_delay_since_previous_event[rows 2..N]",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "232-241; 469; 502-506"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_max",
+      "full90_index": 77,
+      "full90_position": 78,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "min/max/mean/median/population_stddev of observed_delay_since_previous_event[rows 2..N]",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "232-241; 469; 502-506"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_mean",
+      "full90_index": 78,
+      "full90_position": 79,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "min/max/mean/median/population_stddev of observed_delay_since_previous_event[rows 2..N]",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "232-241; 469; 502-506"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_median",
+      "full90_index": 79,
+      "full90_position": 80,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "min/max/mean/median/population_stddev of observed_delay_since_previous_event[rows 2..N]",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "232-241; 469; 502-506"
+    },
+    {
+      "classification_rationale": "Retrospective observed-time summary without direct predicate evaluation.",
+      "feature_name": "observed_inter_event_delay_population_stddev",
+      "full90_index": 80,
+      "full90_position": 81,
+      "primary_family": "F2",
+      "required_o03_fields": [
+        "observed_delay_since_previous_event"
+      ],
+      "secondary_semantic_tag": "generic timing",
+      "source_expression_or_algorithm": "min/max/mean/median/population_stddev of observed_delay_since_previous_event[rows 2..N]",
+      "source_file": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "source_lines": "232-241; 469; 502-506"
+    }
+  ],
+  "ordered_feature_names": [
+    "observed_trace_duration",
+    "observed_inter_event_delay_count",
+    "observed_inter_event_delay_min",
+    "observed_inter_event_delay_max",
+    "observed_inter_event_delay_mean",
+    "observed_inter_event_delay_median",
+    "observed_inter_event_delay_population_stddev"
+  ],
+  "ordered_list_fingerprint": "sha256:342c66c1763eee431e9f07d1f444f3bbfb5ae0371697142fa562f45bdcec9252",
+  "schema_version": "r4.2-approved-f2-generic-temporal-manifest-v1",
+  "status": "APPROVED_INPUT_TO_PRE_EXECUTION_GATE"
+}

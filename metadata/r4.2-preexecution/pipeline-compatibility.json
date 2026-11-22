@@ -1,0 +1,1824 @@
+{
+  "checks": {
+    "C_feature_count": 89,
+    "DT_preprocessing": "none; unchanged frozen contract",
+    "D_feature_count": 82,
+    "LR_preprocessing": "StandardScaler fitted on current training cohort only, then LogisticRegression; unchanged frozen contract",
+    "RF_preprocessing": "none; unchanged frozen contract",
+    "all_120_planned_train_test_matrices_dimensionally_valid": true,
+    "all_feature_values_non_missing": true,
+    "all_feature_values_numeric_finite": true,
+    "device_keys_retained_outside_feature_matrix_for_grouping_only": true,
+    "model_fit_or_prediction_performed": false,
+    "privileged_grouping_metadata_excluded_from_feature_names_and_values": true,
+    "test_trace_count_per_run": 84,
+    "test_used_for_fit_or_preprocessing": false,
+    "training_trace_count_per_run": 144
+  },
+  "matrix_checks": [
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44001",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44002",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44003",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44004",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44005",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44006",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44007",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44008",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44009",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44010",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44011",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44012",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44013",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44014",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44015",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44016",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44017",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44018",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44019",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "LR",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "DT",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    },
+    {
+      "condition": "C",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        89
+      ],
+      "training_shape": [
+        144,
+        89
+      ]
+    },
+    {
+      "condition": "D",
+      "missing_values": 0,
+      "model": "RF",
+      "non_finite_values": 0,
+      "partition_id": "r4.1-preexec-seed-44020",
+      "test_shape": [
+        84,
+        82
+      ],
+      "training_shape": [
+        144,
+        82
+      ]
+    }
+  ],
+  "observation_source": "frozen O03 detector_observations via load_frozen_inputs",
+  "schema_version": "r4.2-cd-pipeline-compatibility-v1",
+  "status": "PASS_WITHOUT_MODEL_CONSTRUCTION_FIT_OR_PREDICTION",
+  "trace_count": 336
+}
