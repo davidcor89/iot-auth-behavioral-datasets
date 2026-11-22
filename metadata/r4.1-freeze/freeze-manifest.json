@@ -3106,7 +3106,7 @@
     "reporting": "authoritative scientific role",
     "same_attempt_nonce_hn_role": "hard_negative:legitimate_same_attempt_nonce_recurrence"
   },
-  "status": "FROZEN_PENDING_ARCHIVAL_COMMIT",
+  "status": "FROZEN",
   "validation": {
     "command": "PYTHONPATH=\"$PWD/IoT_auth_simulator:$PWD\" ../PFE_simulator/.venv/bin/python -m ml.evaluation.r4_1_execution --partition-manifest metadata/r4.1-freeze/inputs/partition-manifest.json --accepted-partitions metadata/r4.1-freeze/inputs/accepted-partitions.csv --output artifacts/r4.1-device-disjoint-evaluation --validate-only",
     "evidence": "metadata/r4.1-freeze/validation-evidence.json",
