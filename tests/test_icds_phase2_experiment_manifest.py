@@ -10,7 +10,7 @@ from collections import Counter
 from copy import deepcopy
 from pathlib import Path
 
-from ml.icds.experiment_manifest import (
+from ml.evaluation.experiment_manifest import (
     ANOMALY_ROLES,
     EXPECTED_CANDIDATE_FILE_SHA256,
     EXPECTED_CANDIDATE_FINGERPRINT,

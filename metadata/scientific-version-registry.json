@@ -1,0 +1,99 @@
+{
+  "aliases": {
+    "behavioral-model-v1": {
+      "kind": "behavioral_model",
+      "original_identity": "behavioral-model-v1",
+      "status": "original synchronized baseline authority reference"
+    },
+    "behavioral-model-v1.1": {
+      "governs": "dataset-v1.0",
+      "kind": "behavioral_model",
+      "original_identity": "behavioral-model-v1.1",
+      "status": "scoped semantic refinement declared by the frozen candidate evaluation manifest"
+    },
+    "dataset-v1.0": {
+      "candidate_file_sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce",
+      "candidate_semantic_fingerprint": "sha256:be34fcbce532d4791cf3f27f056146215fdd255d1e28415e00e3e77f248d3f5c",
+      "kind": "dataset",
+      "original_identity": "frozen Timing+Nonce scientific candidate",
+      "sample_count": 336,
+      "source_path": "artifacts/icds-timing-nonce-candidate/scientific-candidate.json",
+      "scientific_provenance": {
+        "behavior_model_version": "behavioral-model-v1.1",
+        "candidate_construction_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
+        "candidate_source_checkpoint": "fc97fdcc71012f4a7fa421a4b8cec08cb0b880fd",
+        "execution_commit": null,
+        "execution_commit_status": "unverified: no frozen candidate record identifies the exact checked-out commit used at execution time",
+        "generator_release": "sync-v1.1.0",
+        "synchronized_release_commit": "74c459f72d214f7eb8ca9ace5a47c25d81589b2f"
+      }
+    },
+    "eval-v1.0": {
+      "artifact_tree_fingerprint": "sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11",
+      "kind": "evaluation",
+      "original_identity": "frozen five-repetition C0/C1/C2 evaluation plus one device-grouped sensitivity partition",
+      "source_path": "artifacts/icds-ml-phase4/fingerprints.json"
+    },
+    "eval-v1.0-feature-spec": {
+      "kind": "evaluation_input",
+      "source_path": "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json"
+    },
+    "eval-v1.0-grouped-split": {
+      "kind": "evaluation_input",
+      "source_path": "artifacts/icds-ml-phase3/icds_grouped_cohorts_v1.json"
+    },
+    "eval-v1.0-manifest": {
+      "kind": "evaluation_input",
+      "source_path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json"
+    },
+    "eval-v1.0-phase1-audit": {
+      "kind": "evaluation_input",
+      "source_path": "artifacts/icds-ml-phase1/structural-extraction-audit.json"
+    },
+    "eval-v1.0-pipeline-spec": {
+      "kind": "evaluation_input",
+      "source_path": "IoT_auth_simulator/ml/icds/icds_pipeline_spec_v1.json"
+    },
+    "sync-v1.0.0": {
+      "commit": "40617b723e68357af7b9e4c597b99efdaf63f02c",
+      "kind": "generator_release",
+      "original_identity": "sync-v1.0.0",
+      "repository_object_available": false,
+      "source_repository": "historical research/development repository",
+      "status": "original synchronized baseline; does not govern dataset-v1.0"
+    },
+    "sync-v1.1.0": {
+      "commit": "74c459f72d214f7eb8ca9ace5a47c25d81589b2f",
+      "governs": "dataset-v1.0",
+      "kind": "generator_release",
+      "original_identity": "sync-v1.1.0",
+      "repository_object_available": false,
+      "source_repository": "historical research/development repository",
+      "status": "refined synchronized release declared by the frozen candidate evaluation manifest"
+    }
+  },
+  "conflicts": [],
+  "packaging_revision": "V2-01",
+  "provenance_verification": {
+    "ancestry": [
+      "40617b723e68357af7b9e4c597b99efdaf63f02c",
+      "74c459f72d214f7eb8ca9ace5a47c25d81589b2f",
+      "fc97fdcc71012f4a7fa421a4b8cec08cb0b880fd",
+      "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b"
+    ],
+    "candidate_artifact_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
+    "candidate_builder_commit": "2a9883bdb441a83d3887f496f756ad3b9c4a1d1b",
+    "candidate_source_checkpoint": "fc97fdcc71012f4a7fa421a4b8cec08cb0b880fd",
+    "exact_execution_commit": null,
+    "exact_execution_commit_status": "unverified",
+    "historical_commit_objects_verified": true,
+    "resolution": "The original v1 baseline and the candidate's v1.1 governing references are complementary provenance layers, not competing aliases.",
+    "synchronized_release_commit": "74c459f72d214f7eb8ca9ace5a47c25d81589b2f"
+  },
+  "registry_version": "scientific-version-registry-v2",
+  "source_submission_release": {
+    "commit": "952718ab4faa191c870a045dfa8b7b1c075c0b36",
+    "tag": "icds-2026-artifact-v1.0",
+    "tag_object": "650ffa5321836d903a6ed40fa42dbac602292570"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "evaluation-metrics-reference-v1",
+  "sources": [
+    {"path": "artifacts/icds-ml-phase4/primary/per-run-metrics.json", "sha256": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa"},
+    {"path": "artifacts/icds-ml-phase4/primary/aggregate-summary.json", "sha256": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca"},
+    {"path": "artifacts/icds-ml-phase4/grouped/per-run-metrics.json", "sha256": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687"}
+  ]
+}

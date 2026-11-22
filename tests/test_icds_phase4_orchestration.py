@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ml.icds.phase4_experiment import (
+from ml.evaluation.phase4_experiment import (
     EXPECTED_GROUPED_COHORT_FINGERPRINT,
     EXPECTED_PIPELINE_SPEC_FINGERPRINT,
     Phase4ExecutionError,
@@ -16,7 +16,7 @@ from ml.icds.phase4_experiment import (
     validate_prediction_campaign,
     verify_phase4_inputs,
 )
-from ml.icds.pipeline import assemble_matrix, model_seed
+from ml.evaluation.pipeline import assemble_matrix, model_seed
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,7 +90,7 @@ class Phase4OrchestrationTests(unittest.TestCase):
             self.assertTrue(path.exists())
             # execute_phase4's first operation rejects an existing output root;
             # do not invoke it here because this is a no-fit pre-execution test.
-            source = (ROOT / "IoT_auth_simulator/ml/icds/phase4_experiment.py").read_text()
+            source = (ROOT / "IoT_auth_simulator/ml/evaluation/phase4_experiment.py").read_text()
             self.assertIn("refusing to overwrite Phase-4 output", source)
 
 

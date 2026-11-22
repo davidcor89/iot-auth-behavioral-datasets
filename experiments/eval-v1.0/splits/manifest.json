@@ -1,0 +1,7 @@
+{
+  "schema_version": "evaluation-splits-reference-v1",
+  "sources": [
+    {"path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json", "role": "five primary persisted trace-level splits", "sha256": "f7b851266e720a25db45e5430cf7b09aa501fd84fb7a057aad2779d6d1d8aa64"},
+    {"path": "artifacts/icds-ml-phase3/icds_grouped_cohorts_v1.json", "role": "single device-disjoint sensitivity partition", "sha256": "6adf193dda8a73ea3b50bc2de677a57a914abed594f7c351a199ecc8f4d1a47b"}
+  ]
+}

@@ -1,5 +1,9 @@
 # Paper artifact map
 
+The reusable venue-neutral entry point is
+`publication-artifacts/eval-v1.0/manifest.json`. Original submission filenames
+below remain unchanged because they are frozen historical evidence.
+
 Final manuscript numbering has not been supplied. This map therefore uses
 descriptive names rather than inventing paper figure or table numbers.
 
@@ -29,4 +33,3 @@ descriptive names rather than inventing paper figure or table numbers.
 
 The paper layer is a deterministic reporting transformation. Persisted Phase 4
 predictions remain authoritative for all reported metrics.
-

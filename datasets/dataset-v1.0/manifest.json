@@ -1,0 +1,18 @@
+{
+  "alias": "dataset-v1.0",
+  "alias_policy": "Packaging alias only; no scientific content changed.",
+  "build_manifest": {
+    "path": "artifacts/icds-timing-nonce-candidate/build-manifest.json",
+    "sha256": "6524346f74331c05aa2aceb157f9e0b17b055b823f4b99475d514b0352e043aa"
+  },
+  "candidate": {
+    "path": "artifacts/icds-timing-nonce-candidate/scientific-candidate.json",
+    "sample_count": 336,
+    "sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce"
+  },
+  "characterization": {
+    "path": "artifacts/icds-timing-nonce-candidate/candidate-characterization.md",
+    "sha256": "2a7ec9d36d47119e09ba7bb1d9c95c6f0461015c01e29a41eaa723ed901e6dbc"
+  },
+  "schema_version": "dataset-reference-manifest-v1"
+}

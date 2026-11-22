@@ -1,0 +1,60 @@
+{
+  "mapping_version": "v2-01-path-mapping-v1",
+  "policy": "Frozen venue-specific sources remain byte-identical; venue-neutral paths are reference manifests or compatibility entry points.",
+  "mappings": [
+    {
+      "classification": "frozen scientific evidence",
+      "new_path": "datasets/dataset-v1.0/manifest.json",
+      "old_path": "artifacts/icds-timing-nonce-candidate/",
+      "operation": "reference_alias"
+    },
+    {
+      "classification": "semantic validation",
+      "new_path": "validation/dataset-v1.0/manifest.json",
+      "old_path": "artifacts/icds-timing-nonce-candidate/build-manifest.json",
+      "operation": "reference_alias"
+    },
+    {
+      "classification": "experiment definition and splits",
+      "new_path": "experiments/eval-v1.0/manifest.json",
+      "old_path": "artifacts/icds-ml-phase1/, artifacts/icds-ml-phase2/, artifacts/icds-ml-phase3/",
+      "operation": "reference_alias"
+    },
+    {
+      "classification": "predictions, metrics, and provenance",
+      "new_path": "experiments/eval-v1.0/manifest.json",
+      "old_path": "artifacts/icds-ml-phase4/",
+      "operation": "reference_alias"
+    },
+    {
+      "classification": "reusable publication output",
+      "new_path": "publication-artifacts/eval-v1.0/manifest.json",
+      "old_path": "artifacts/icds-paper-figures/",
+      "operation": "reference_alias"
+    },
+    {
+      "classification": "historical submission content",
+      "new_path": "submissions/icds2026/snapshot-manifest.json",
+      "old_path": "PUBLICATION_SNAPSHOT.json and tag icds-2026-artifact-v1.0",
+      "operation": "immutable_snapshot_reference"
+    },
+    {
+      "classification": "executable compatibility namespace",
+      "new_path": "IoT_auth_simulator/ml/evaluation/",
+      "old_path": "IoT_auth_simulator/ml/icds/",
+      "operation": "move_active_code_and_retain_historical_compatibility_wrappers"
+    },
+    {
+      "classification": "reproducibility command",
+      "new_path": "scripts/verify_artifacts.py",
+      "old_path": "scripts/verify_publication.py",
+      "operation": "venue_neutral_wrapper"
+    },
+    {
+      "classification": "dependency lock",
+      "new_path": "requirements-reproducibility.txt",
+      "old_path": "requirements-publication.txt",
+      "operation": "venue_neutral_copy_with_same_versions"
+    }
+  ]
+}

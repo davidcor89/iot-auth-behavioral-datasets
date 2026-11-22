@@ -1,0 +1,6 @@
+{
+  "artifact_manifest": {"path": "artifacts/icds-paper-figures/paper-artifact-manifest.json", "sha256": "cb28268ce876f775ee84a0e8a8361c4db2a696b01305a5fbf43d82a604c16c0e"},
+  "formats": ["pdf", "png", "svg"],
+  "policy": "Figure hashes and filenames are authoritative in the referenced frozen manifest.",
+  "schema_version": "publication-figures-reference-v1"
+}

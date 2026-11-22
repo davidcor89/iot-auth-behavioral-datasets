@@ -1,0 +1,1616 @@
+{
+  "inventory_version": "v2-01-venue-reference-inventory-v1",
+  "records": [
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "IoT_auth_simulator/ml/evaluation/__init__.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 9,
+      "path": "IoT_auth_simulator/ml/evaluation/experiment_manifest.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "IoT_auth_simulator/ml/evaluation/grouped_cohorts.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "IoT_auth_simulator/ml/evaluation/metrics.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 6,
+      "path": "IoT_auth_simulator/ml/evaluation/paper_artifacts.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 4,
+      "path": "IoT_auth_simulator/ml/evaluation/phase4_experiment.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 6,
+      "path": "IoT_auth_simulator/ml/evaluation/pipeline.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 3,
+      "path": "IoT_auth_simulator/ml/evaluation/trace_features.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 3,
+      "path": "datasets/dataset-v1.0/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 1,
+      "path": "docs/artifact-versioning.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 2,
+      "path": "docs/eval-v1-scientific-results.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 17,
+      "path": "docs/repository-migration-v2-01.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 6,
+      "path": "experiments/eval-v1.0/definitions/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 12,
+      "path": "experiments/eval-v1.0/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 3,
+      "path": "experiments/eval-v1.0/metrics/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 2,
+      "path": "experiments/eval-v1.0/predictions/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 4,
+      "path": "experiments/eval-v1.0/provenance/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 4,
+      "path": "experiments/eval-v1.0/splits/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 10,
+      "path": "metadata/path-mapping.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 12,
+      "path": "metadata/scientific-version-registry.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "publication-artifacts/eval-v1.0/figures/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "publication-artifacts/eval-v1.0/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "publication-artifacts/eval-v1.0/tables/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical publication script",
+      "content_occurrences": 18,
+      "path": "scripts/build_v2_manifests.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical publication script",
+      "content_occurrences": 1,
+      "path": "scripts/verify_artifacts.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical submission content",
+      "content_occurrences": 2,
+      "path": "submissions/icds2026/README.md",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 2,
+      "path": "tests/test_repository_normalization.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 2,
+      "path": "validation/dataset-v1.0/manifest.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 3,
+      "path": ".gitignore",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/__init__.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/experiment_manifest.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 2,
+      "path": "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/grouped_cohorts.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 5,
+      "path": "IoT_auth_simulator/ml/icds/icds_pipeline_spec_v1.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/metrics.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/paper_artifacts.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/phase4_experiment.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/pipeline.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "executable code or import",
+      "content_occurrences": 0,
+      "path": "IoT_auth_simulator/ml/icds/trace_features.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 4,
+      "path": "IoT_auth_simulator/simulator/composition/timing_nonce_candidate.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "IoT_auth_simulator/simulator/composition/timing_nonce_feasibility.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "IoT_auth_simulator/simulator/config/integrated_role_stress.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 10,
+      "path": "PUBLICATION_FILES.txt",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 364,
+      "path": "PUBLICATION_SNAPSHOT.json",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 5,
+      "path": "README.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase1/structural-extraction-audit.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 11,
+      "path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase3/icds_grouped_cohorts_v1.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/claim-audit.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 2,
+      "path": "artifacts/icds-ml-phase4/execution-manifest.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 137,
+      "path": "artifacts/icds-ml-phase4/fingerprints.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/grouped/grouped-sensitivity-table.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/grouped/grouped-sensitivity-table.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 9,
+      "path": "artifacts/icds-ml-phase4/grouped/per-run-metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4095,
+      "path": "artifacts/icds-ml-phase4/grouped/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 36,
+      "path": "artifacts/icds-ml-phase4/grouped/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 455,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 4,
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/aggregate-summary.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/figure-data-c0-c1-normal-fpr.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/figure-data-c0-c1-normal-fpr.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 45,
+      "path": "artifacts/icds-ml-phase4/primary/per-run-metrics.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 15120,
+      "path": "artifacts/icds-ml-phase4/primary/predictions.jsonl",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 135,
+      "path": "artifacts/icds-ml-phase4/primary/run-provenance.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/metrics.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 336,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/predictions.jsonl",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 3,
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/run-provenance.json",
+      "path_occurrences": 2
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/table-a-experimental-outcomes.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/table-a-experimental-outcomes.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/table-b-normal-subgroup-fpr.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-ml-phase4/primary/table-b-normal-subgroup-fpr.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.pdf",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.png",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.svg",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.pdf",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.png",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.svg",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.pdf",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.png",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.svg",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.pdf",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.png",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.svg",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 41,
+      "path": "artifacts/icds-paper-figures/paper-artifact-manifest.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-a-primary-performance.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-a-primary-performance.tex",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-b-semantic-boundary.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-b-semantic-boundary.tex",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-c-representation-sensitivity.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-c-representation-sensitivity.tex",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-d-device-grouped-sensitivity.csv",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-paper-figures/table-d-device-grouped-sensitivity.tex",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-timing-nonce-candidate/build-manifest.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 1,
+      "path": "artifacts/icds-timing-nonce-candidate/candidate-characterization.md",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "frozen scientific evidence",
+      "content_occurrences": 0,
+      "path": "artifacts/icds-timing-nonce-candidate/scientific-candidate.json",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 17,
+      "path": "docs/dataset-and-manifests.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 1,
+      "path": "docs/icds-phase4-scientific-results.md",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 21,
+      "path": "docs/paper-artifact-map.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "documentation",
+      "content_occurrences": 2,
+      "path": "docs/reproducibility.md",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical publication notebook",
+      "content_occurrences": 7,
+      "path": "notebooks/icds_phase4_paper_artifacts.ipynb",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "incidental reference",
+      "content_occurrences": 1,
+      "path": "requirements-publication.txt",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical publication script",
+      "content_occurrences": 1,
+      "path": "scripts/export_publication_snapshot.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "historical publication script",
+      "content_occurrences": 11,
+      "path": "scripts/verify_publication.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 1,
+      "path": "tests/test_4d4c3b_timing_nonce_candidate.py",
+      "path_occurrences": 0
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 4,
+      "path": "tests/test_icds_paper_artifacts.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 3,
+      "path": "tests/test_icds_phase1_trace_features.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 7,
+      "path": "tests/test_icds_phase2_experiment_manifest.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 4,
+      "path": "tests/test_icds_phase3_pipeline.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 0,
+      "path": "tests/test_icds_phase4_orchestration.py",
+      "path_occurrences": 1
+    },
+    {
+      "classification": "reproducibility test",
+      "content_occurrences": 3,
+      "path": "tests/test_publication_package.py",
+      "path_occurrences": 0
+    }
+  ],
+  "search_terms": [
+    "ICDS",
+    "CODASPY",
+    "IFIPSEC",
+    "IFIP-SEC",
+    "IFIP_SEC"
+  ],
+  "total_content_occurrences": 39696,
+  "total_path_occurrences": 364
+}

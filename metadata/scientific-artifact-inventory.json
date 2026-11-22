@@ -1,0 +1,1251 @@
+{
+  "baseline_commit": "952718ab4faa191c870a045dfa8b7b1c075c0b36",
+  "file_count": 207,
+  "files": [
+    {
+      "collection": "feature_extraction",
+      "path": "artifacts/icds-ml-phase1/structural-extraction-audit.json",
+      "sha256": "85b00349e35caca078dbf01b1f589f51ec177f2828e0497e14e22cc0b8b4b567",
+      "size": 1535
+    },
+    {
+      "collection": "experiment_definition_and_splits",
+      "path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json",
+      "sha256": "f7b851266e720a25db45e5430cf7b09aa501fd84fb7a057aad2779d6d1d8aa64",
+      "size": 666907
+    },
+    {
+      "collection": "grouped_sensitivity_split",
+      "path": "artifacts/icds-ml-phase3/icds_grouped_cohorts_v1.json",
+      "sha256": "6adf193dda8a73ea3b50bc2de677a57a914abed594f7c351a199ecc8f4d1a47b",
+      "size": 49182
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/claim-audit.json",
+      "sha256": "b22a62e7eb014c7c492d4031be7d1ec97d5d16b65d55bb96026fa33b7ef33293",
+      "size": 3011
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/execution-manifest.json",
+      "sha256": "8a026237f17a851f2a2a712a5d0551c98e9522ea6eb0b68107e20367b5e88462",
+      "size": 5324
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/fingerprints.json",
+      "sha256": "4b1e5ab6dcbe42a514dfee9b88921a351e97c3f1fe2ccdd222332473ba6f5d42",
+      "size": 37827
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/grouped-sensitivity-table.csv",
+      "sha256": "430a7873324fa0934c374b732cceb3d5e96a856c90e3cd05f967948425c2d613",
+      "size": 1319
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/grouped-sensitivity-table.json",
+      "sha256": "ef69601c1b57492b6fbb1471f1e113a7ddfd1fe2610699707ee091d8a7e4aeb0",
+      "size": 6268
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/per-run-metrics.json",
+      "sha256": "7568feb63040978278cd202d63e8853197698054060cd25c011e4f780a25a687",
+      "size": 17013
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/predictions.jsonl",
+      "sha256": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25",
+      "size": 1273607
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/run-provenance.json",
+      "sha256": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13",
+      "size": 270795
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/metrics.json",
+      "sha256": "8640e8205a50141dd6a6b95ca1a71e1458981c349dae69dade4059e3aa7dd8b7",
+      "size": 1477
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/predictions.jsonl",
+      "sha256": "fa58042fd94069d8746a8bf1bf6d4d18b22b45b25de707ec5aa84ac30e890a70",
+      "size": 140984
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/DT/run-provenance.json",
+      "sha256": "bf40e75b857e8ff922f21037779559ceb3f90bea917e5c1babe5267c8fa9cf9d",
+      "size": 26803
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/metrics.json",
+      "sha256": "8640e8205a50141dd6a6b95ca1a71e1458981c349dae69dade4059e3aa7dd8b7",
+      "size": 1477
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/predictions.jsonl",
+      "sha256": "ac2ae07fae8690a4db0b32fe16083b28d5e2de6b576068b658f337355d3d3ee3",
+      "size": 142443
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/LR/run-provenance.json",
+      "sha256": "b2a6bd0834c6642ed2faefea1e1e116e9a56dbd42d5af07c82c0c58f975b4821",
+      "size": 32979
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/metrics.json",
+      "sha256": "7922b831ad9a153fc1bd89a67227d1e85ca5f190cff4d6fd18b1e8d3a98b37c1",
+      "size": 1479
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/predictions.jsonl",
+      "sha256": "e98f4843d293f6db5245ef56ca24a04d75c6624ddd4ca967cbd014a6ef41f6ad",
+      "size": 141105
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C0/RF/run-provenance.json",
+      "sha256": "4cf0622d39c68fb0e258241d3060e971b180886b2d7cdf79795eba32ab90f5e6",
+      "size": 26846
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/metrics.json",
+      "sha256": "d7b44a464c6047fb0d9b00c97d964dc62efa58a0ad036e63570e9ab2841e2f8b",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/predictions.jsonl",
+      "sha256": "fae6e01ec1262d1b914bf82872620a700f614f9cfaedddc9da56739d8ac870c5",
+      "size": 140984
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/DT/run-provenance.json",
+      "sha256": "ee5cee2fbc99bc45f1d00d37dfbfc1454a77346231f54d07669d778d55f862a7",
+      "size": 26974
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/metrics.json",
+      "sha256": "9de9d9f554a2d957c2d08496145dce1769ed8676f24c5acfa77e6dd564f58dbc",
+      "size": 1507
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/predictions.jsonl",
+      "sha256": "59babadc8910778bb5f1e8c05399344411a4a27df905ed4a9ab41710cbf593f6",
+      "size": 142447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/LR/run-provenance.json",
+      "sha256": "06298ce6408974b4e00672f42f8a1d2e9e00afabeb61252b51d5b3d381f01c63",
+      "size": 33407
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/metrics.json",
+      "sha256": "d7b44a464c6047fb0d9b00c97d964dc62efa58a0ad036e63570e9ab2841e2f8b",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/predictions.jsonl",
+      "sha256": "951e82fb444132f95e3d6de20dd5603269a18f57f0c1bf1a2982b7cf579b90db",
+      "size": 141119
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C1/RF/run-provenance.json",
+      "sha256": "735468922552e5e2c4b795eda71fef8589dc2ee1a0019211779b0094a2e7716e",
+      "size": 27017
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/metrics.json",
+      "sha256": "d7b44a464c6047fb0d9b00c97d964dc62efa58a0ad036e63570e9ab2841e2f8b",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/predictions.jsonl",
+      "sha256": "edf553bd5abe351641a6f27eb321f58ae85ddddf7a081791dc5f633891ddfce0",
+      "size": 140984
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/DT/run-provenance.json",
+      "sha256": "8434100da21a9d219d14e968dc1b395016f1b07184c94729c9d59f2cf7e78a8e",
+      "size": 26830
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/metrics.json",
+      "sha256": "5aa3cfafffd30b74092b62cb58625b916dc766d0ce7d8f97886160afb26037d8",
+      "size": 1510
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/predictions.jsonl",
+      "sha256": "014f4dbc209afa38bb07f34785d5038c3e2fdc5715a916f23ac7ffdb87ad412f",
+      "size": 142426
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/LR/run-provenance.json",
+      "sha256": "ab0a2b2e4069780601cde3d16a639d77d8c51a85859f97c1a1c5511f01269b87",
+      "size": 33022
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/metrics.json",
+      "sha256": "5a1da315640d3cc1bcf986d7460b6b91ec8506a07e98531965325b5f433a1043",
+      "size": 1508
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/predictions.jsonl",
+      "sha256": "9abcd51891f132ec62b546c9961e56551810e2227ef8c3376769f9dcded18337",
+      "size": 141115
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/grouped/runs/C2/RF/run-provenance.json",
+      "sha256": "c078b6c6198eefc4bbbf137ba0980f8945dd5db5e2558a5ca52d8dd45bad769e",
+      "size": 26873
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/aggregate-summary.json",
+      "sha256": "d33f909862039afd727250b67705c6359d974cde75849455c967efb8b70206ca",
+      "size": 60094
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/figure-data-c0-c1-normal-fpr.csv",
+      "sha256": "74a5b0a6e1757823e79d56fb9f68f3aa5bcf6e95ee1d1357120dfe8d27b82925",
+      "size": 7259
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/figure-data-c0-c1-normal-fpr.json",
+      "sha256": "d47f4e04eaa456ba79bd6ab9f9b1ad9ae91d92a59509e6e08f5e683e1ee44cc3",
+      "size": 26608
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/per-run-metrics.json",
+      "sha256": "50ee928098644035869dfb48306255b2f749c614111338f8b43445cbb79404aa",
+      "size": 84571
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/predictions.jsonl",
+      "sha256": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539",
+      "size": 4999133
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/run-provenance.json",
+      "sha256": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594",
+      "size": 1219011
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/metrics.json",
+      "sha256": "9a49d25b3e5da3f6f1646a591d5fb27d7d3f8ab2cc61ed5b9c0f866d84f10173",
+      "size": 1493
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/predictions.jsonl",
+      "sha256": "560165d460085acb4e5374c57df3099efd472fc8fb4ad88d665c15c9770aac61",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/DT/run-provenance.json",
+      "sha256": "f01009c269431e7af97cda949a0c95a87b7883b2b2621df548d7ec0c0c875063",
+      "size": 23967
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/metrics.json",
+      "sha256": "9c2ddb79a3bc253edd02bbe077a87599c9f4f02f42d0b8231518c47509b52305",
+      "size": 1509
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/predictions.jsonl",
+      "sha256": "76016a73327666716b2d3db49ab235ac9d4d6b41671bd11b9aed279d5d936123",
+      "size": 111936
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/LR/run-provenance.json",
+      "sha256": "8a3918c56129d3809c6faabfac6c383b6c92a74fc067b86689164201676d9072",
+      "size": 30337
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/metrics.json",
+      "sha256": "bfb9bd15afaf9a44174f617a96b01f0bb42e8f8bf58306ebfe81b7e98843b6e1",
+      "size": 1463
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/predictions.jsonl",
+      "sha256": "0c825e4d9a15bd65c72282b3c44aea95515e876f82af99b88224a291742cc751",
+      "size": 110728
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C0/RF/run-provenance.json",
+      "sha256": "79e601c641d73bc1f8de62bd4b65fa1e4ab7b56f0a5f9b9fea0171077e3b0421",
+      "size": 24010
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/metrics.json",
+      "sha256": "b01dd0bf7c318d4962275e33828c52606c77338be3e77537ff79582335be3e3e",
+      "size": 1570
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/predictions.jsonl",
+      "sha256": "76305a43e0b63d3b01394c6a1bc1655184c3ae0475ac9650198950068eaf2380",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/DT/run-provenance.json",
+      "sha256": "11030f69af13fe9262e65bc1036544a04221ec871ba874f88367d24d78cc4fe5",
+      "size": 24138
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/metrics.json",
+      "sha256": "ca62a050c14b1e02a47eb2f870b93135bc0da923fbc2f91a90b89a0aa0b4e8d9",
+      "size": 1506
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/predictions.jsonl",
+      "sha256": "023f9e041818e958a403626f88a7273123cbbf3c9f94187a7029a97108407f67",
+      "size": 111952
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/LR/run-provenance.json",
+      "sha256": "31955e98178bd6efbfde7c46bf97206e7e00863228847028d67bcb20d6fe1636",
+      "size": 30333
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/predictions.jsonl",
+      "sha256": "95207dbc48daa0028abfa6f97a961e809190b4168697ad4001066730141639d3",
+      "size": 110716
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C1/RF/run-provenance.json",
+      "sha256": "1e3eb348a7b01728296ea51cdda2be3f956708696c187c0b4153d6d54d25c656",
+      "size": 24181
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/metrics.json",
+      "sha256": "805eeb61bb28ff83fc87f89e85e3eb2c19f1d03cee52b64385da6b30e10b73af",
+      "size": 1478
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/predictions.jsonl",
+      "sha256": "f7aa86397adffa7b82fe3ebd95c62e91770b8048cc8703e0ad2629f030c8dfc8",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/DT/run-provenance.json",
+      "sha256": "ee3e9062209099f6407bc2d452c8df26a9eeef3d156ed9f3bd995d3193fd82c9",
+      "size": 23994
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/metrics.json",
+      "sha256": "68cce0b38aa57567d2a64c9ff71fd3bfad03ebbf3e1336221e2eddcd01f519c1",
+      "size": 1553
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/predictions.jsonl",
+      "sha256": "16ae2321487c22c5c7ea190410365e6e35c7095e9a7b57f03d7fccac6244ce60",
+      "size": 111923
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/LR/run-provenance.json",
+      "sha256": "b9c608845b2d19ff6fe9f125c4ba380e3fd00aac3ff1798f64eaefa2b2078b2b",
+      "size": 30003
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/metrics.json",
+      "sha256": "478ee8db8c78477091dd21982d8b10e23568ce9747621bfe8c796a7bc3e3ad9e",
+      "size": 1471
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/predictions.jsonl",
+      "sha256": "c640e1914a5149da040ff8f1f41e0b45bf3cc7cab6f277f3ed0e23bbe2b3b1d0",
+      "size": 110718
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-1/C2/RF/run-provenance.json",
+      "sha256": "6ca59a6e2e0308a89c2cb0df616850c5774fc5f60b190cf8211cd9038077b5c0",
+      "size": 24037
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/metrics.json",
+      "sha256": "be99d885f3484c648d6ea86f49c106ca29e6caa87a46f44f63bc6e5405949449",
+      "size": 1447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/predictions.jsonl",
+      "sha256": "288b2f700397c117b03d42ffea09785ba49043970e0b442d86ba7768bad8473f",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/DT/run-provenance.json",
+      "sha256": "9b1a7b646f9a1c0f0b8686c31cc00b81e87a305ad2561cde4d09946d248a14c2",
+      "size": 23967
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/metrics.json",
+      "sha256": "be99d885f3484c648d6ea86f49c106ca29e6caa87a46f44f63bc6e5405949449",
+      "size": 1447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/predictions.jsonl",
+      "sha256": "6711975851df51b62215bdd38dcfd30c2ac98fd791ab973a20a68e010d7c0b07",
+      "size": 111940
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/LR/run-provenance.json",
+      "sha256": "08290ba8ff544324242f07ef6f28dfa8ebda02cfb1e7f318f9c8e3e3150ab5d7",
+      "size": 30202
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/metrics.json",
+      "sha256": "0810713032fc2392d9de5f37da7d80163046b5f4e7f1e746a575e0b8ebdabf88",
+      "size": 1476
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/predictions.jsonl",
+      "sha256": "c393b2022f4d87ab5171d577bafaf72965e30fcec3b29df055074b0089c90d6a",
+      "size": 110737
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C0/RF/run-provenance.json",
+      "sha256": "a75c09fee4ad5b39bd23fe5432ae13b4906b4788cc4a877bcc53a97397918a1d",
+      "size": 24010
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/predictions.jsonl",
+      "sha256": "889de15b2ebb2cab5c049323ec220fc78ab836f9490fc3f36c7de44847fab5e8",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/DT/run-provenance.json",
+      "sha256": "e3ecb635f1eac6826c85aef0d617fa5a8f09bedfb2da341c06ad4556dc77e8cf",
+      "size": 24138
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/metrics.json",
+      "sha256": "1e2853fa540bcf35d631aec5a4380520786ad9fb87e260188883a196048369ce",
+      "size": 1495
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/predictions.jsonl",
+      "sha256": "00de5117a26afafae8de2018f1103da30a88291e4568da0f2678990372fa89e4",
+      "size": 111956
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/LR/run-provenance.json",
+      "sha256": "a9eb2e4995a4645e6b324103c2dc85f853c646698aea49f467b90bd4c2776f28",
+      "size": 30442
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/metrics.json",
+      "sha256": "1a4a6224eb364e0f421f4499fb42f9263b7283ad2b61659a12c7efe3c25abcf5",
+      "size": 1478
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/predictions.jsonl",
+      "sha256": "575743fa45a8c7bd43d42e0e08a863d770c28780583a55d2ffc98b939dac5ae5",
+      "size": 110723
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C1/RF/run-provenance.json",
+      "sha256": "5b11add9113c9a442bc35b9813f652aa83ea0d2ab9137cabad95d71681044bde",
+      "size": 24181
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/predictions.jsonl",
+      "sha256": "2bcfe844fe2986c946a4906b31f1f02023bc129ec4ff3ab6446dfe25f192b862",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/DT/run-provenance.json",
+      "sha256": "95e7ddd32242615c4fa2e76b2d1481197d508026c3fcb6f35ca785a1d5ff5c21",
+      "size": 23994
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/metrics.json",
+      "sha256": "6a0158a29c9c0a0d9f5a12adb194fa9370dea5d77fa55e1cebda2d81f4a64557",
+      "size": 1551
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/predictions.jsonl",
+      "sha256": "48bdeac7bf76418cfd795d007ec982927d10110aa5aafd4e9778ab59ff1f5693",
+      "size": 111929
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/LR/run-provenance.json",
+      "sha256": "0ec08dc2651f6c5babd9de833e5826b790f5357bbb6fc9c77e8ab7506398554d",
+      "size": 30112
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/metrics.json",
+      "sha256": "d8223ad413921a19fbf89854bbe0c57047976845e05258b63964b98a511d6c8d",
+      "size": 1510
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/predictions.jsonl",
+      "sha256": "b65b0340427e4116bf6fe60da92ad35857202f4d9cc8b2302da60084c9fa292b",
+      "size": 110724
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-2/C2/RF/run-provenance.json",
+      "sha256": "14565e67c8c4ca8749f22b8884805e3355748cacf3e476d95ab83f6018c7bdcc",
+      "size": 24037
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/metrics.json",
+      "sha256": "be99d885f3484c648d6ea86f49c106ca29e6caa87a46f44f63bc6e5405949449",
+      "size": 1447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/predictions.jsonl",
+      "sha256": "05687c8c0e887387c9ed377bba87046475972f8827958d56231971a4fc784a64",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/DT/run-provenance.json",
+      "sha256": "1ab7fad150b4ba15634cb3e132ce51f68eb28ae325faa3d7b2cfafb87c19a7f2",
+      "size": 23967
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/metrics.json",
+      "sha256": "9a49d25b3e5da3f6f1646a591d5fb27d7d3f8ab2cc61ed5b9c0f866d84f10173",
+      "size": 1493
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/predictions.jsonl",
+      "sha256": "77e22cc128335ed97bac68aec508cf19307fbf99016af330a89e1ddcf77a3906",
+      "size": 111948
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/LR/run-provenance.json",
+      "sha256": "46e67885868d40da9b37f22341237d4cf3967422e729552c5fa23075751afd95",
+      "size": 30313
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/metrics.json",
+      "sha256": "bfb9bd15afaf9a44174f617a96b01f0bb42e8f8bf58306ebfe81b7e98843b6e1",
+      "size": 1463
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/predictions.jsonl",
+      "sha256": "4d87fd2ac36c5467b2fc70d65945afc286e59e66bc89f6f362478b680f2f8236",
+      "size": 110727
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C0/RF/run-provenance.json",
+      "sha256": "69c0e393caa4d5eee13f31cad7bab3ddf5cca5cf249e90115a1b83850ed1fcf9",
+      "size": 24010
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/predictions.jsonl",
+      "sha256": "edbb5b6da9d2a3938febbf43155d89ed67b054a3d8e65d4375f65f00ae84a3bc",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/DT/run-provenance.json",
+      "sha256": "d21847ec0a530d45a6560748b6c2a2fb7ad52552ca7b9c7a61af1f8eda3c2d4e",
+      "size": 24138
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/metrics.json",
+      "sha256": "bc6a9e456d19db144392eb3769bc1685c0bf2b57d77506489838a32dcbb1b730",
+      "size": 1495
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/predictions.jsonl",
+      "sha256": "81523fc8b507c1befd01e12efdca9a49b5e8009acf0923ca3cf19d4aed4eda17",
+      "size": 111969
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/LR/run-provenance.json",
+      "sha256": "1b335735fac24741f3a205f793edb809262ae366c6a3afadb6c86835cf77e7e0",
+      "size": 30433
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/metrics.json",
+      "sha256": "c7e89e20e0041cd2906d2d4410d592137576fc62526a70c4cce4c25b4033561b",
+      "size": 1477
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/predictions.jsonl",
+      "sha256": "15982d3936163fade1904867d2697404122f51d1e75fa8b31e708e2e47362215",
+      "size": 110732
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C1/RF/run-provenance.json",
+      "sha256": "b8cc662cd58cb546ebd3780a2446fcccb6c9cb7491b839941458810278b46994",
+      "size": 24181
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/predictions.jsonl",
+      "sha256": "ef0579b0851b453868d369a724a4362b488e7e3eece4225fe3c7babb11ca8b2b",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/DT/run-provenance.json",
+      "sha256": "833c89db327b4249947637f2fd815254624ba86a19ff2952f4dabaf277a9939d",
+      "size": 23994
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/metrics.json",
+      "sha256": "35142fcbca60a0a9d892426889811142c1d07ff0d8b8db1242aa2385932273e2",
+      "size": 1531
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/predictions.jsonl",
+      "sha256": "d5787b13fbe0f90223f7d298dd32c868baf902bc0daa648d74e804707ae2f636",
+      "size": 111933
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/LR/run-provenance.json",
+      "sha256": "0ec1757be6effc28fd8de852d2dfe8b98e653ecc71f5fcf1f3b5976c319ec42f",
+      "size": 30103
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/metrics.json",
+      "sha256": "e4ef607dda770dab880aaf539da0c6dfa8a7228df1c0369e77f67bda3e7bc1a5",
+      "size": 1519
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/predictions.jsonl",
+      "sha256": "47c4860b9e4a251c7dc72179b0cc4dd605bdf43c564678c202e35b64ee0e1a75",
+      "size": 110732
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-3/C2/RF/run-provenance.json",
+      "sha256": "fa17bd40b22d8acd0b4eb2cc78ff8c02d1d564b5c830a7e2a13baaedececcdcb",
+      "size": 24037
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/metrics.json",
+      "sha256": "9a49d25b3e5da3f6f1646a591d5fb27d7d3f8ab2cc61ed5b9c0f866d84f10173",
+      "size": 1493
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/predictions.jsonl",
+      "sha256": "c6954ff416f53f87a6c89e65f8f18214db73e95aaa133e48490afdf8c2926c5a",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/DT/run-provenance.json",
+      "sha256": "869c5c9eeaeba20c752e440345c620b49265640f9f66d74c0160952fc53deee4",
+      "size": 23967
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/metrics.json",
+      "sha256": "4f54ff9aec8bd4e0bd53de3598fd32a94dd243743f6b8153e5f05b7d7ba03e28",
+      "size": 1493
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/predictions.jsonl",
+      "sha256": "0700ed83b3198332502fd444b69f00e520d36a4ad506d0d4c9ef48a51906920c",
+      "size": 111953
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/LR/run-provenance.json",
+      "sha256": "fe84fccb576fb4ee62adf6033633348544ed5a31ad9980577ff894d219c672c6",
+      "size": 30289
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/metrics.json",
+      "sha256": "5254bf83c4b5ff1c47d8dfae42fc0c81425e4a7b72eeb41dab7f441bb03e9e54",
+      "size": 1490
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/predictions.jsonl",
+      "sha256": "c77e3b1bebadba6a696501cbc771bce35ac29375e967dafb6d9d7bee8c5b68a3",
+      "size": 110721
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C0/RF/run-provenance.json",
+      "sha256": "d588bd6a16fa3953de96e1b6d899b66768f7848aaace103275e17fbe7482d61a",
+      "size": 24010
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/predictions.jsonl",
+      "sha256": "ca0ca04293487f9ab22f88cfb168407f6cc16e23657392b368cd1f46e9219197",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/DT/run-provenance.json",
+      "sha256": "80def6ee2bda980cdf58b809a2f15caead3fd55e6148a1f9b99d7432de6669c6",
+      "size": 24138
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/metrics.json",
+      "sha256": "5af6a2a28cb2d98aa5613fcb444a0dabcdc7f532859bf1089f1481b0bde84bf9",
+      "size": 1490
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/predictions.jsonl",
+      "sha256": "514325ea32026b78265348607449670a57b4665304d9337dd0a6e54dd9601bba",
+      "size": 111970
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/LR/run-provenance.json",
+      "sha256": "26a19ca433745af06538bd0136855ca18549cdf22ddb45c163d58c990ecd878a",
+      "size": 30366
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/predictions.jsonl",
+      "sha256": "e4ac57b71ced2a7219f24804481f2e4327088c51ef7e0449325d9bd1edc03d2d",
+      "size": 110728
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C1/RF/run-provenance.json",
+      "sha256": "d7375fc54b0edceb88aedb69c0e3fd1b271619066792c013170133d551b05ba2",
+      "size": 24181
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/metrics.json",
+      "sha256": "c5985050cbf2821f7980258b108d6fd4ae3ef85a6b2914b9281229c376ba8571",
+      "size": 1430
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/predictions.jsonl",
+      "sha256": "bd0721753c0a410301118dcfaeae2c54f08702bd843f08f1d6a7283b4f74ef7d",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/DT/run-provenance.json",
+      "sha256": "001a6938b9fb13f88386a249b85c0fcb8f10d9d49f5dc7de17fa473355e07b35",
+      "size": 23994
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/metrics.json",
+      "sha256": "9f4408eb84f7da657791e93d42bd961c81b41c2ceb6a1d9e0008cea671654f15",
+      "size": 1494
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/predictions.jsonl",
+      "sha256": "b5ce85a65c598ad32b994e53476c08c6cfec7eb4419e29699712ca6a5911353c",
+      "size": 111945
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/LR/run-provenance.json",
+      "sha256": "ec3cc1ae1f43ffbaeef13664f648168e51b147291a32580b5f94704f9bbe4709",
+      "size": 30038
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/metrics.json",
+      "sha256": "1a4a6224eb364e0f421f4499fb42f9263b7283ad2b61659a12c7efe3c25abcf5",
+      "size": 1478
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/predictions.jsonl",
+      "sha256": "42af47d77d3c8bc49d9de0cafe6bce1b73dc2917bcecc771c71cd1233907f865",
+      "size": 110728
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-4/C2/RF/run-provenance.json",
+      "sha256": "653500897d02d670166466439e3181b8c869936e360efffa4488508d78d60453",
+      "size": 24037
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/metrics.json",
+      "sha256": "be99d885f3484c648d6ea86f49c106ca29e6caa87a46f44f63bc6e5405949449",
+      "size": 1447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/predictions.jsonl",
+      "sha256": "c48b6daf0f5a4c5f73ed93c7b390d30ab725f989617303343fd9d0dae83159fd",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/DT/run-provenance.json",
+      "sha256": "783e5dcb013456769702328b0aa65f22fd59b148c4367a15ed07ea37ad5f0b4e",
+      "size": 23967
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/metrics.json",
+      "sha256": "be99d885f3484c648d6ea86f49c106ca29e6caa87a46f44f63bc6e5405949449",
+      "size": 1447
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/predictions.jsonl",
+      "sha256": "99243fc6d586ce10a931b42ebf024e7a4177d7a399ec520703640ab8b1fba088",
+      "size": 111946
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/LR/run-provenance.json",
+      "sha256": "df960f790fbecdb60bedb53110ecefd0e9ccad4994401805ba5a5a5a9be09330",
+      "size": 30264
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/metrics.json",
+      "sha256": "bfb9bd15afaf9a44174f617a96b01f0bb42e8f8bf58306ebfe81b7e98843b6e1",
+      "size": 1463
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/predictions.jsonl",
+      "sha256": "7c51e209ba1969e665ced87bc90a85f7d9db68b4eb24fcee8997d218017c1c8a",
+      "size": 110729
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C0/RF/run-provenance.json",
+      "sha256": "42f41e2985c8952b43b0b73188091da336cdde59480c87e52ecaec392cd5e7e8",
+      "size": 24010
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/metrics.json",
+      "sha256": "3c0a3aa8787e640310794d3b99fef1d6e4d1d3368a325df7b2eb514263ed2814",
+      "size": 1510
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/predictions.jsonl",
+      "sha256": "a7eafece053133562b5a4412805d7b21632e58f02bb1b85c70b25cab38791668",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/DT/run-provenance.json",
+      "sha256": "e3e4bb6d16234b8bfe678ac557d8b3e79a1cd3125026460f913b8e31cc6b7804",
+      "size": 24138
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/metrics.json",
+      "sha256": "21e3e189fb271ee340b812d790497dd8b45e5e2dc1188802667cb43702088725",
+      "size": 1508
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/predictions.jsonl",
+      "sha256": "84280239a192c8c0e5c61678bb88e76def96787e4733b785db1888d94d35fc62",
+      "size": 111955
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/LR/run-provenance.json",
+      "sha256": "bc3b2099ea68dab1330421de41778bf4debef28f7fa7038c9dedac84bc8d8f40",
+      "size": 30461
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/metrics.json",
+      "sha256": "d684886f62aacb546195507c9150b013d9eb0cbf32883dcbe73318b3213b40ff",
+      "size": 1508
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/predictions.jsonl",
+      "sha256": "7a83723ae0809da976dbb32473fe0bfa115fba9d1fc07a6d79902dad4fd16b3f",
+      "size": 110715
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C1/RF/run-provenance.json",
+      "sha256": "053a90d1594afee31edec3dafeb2739887baa6dc84d3741b21ef92542a1853c0",
+      "size": 24181
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/metrics.json",
+      "sha256": "6de14b818dd178d67bc766e39dedbe382e3a06877a8efbb2ea92a42dadb40336",
+      "size": 1558
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/predictions.jsonl",
+      "sha256": "b52a5318e6c8e5e2c717b315e3c543f8b40344f9a511108e66838b7e7f2e03c7",
+      "size": 110604
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/DT/run-provenance.json",
+      "sha256": "20e23e63fd064c6d7a3bd3aaefb2c6c626aa2960f77ed989b40be989fbb6882a",
+      "size": 23994
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/metrics.json",
+      "sha256": "fc5c7807ba7323df6ccc8a9d6f3b56a6af4665a7f303947b354350a2271ee307",
+      "size": 1516
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/predictions.jsonl",
+      "sha256": "c2968e8e22e77690d1e6b16d53fb83cf87c9998edd60e858ab12b65782acc39a",
+      "size": 111932
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/LR/run-provenance.json",
+      "sha256": "c3b8f0a69b6ef0a0ef1322b0d84bb94edd770dd899290bbf5ca1c503810f22b4",
+      "size": 30132
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/metrics.json",
+      "sha256": "14d7a1616e04daa9fc856abfdc45ce0f67f1fc8a434b70762b335d55e982d638",
+      "size": 1541
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/predictions.jsonl",
+      "sha256": "16f8af7ef73a1a486b19a198b999b80efd2598bfc4176cba44083fbd66843d61",
+      "size": 110728
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/runs/icds-leakage-safe-baseline-pipeline-v1/repetition-5/C2/RF/run-provenance.json",
+      "sha256": "ec37768c5a626493234eecae8e9e7206104ef6b252bce093d864c5d342d8af19",
+      "size": 24037
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/table-a-experimental-outcomes.csv",
+      "sha256": "b9f9215e222408c1d455f1af373d090ae7092552aa8c4765e7cfe73772d9fba3",
+      "size": 3052
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/table-a-experimental-outcomes.json",
+      "sha256": "3bacd0fd2272ca4577e2a4a6b32dcb81a22f103344b973d03f10df5cae5238f0",
+      "size": 11729
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/table-b-normal-subgroup-fpr.csv",
+      "sha256": "8450508a49aef2e43c383f21fdcc730826f328d5b24842f371679ba25f3ead43",
+      "size": 3423
+    },
+    {
+      "collection": "predictions_metrics_and_provenance",
+      "path": "artifacts/icds-ml-phase4/primary/table-b-normal-subgroup-fpr.json",
+      "sha256": "1980032283d118fc5d6800970480e82514ac94882a8c1ea2d71e1cbe06033d76",
+      "size": 16276
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.pdf",
+      "sha256": "d4b83edc927139e3cd13f793618eb7124f2251031b1df00fb3267f8bb1feec13",
+      "size": 31026
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.png",
+      "sha256": "bc175a7b8e84a3a1cabebadd7b4a3c9bd80ec07f33947cdf4a7a32f91cfb3f8f",
+      "size": 244211
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-1-primary-hard-negative-effect.svg",
+      "sha256": "5fc87c5aed4ec3aebd0ab343d70b9e4a01aef34999e0f1853daa4a5f2b9654a3",
+      "size": 128908
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.pdf",
+      "sha256": "e8e8cd7d1f4205dd55a03d46631788eeb124add7661a599cb6156f5ea9df85b7",
+      "size": 30214
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.png",
+      "sha256": "5fd5f664f96609ba0872cdb489ed548d1e06164373cceab8e9528336cc86b5b1",
+      "size": 233944
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-2-semantic-error-profile.svg",
+      "sha256": "2fc6d47eff0ff639573783b048f033904ad1a05e272a33b21c0e3d69b923f008",
+      "size": 105887
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.pdf",
+      "sha256": "ddc763c294ae8d66e33c5f93221a52f97037e530db1b664082cfaa9414baa257",
+      "size": 30298
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.png",
+      "sha256": "f16a4b253049ed9dd6bccb341850878a2b423ee11c84d1f2aacf89595c759838",
+      "size": 226402
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-3-representation-sensitivity.svg",
+      "sha256": "779a5cf8396f92d7bf6c7913a3ee7835c2fe5636c6f4a00a60d35a8cd4e99cca",
+      "size": 117539
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.pdf",
+      "sha256": "c24b816542d824eb54c67ac48ace1514c48747f8e5679e435172f4fbcffd2fb4",
+      "size": 19952
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.png",
+      "sha256": "2e0448c61c4a0b76185e28cc2ea15b66cf03e02922fd5590ac1a89aad438d17b",
+      "size": 174628
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/figure-4-device-grouped-sensitivity.svg",
+      "sha256": "cb54deaf6ce73a9b6729d98a0101df361fe85da9fa425c2d4a6dd3ac51eedbbd",
+      "size": 89077
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/paper-artifact-manifest.json",
+      "sha256": "cb28268ce876f775ee84a0e8a8361c4db2a696b01305a5fbf43d82a604c16c0e",
+      "size": 37164
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-a-primary-performance.csv",
+      "sha256": "3dc40d7c60f39236a8d7997cd83301eebbbbfa4f138fc4f2f1b393e45b08b022",
+      "size": 1332
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-a-primary-performance.tex",
+      "sha256": "c7c51887c3a9d1289c156635bf9e253190930820586ac909bacbc266ef991c25",
+      "size": 1307
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-b-semantic-boundary.csv",
+      "sha256": "15528d7ab6c0fa4a9bfe3e1ac7388052e237989af851158bccae1219b964259e",
+      "size": 620
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-b-semantic-boundary.tex",
+      "sha256": "e1322d0c305720a4412322ab18c90422c2874ad9bb8c7bf555b212614cf1eba4",
+      "size": 824
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-c-representation-sensitivity.csv",
+      "sha256": "d6eed8ed0b114da8fc207ff414d76dce640df380c916bef635b0d6ee769d05cf",
+      "size": 1011
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-c-representation-sensitivity.tex",
+      "sha256": "6e9a5f08169cfdc1b1b8cc2f03923480b696981d88edc9e5fe44975d24f7ddb8",
+      "size": 938
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-d-device-grouped-sensitivity.csv",
+      "sha256": "f0277a0113487f233ae1515d69caa0c529be42b59aeeb491c06ec1e67246c371",
+      "size": 837
+    },
+    {
+      "collection": "figures_tables_and_source_data",
+      "path": "artifacts/icds-paper-figures/table-d-device-grouped-sensitivity.tex",
+      "sha256": "85c81f783d95de5c03ee15a97ec48309735d7d9a3b345c586a16e4c30ebabbc8",
+      "size": 1050
+    },
+    {
+      "collection": "dataset",
+      "path": "artifacts/icds-timing-nonce-candidate/build-manifest.json",
+      "sha256": "6524346f74331c05aa2aceb157f9e0b17b055b823f4b99475d514b0352e043aa",
+      "size": 85005
+    },
+    {
+      "collection": "dataset",
+      "path": "artifacts/icds-timing-nonce-candidate/candidate-characterization.md",
+      "sha256": "2a7ec9d36d47119e09ba7bb1d9c95c6f0461015c01e29a41eaa723ed901e6dbc",
+      "size": 1768
+    },
+    {
+      "collection": "dataset",
+      "path": "artifacts/icds-timing-nonce-candidate/scientific-candidate.json",
+      "sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce",
+      "size": 4135006
+    }
+  ],
+  "inventory_version": "v2-01-scientific-artifact-inventory-v1",
+  "policy": "Hashes captured from the immutable submitted artifact before V2-01 normalization.",
+  "source_tag": "icds-2026-artifact-v1.0"
+}

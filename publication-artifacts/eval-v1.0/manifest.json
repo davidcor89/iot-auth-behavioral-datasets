@@ -1,0 +1,15 @@
+{
+  "alias": "eval-v1.0-publication-artifacts",
+  "artifact_manifest": {
+    "path": "artifacts/icds-paper-figures/paper-artifact-manifest.json",
+    "sha256": "cb28268ce876f775ee84a0e8a8361c4db2a696b01305a5fbf43d82a604c16c0e"
+  },
+  "policy": "Reference-only venue-neutral layer; figures, tables, and their source data remain byte-identical at their frozen paths.",
+  "schema_version": "publication-artifact-reference-manifest-v1",
+  "sections": {
+    "figures": "publication-artifacts/eval-v1.0/figures/manifest.json",
+    "reproducibility": "publication-artifacts/eval-v1.0/reproducibility/manifest.json",
+    "tables": "publication-artifacts/eval-v1.0/tables/manifest.json"
+  },
+  "source_evaluation": "experiments/eval-v1.0/manifest.json"
+}

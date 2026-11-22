@@ -1,0 +1,15 @@
+{
+  "alias": "dataset-v1.0-validation",
+  "policy": "Validation outcomes are referenced from the frozen build manifest and candidate privileged evidence; no validation was recomputed for this alias.",
+  "schema_version": "validation-reference-manifest-v1",
+  "sources": [
+    {
+      "path": "artifacts/icds-timing-nonce-candidate/build-manifest.json",
+      "sha256": "6524346f74331c05aa2aceb157f9e0b17b055b823f4b99475d514b0352e043aa"
+    },
+    {
+      "path": "artifacts/icds-timing-nonce-candidate/scientific-candidate.json",
+      "sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce"
+    }
+  ]
+}

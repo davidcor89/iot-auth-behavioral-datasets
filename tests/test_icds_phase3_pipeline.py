@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 
-from ml.icds.experiment_manifest import (
+from ml.evaluation.experiment_manifest import (
     FRESH_ATTEMPT_HN,
     NONCE_ANOMALY,
     ORDINARY,
@@ -23,9 +23,9 @@ from ml.icds.experiment_manifest import (
     TIMING_ANOMALY,
     TIMING_HN,
 )
-from ml.icds.grouped_cohorts import build_grouped_cohorts
-from ml.icds.metrics import reconstruct_metrics
-from ml.icds.pipeline import (
+from ml.evaluation.grouped_cohorts import build_grouped_cohorts
+from ml.evaluation.metrics import reconstruct_metrics
+from ml.evaluation.pipeline import (
     CONDITIONS,
     DT_PARAMETERS,
     EXPECTED_PHASE2_FILE_SHA256,
@@ -50,7 +50,7 @@ from ml.icds.pipeline import (
     predict_estimator,
     validate_comparison_contract,
 )
-from ml.icds.trace_features import C1_FEATURE_NAMES, C2_FEATURE_NAMES
+from ml.evaluation.trace_features import C1_FEATURE_NAMES, C2_FEATURE_NAMES
 
 
 ROOT = Path(__file__).resolve().parents[1]

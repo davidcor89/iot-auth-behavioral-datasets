@@ -1,0 +1,9 @@
+{
+  "commands": [
+    "python scripts/verify_artifacts.py --verify-only",
+    "python scripts/verify_artifacts.py --reproduce-candidate",
+    "python scripts/verify_artifacts.py --reproduce-evaluation"
+  ],
+  "expected_evaluation_fingerprint": "sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11",
+  "schema_version": "publication-reproducibility-reference-v1"
+}

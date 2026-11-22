@@ -1,0 +1,8 @@
+{
+  "schema_version": "evaluation-definitions-reference-v1",
+  "sources": [
+    {"path": "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json", "sha256": "f425fcc081a12f20335e21692b8156260793e02829159e54ec1f4f426c8f54bb"},
+    {"path": "IoT_auth_simulator/ml/icds/icds_pipeline_spec_v1.json", "sha256": "e37b12ef4cb98d214c25b7ed952dc03767da86139d0f92fbce1e5c471fab929b"},
+    {"path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json", "sha256": "f7b851266e720a25db45e5430cf7b09aa501fd84fb7a057aad2779d6d1d8aa64"}
+  ]
+}

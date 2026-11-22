@@ -1,0 +1,9 @@
+{
+  "schema_version": "evaluation-provenance-reference-v1",
+  "sources": [
+    {"path": "artifacts/icds-ml-phase4/execution-manifest.json", "sha256": "8a026237f17a851f2a2a712a5d0551c98e9522ea6eb0b68107e20367b5e88462"},
+    {"path": "artifacts/icds-ml-phase4/fingerprints.json", "sha256": "4b1e5ab6dcbe42a514dfee9b88921a351e97c3f1fe2ccdd222332473ba6f5d42"},
+    {"path": "artifacts/icds-ml-phase4/primary/run-provenance.json", "sha256": "9a27f9ad469502b4dcd7d0408eff2788a877d51b96dd96751e434fe1343b2594"},
+    {"path": "artifacts/icds-ml-phase4/grouped/run-provenance.json", "sha256": "bd560a4b8eac22e7778f11787449d0c57c32f6af3cf665e93525bf70d7089c13"}
+  ]
+}

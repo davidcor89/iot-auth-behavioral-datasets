@@ -6,6 +6,7 @@ CITATION.cff
 LICENSE
 LICENSE-DATA
 requirements-publication.txt
+requirements-reproducibility.txt
 PUBLICATION_FILES.txt
 IoT_auth_simulator/**/*.py
 IoT_auth_simulator/ml/icds/*.json
@@ -20,6 +21,15 @@ docs/reproducibility.md
 docs/dataset-and-manifests.md
 docs/paper-artifact-map.md
 docs/icds-phase4-scientific-results.md
+docs/artifact-versioning.md
+docs/repository-migration-v2-01.md
+docs/eval-v1-scientific-results.md
+metadata/*.json
+datasets/dataset-v1.0/manifest.json
+validation/dataset-v1.0/manifest.json
+experiments/eval-v1.0/**/*
+publication-artifacts/eval-v1.0/**/*
+submissions/icds2026/*
 notebooks/icds_phase4_paper_artifacts.ipynb
 scripts/*.py
 tests/**/*.py

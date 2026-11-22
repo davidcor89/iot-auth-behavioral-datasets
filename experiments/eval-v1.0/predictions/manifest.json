@@ -1,0 +1,7 @@
+{
+  "schema_version": "evaluation-predictions-reference-v1",
+  "sources": [
+    {"path": "artifacts/icds-ml-phase4/primary/predictions.jsonl", "records": 3780, "sha256": "04fc533592a50e23dab67ba22d3bd7ebf23239702de4a9daa149d586fbdc5539"},
+    {"path": "artifacts/icds-ml-phase4/grouped/predictions.jsonl", "records": 819, "sha256": "d76cb118f7d37082d2ee26e9cc90e79bd864875e65fdaca6b8820f04f931fb25"}
+  ]
+}

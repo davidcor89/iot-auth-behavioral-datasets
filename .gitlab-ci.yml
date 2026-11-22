@@ -3,17 +3,17 @@ image: python:3.14-slim
 stages:
   - verify
 
-publication-verification:
+artifact-verification:
   stage: verify
   before_script:
     - apt-get update && apt-get install -y --no-install-recommends git
-    - python -m pip install --disable-pip-version-check -r requirements-publication.txt
+    - python -m pip install --disable-pip-version-check -r requirements-reproducibility.txt
     - export PYTHONPATH="$CI_PROJECT_DIR/IoT_auth_simulator"
   script:
-    - python scripts/verify_publication.py --verify-only
+    - python scripts/verify_artifacts.py --verify-only
     - python -m unittest discover -s tests
   cache:
-    key: "icds-python-3.14"
+    key: "artifact-python-3.14"
     paths:
       - .cache/pip
   variables:

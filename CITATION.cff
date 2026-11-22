@@ -3,7 +3,7 @@ message: >-
   If you use this software or its generated scientific artifacts, please cite
   this repository. The associated paper citation will be added when its final
   bibliographic metadata is available.
-title: "IoT Authentication Simulator: ICDS 2026 Reproducibility Artifact"
+title: "IoT Authentication Simulator and Behavioral Dataset Artifact"
 type: software
 authors:
   - family-names: "Córdova Morales"

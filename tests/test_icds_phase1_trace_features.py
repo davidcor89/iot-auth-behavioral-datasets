@@ -7,7 +7,7 @@ import json
 import unittest
 from pathlib import Path
 
-from ml.icds.trace_features import (
+from ml.evaluation.trace_features import (
     C1_FEATURE_NAMES,
     C2_FEATURE_NAMES,
     FEATURE_DEFINITIONS,

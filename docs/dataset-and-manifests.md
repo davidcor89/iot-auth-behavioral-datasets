@@ -1,5 +1,10 @@
 # Dataset, field roles, and authoritative manifests
 
+Venue-neutral entry points are `datasets/dataset-v1.0/manifest.json`,
+`validation/dataset-v1.0/manifest.json`, and
+`experiments/eval-v1.0/manifest.json`. They resolve to the byte-preserved
+original files listed below; they do not duplicate or reinterpret them.
+
 ## Information layers
 
 The artifact keeps the following concepts distinct:
@@ -45,13 +50,17 @@ projection:
 | `resource_id` | observed protected resource reference |
 | `requested_action` | observed requested operation |
 
-The authoritative implementation is the candidate projection plus
-`feature_spec_icds_v1.json`; this guide does not redefine it.
+The authoritative implementation is the candidate projection plus the frozen
+feature specification referenced by `experiments/eval-v1.0/manifest.json`;
+this guide does not redefine it.
 
 ## Manifest index
 
 | Question | Authoritative repository source |
 |---|---|
+| Venue-neutral dataset entry point | `datasets/dataset-v1.0/manifest.json` |
+| Venue-neutral validation entry point | `validation/dataset-v1.0/manifest.json` |
+| Venue-neutral evaluation entry point | `experiments/eval-v1.0/manifest.json` |
 | Candidate rows and detector/GT/provenance separation | `artifacts/icds-timing-nonce-candidate/scientific-candidate.json` |
 | Candidate seeds, composition, counts, validation, fingerprints | `artifacts/icds-timing-nonce-candidate/build-manifest.json` |
 | O03 derived feature definitions and C1/C2 eligibility | `IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json` |
@@ -85,4 +94,3 @@ The feature representation is complete-trace and future-dependent relative to
 online event time. It supports this frozen offline task only. Neither Device
 Profile parameters nor privileged semantic evidence may be treated as detector
 observations.
-

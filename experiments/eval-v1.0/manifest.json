@@ -1,0 +1,48 @@
+{
+  "alias": "eval-v1.0",
+  "alias_policy": "Packaging alias only. C0/C1/C2 membership, five primary repetitions, grouped sensitivity, models, seeds, predictions, metrics, and provenance are unchanged.",
+  "definitions": [
+    {
+      "path": "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json",
+      "role": "frozen detector observation and feature contract",
+      "sha256": "f425fcc081a12f20335e21692b8156260793e02829159e54ec1f4f426c8f54bb"
+    },
+    {
+      "path": "IoT_auth_simulator/ml/icds/icds_pipeline_spec_v1.json",
+      "role": "frozen pipeline specification",
+      "sha256": "e37b12ef4cb98d214c25b7ed952dc03767da86139d0f92fbce1e5c471fab929b"
+    },
+    {
+      "path": "artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json",
+      "role": "experiment definition and persisted split membership",
+      "sha256": "f7b851266e720a25db45e5430cf7b09aa501fd84fb7a057aad2779d6d1d8aa64"
+    }
+  ],
+  "evaluation": {
+    "artifact_tree_fingerprint": "sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11",
+    "fingerprint_manifest": "artifacts/icds-ml-phase4/fingerprints.json",
+    "primary_repetitions": 5,
+    "primary_runs": 45,
+    "sensitivity_partitions": 1,
+    "sensitivity_runs": 9
+  },
+  "feature_extraction": {
+    "path": "artifacts/icds-ml-phase1/structural-extraction-audit.json",
+    "sha256": "85b00349e35caca078dbf01b1f589f51ec177f2828e0497e14e22cc0b8b4b567"
+  },
+  "schema_version": "evaluation-reference-manifest-v1",
+  "sections": {
+    "definitions": "experiments/eval-v1.0/definitions/manifest.json",
+    "metrics": "experiments/eval-v1.0/metrics/manifest.json",
+    "predictions": "experiments/eval-v1.0/predictions/manifest.json",
+    "provenance": "experiments/eval-v1.0/provenance/manifest.json",
+    "splits": "experiments/eval-v1.0/splits/manifest.json"
+  },
+  "splits": {
+    "device_grouped_sensitivity": {
+      "path": "artifacts/icds-ml-phase3/icds_grouped_cohorts_v1.json",
+      "sha256": "6adf193dda8a73ea3b50bc2de677a57a914abed594f7c351a199ecc8f4d1a47b"
+    },
+    "primary": "embedded in artifacts/icds-ml-phase2/icds_experiment_manifest_v1.json"
+  }
+}

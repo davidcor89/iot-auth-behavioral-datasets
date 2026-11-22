@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ml.icds.paper_artifacts import (
+from ml.evaluation.paper_artifacts import (
     CONDITIONS,
     EXPECTED_HASHES,
     MODELS,
