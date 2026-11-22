@@ -4,6 +4,8 @@
 !artifacts/icds-ml-phase4/**/*.csv
 !artifacts/icds-paper-figures/**/*.csv
 !artifacts/icds-paper-figures/**/*.tex
+!artifacts/r4.1-device-disjoint-evaluation/**/*.csv
+!metadata/r4.1-freeze/**/*.csv
 
 # Python artifacts
 __pycache__/

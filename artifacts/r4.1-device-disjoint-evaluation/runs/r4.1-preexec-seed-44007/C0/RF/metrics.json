@@ -1,0 +1,56 @@
+{
+  "anomaly_f1": 0.8275862068965517,
+  "anomaly_precision": 0.7058823529411765,
+  "anomaly_recall": 1.0,
+  "anomaly_role_diagnostics": {
+    "anomaly:nonce_reuse": {
+      "count": 12,
+      "recall": 1.0,
+      "true_positive_count": 12
+    },
+    "anomaly:timestamp_inconsistency": {
+      "count": 12,
+      "recall": 1.0,
+      "true_positive_count": 12
+    }
+  },
+  "balanced_accuracy": 0.9166666666666667,
+  "confusion_matrix": {
+    "fn": 0,
+    "fp": 10,
+    "tn": 50,
+    "tp": 24
+  },
+  "normal_role_diagnostics": {
+    "hard_negative:fresh_nonce_cross_attempt": {
+      "count": 12,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+      "count": 12,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "hard_negative:small_positive_causal_margin": {
+      "count": 12,
+      "false_positive_count": 10,
+      "false_positive_rate": 0.8333333333333334
+    },
+    "ordinary_normal": {
+      "count": 24,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "prediction_count": 84,
+  "schema_version": "icds-binary-metric-contract-v1",
+  "scientific_role_counts": {
+    "anomaly:nonce_reuse": 12,
+    "anomaly:timestamp_inconsistency": 12,
+    "hard_negative:fresh_nonce_cross_attempt": 12,
+    "hard_negative:legitimate_same_attempt_nonce_recurrence": 12,
+    "hard_negative:small_positive_causal_margin": 12,
+    "ordinary_normal": 24
+  }
+}

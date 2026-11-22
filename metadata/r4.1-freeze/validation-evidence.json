@@ -1,0 +1,64 @@
+{
+  "schema_version": "r4.1-freeze-validation-evidence-v1",
+  "validation_date": "2026-11-22",
+  "interpreter": "../PFE_simulator/.venv/bin/python",
+  "import_path": "$PWD/IoT_auth_simulator:$PWD",
+  "software_versions": {
+    "python": "3.14.2",
+    "numpy": "2.5.1",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.18.0",
+    "pandas": "3.0.3"
+  },
+  "r4_1_validate_only": {
+    "command": "PYTHONPATH=\"$PWD/IoT_auth_simulator:$PWD\" ../PFE_simulator/.venv/bin/python -m ml.evaluation.r4_1_execution --partition-manifest metadata/r4.1-freeze/inputs/partition-manifest.json --accepted-partitions metadata/r4.1-freeze/inputs/accepted-partitions.csv --output artifacts/r4.1-device-disjoint-evaluation --validate-only",
+    "pre_freeze_equivalent_command_used_external_durable_inputs": true,
+    "exit_status": 0,
+    "result": {
+      "status": "PASS",
+      "runs": 180,
+      "predictions": 15120,
+      "paired": 60
+    },
+    "persisted_integrity_report": "artifacts/r4.1-device-disjoint-evaluation/integrity-report.json",
+    "persisted_integrity_check_count": 2171
+  },
+  "historical_artifact_verifier": {
+    "command": "PYTHONPATH=\"$PWD/IoT_auth_simulator:$PWD\" ../PFE_simulator/.venv/bin/python scripts/verify_artifacts.py",
+    "exit_status": 0,
+    "phase4_tree_fingerprint": "sha256:cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11",
+    "candidate_samples": 336,
+    "primary_runs": 45,
+    "primary_predictions": 3780,
+    "grouped_runs": 9,
+    "grouped_predictions": 819,
+    "reference_hashes_checked": 27
+  },
+  "directly_reconstructed_from_persisted_evidence": [
+    "180 unique expected runs",
+    "15120 predictions and 84 unique test traces per run",
+    "60 paired C0-to-C1 comparisons",
+    "20 predefined partitions",
+    "zero train/test population_device_key overlap",
+    "exact frozen test memberships",
+    "C0/C1 shared anomaly identities",
+    "C1/C2 trace-membership identity",
+    "subgroup and overall metrics reconstructed from predictions",
+    "candidate and partition input hash identity",
+    "scientific report counts consistent with persisted aggregate results"
+  ],
+  "established_by_persisted_provenance_plus_implementation_contract_inspection": [
+    "exact ordered C0/C1 90-feature and C2 87-feature contracts",
+    "training-only StandardScaler fitting for Logistic Regression",
+    "absence of GT, debug, provenance, device, and Device Profile fields from detector inputs",
+    "post-trace offline prediction horizon and complete-trace feature eligibility",
+    "frozen model configurations, thresholds, and seed namespaces"
+  ],
+  "scope_limit": "Persisted outputs alone cannot prove how learned preprocessing was fitted; that property is supported by run provenance, fitted sample counts, the preserved execution implementation, and frozen Phase-3 regression evidence.",
+  "same_attempt_nonce_role_check": {
+    "trace_count": 48,
+    "authoritative_role": "hard_negative:legitimate_same_attempt_nonce_recurrence",
+    "frozen_semantic_family": "direct_timing",
+    "reporting_rule": "subgrouped by authoritative scientific role"
+  }
+}

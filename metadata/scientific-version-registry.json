@@ -54,6 +54,17 @@
       "kind": "evaluation_input",
       "source_path": "IoT_auth_simulator/ml/icds/icds_pipeline_spec_v1.json"
     },
+    "eval-r4.1": {
+      "aggregate_scientific_fingerprint": "sha256:cce473976d8ea079d5ad77031da21a2062a02aaae6121ce451ff0db49eacea34",
+      "execution_output_fingerprint": "sha256:ed387b03bcacf12369dbaeb0016ba027db301ffdb7f01ecba7609507906ec284",
+      "freeze_manifest": "metadata/r4.1-freeze/freeze-manifest.json",
+      "kind": "evaluation",
+      "original_identity": "R4.1 repeated device-disjoint C0/C1/C2 evaluation over dataset-v1.0",
+      "partition_count": 20,
+      "prediction_count": 15120,
+      "run_count": 180,
+      "source_path": "artifacts/r4.1-device-disjoint-evaluation"
+    },
     "sync-v1.0.0": {
       "commit": "40617b723e68357af7b9e4c597b99efdaf63f02c",
       "kind": "generator_release",
@@ -90,7 +101,7 @@
     "resolution": "The original v1 baseline and the candidate's v1.1 governing references are complementary provenance layers, not competing aliases.",
     "synchronized_release_commit": "74c459f72d214f7eb8ca9ace5a47c25d81589b2f"
   },
-  "registry_version": "scientific-version-registry-v2",
+  "registry_version": "scientific-version-registry-v3",
   "source_submission_release": {
     "commit": "952718ab4faa191c870a045dfa8b7b1c075c0b36",
     "tag": "icds-2026-artifact-v1.0",
