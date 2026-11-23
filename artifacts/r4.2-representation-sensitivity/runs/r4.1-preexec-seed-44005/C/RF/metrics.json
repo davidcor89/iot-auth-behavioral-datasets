@@ -1,0 +1,100 @@
+{
+  "anomaly_f1": 0.9130434782608695,
+  "anomaly_precision": 0.9545454545454546,
+  "anomaly_recall": 0.875,
+  "anomaly_role_diagnostics": {
+    "anomaly:nonce_reuse": {
+      "count": 12,
+      "recall": 1.0,
+      "true_positive_count": 12
+    },
+    "anomaly:timestamp_inconsistency": {
+      "count": 12,
+      "recall": 0.75,
+      "true_positive_count": 9
+    }
+  },
+  "balanced_accuracy": 0.9291666666666667,
+  "confusion_matrix": {
+    "fn": 3,
+    "fp": 1,
+    "tn": 59,
+    "tp": 21
+  },
+  "normal_role_diagnostics": {
+    "hard_negative:fresh_nonce_cross_attempt": {
+      "count": 12,
+      "false_positive_count": 1,
+      "false_positive_rate": 0.08333333333333333
+    },
+    "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+      "count": 12,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "hard_negative:small_positive_causal_margin": {
+      "count": 12,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "ordinary_normal": {
+      "count": 24,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "prediction_count": 84,
+  "schema_version": "icds-binary-metric-contract-v1",
+  "scientific_role_counts": {
+    "anomaly:nonce_reuse": 12,
+    "anomaly:timestamp_inconsistency": 12,
+    "hard_negative:fresh_nonce_cross_attempt": 12,
+    "hard_negative:legitimate_same_attempt_nonce_recurrence": 12,
+    "hard_negative:small_positive_causal_margin": 12,
+    "ordinary_normal": 24
+  },
+  "subgroup_confusion_counts": {
+    "anomaly:nonce_reuse": {
+      "count": 12,
+      "fn": 0,
+      "fp": 0,
+      "tn": 0,
+      "tp": 12
+    },
+    "anomaly:timestamp_inconsistency": {
+      "count": 12,
+      "fn": 3,
+      "fp": 0,
+      "tn": 0,
+      "tp": 9
+    },
+    "hard_negative:fresh_nonce_cross_attempt": {
+      "count": 12,
+      "fn": 0,
+      "fp": 1,
+      "tn": 11,
+      "tp": 0
+    },
+    "hard_negative:legitimate_same_attempt_nonce_recurrence": {
+      "count": 12,
+      "fn": 0,
+      "fp": 0,
+      "tn": 12,
+      "tp": 0
+    },
+    "hard_negative:small_positive_causal_margin": {
+      "count": 12,
+      "fn": 0,
+      "fp": 0,
+      "tn": 12,
+      "tp": 0
+    },
+    "ordinary_normal": {
+      "count": 24,
+      "fn": 0,
+      "fp": 0,
+      "tn": 24,
+      "tp": 0
+    }
+  }
+}

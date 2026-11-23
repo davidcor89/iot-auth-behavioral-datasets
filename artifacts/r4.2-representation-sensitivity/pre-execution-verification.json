@@ -1,0 +1,51 @@
+{
+  "accepted_partitions_sha256": "4b7fd17277a6765bba0e509ee48a39f3c7f59492a4e69d3d238ba2cb91671435",
+  "branch": "research/r4.2-representation-sensitivity",
+  "dataset_file_sha256": "fa22706b090bedf9b944deee8cc02f7df1bb186661c1cb428d6af82705f08bce",
+  "execution_implementation_path": "execution-implementation/r4_2_execution.executed.py",
+  "execution_implementation_sha256": "4603fa5fd41918cde7aa4d6d7107fa200889e42e3b1c3bd6112a6aecfea5c49e",
+  "f2_features": [
+    "observed_trace_duration",
+    "observed_inter_event_delay_count",
+    "observed_inter_event_delay_min",
+    "observed_inter_event_delay_max",
+    "observed_inter_event_delay_mean",
+    "observed_inter_event_delay_median",
+    "observed_inter_event_delay_population_stddev"
+  ],
+  "feature_contract_counts": {
+    "A": 90,
+    "B": 87,
+    "C": 89,
+    "D": 82
+  },
+  "feature_contract_fingerprints": {
+    "A": "sha256:f8386f883e16acdb5ea042bd9746d3bd83a85790be7edb9aac6167fa21367a53",
+    "B": "sha256:227f743a68d87d3726c3ca8c5f1dc3afb1b9f872ca947a1f0d4d43547d64d380",
+    "C": "sha256:3f74f94a69f1f25fecf76172821e67bc3c89111279dd1e089363ecfbf37d1af6",
+    "D": "sha256:37ee3873ad93b9feeea2221edabf4c06b7eec8614b54331956407d7e2f98b3a3"
+  },
+  "historical_phase4_fingerprint": "cc100d1e234d8c0605639def25351d4c756e99a9b7b99acf3639c03065a97c11",
+  "immutable_anchor_runs": 120,
+  "model_fit_or_prediction_performed_during_gate": false,
+  "partition_manifest_sha256": "80c8621860237999b95c2d4e7a0f12a7b56f42ef9c3df3720af5a393bc0131fe",
+  "planned_new_predictions": 10080,
+  "planned_new_runs": 120,
+  "preexecution_fingerprint": "sha256:29b2792d1555c51f1d0d5a9aac5ae549ac23c1d6e817023b8acc78e31aab5da1",
+  "python_executable": "/Users/davidcordova/Documents/Recherche/01_PROJECTS/Projet CR - 2025/05_experiments/SimulatorV0/PFE_simulator/.venv/bin/python",
+  "r4_1_aggregate_fingerprint": "sha256:cce473976d8ea079d5ad77031da21a2062a02aaae6121ce451ff0db49eacea34",
+  "r4_1_artifact_files_verified": 551,
+  "r4_1_artifact_tree_fingerprint": "sha256:ed387b03bcacf12369dbaeb0016ba027db301ffdb7f01ecba7609507906ec284",
+  "r4_1_freeze_files_verified": 566,
+  "repository_checkpoint": "bd00f098ec86902e5c01e5da1cf1eb4c6e92d77b",
+  "schema_version": "r4.2-pre-execution-verification-v1",
+  "software_versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "python": "3.14.2",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "status": "PASS",
+  "verified_at_utc": "2026-11-22T22:41:01.705212+00:00"
+}

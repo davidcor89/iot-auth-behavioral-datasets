@@ -1,0 +1,28 @@
+{
+  "command": "PYTHONPATH=$PWD/IoT_auth_simulator:$PWD ../PFE_simulator/.venv/bin/python /tmp/r4_2_execute.py --root . --output artifacts/r4.2-representation-sensitivity",
+  "conditions_executed": [
+    "C",
+    "D"
+  ],
+  "conditions_reused_by_reference": [
+    "A",
+    "B"
+  ],
+  "execution_implementation_sha256": "4603fa5fd41918cde7aa4d6d7107fa200889e42e3b1c3bd6112a6aecfea5c49e",
+  "immutable_anchor_runs": 120,
+  "models": [
+    "LR",
+    "DT",
+    "RF"
+  ],
+  "partitions": 20,
+  "planned_new_predictions": 10080,
+  "planned_new_runs": 120,
+  "preexecution_fingerprint": "sha256:29b2792d1555c51f1d0d5a9aac5ae549ac23c1d6e817023b8acc78e31aab5da1",
+  "repository_checkpoint": "bd00f098ec86902e5c01e5da1cf1eb4c6e92d77b",
+  "schema_version": "r4.2-representation-sensitivity-execution-v1",
+  "source_preexecution_manifest_path": "metadata/r4.2-preexecution/execution-manifest-cd.json",
+  "source_preexecution_manifest_sha256": "6c23dc6978185165e06917b3745eb03b6ed3900310a3884938aa41aaed8d4d46",
+  "started_at_utc": "2026-11-22T22:41:01.786159+00:00",
+  "status": "EXECUTION_AUTHORIZED_BY_USER_TASK"
+}

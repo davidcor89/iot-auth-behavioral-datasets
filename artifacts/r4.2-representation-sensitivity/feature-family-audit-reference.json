@@ -1,0 +1,57 @@
+{
+  "audit_files": [
+    {
+      "bytes": 1193,
+      "path": "metadata/r4.2-preexecution/audit/ambiguous-features.md",
+      "sha256": "33ca330b5e85c02fa01c8934a867f5fb37808f76dbb226d55d7d2d86eacc5067"
+    },
+    {
+      "bytes": 45308,
+      "path": "metadata/r4.2-preexecution/audit/candidate-feature-lists.json",
+      "sha256": "f18644e4f4db4f41de7f5e19e7b27ea1cacb60a0a29bd4e5fb36710ad6415225"
+    },
+    {
+      "bytes": 417,
+      "path": "metadata/r4.2-preexecution/audit/feature-family-counts.json",
+      "sha256": "b175f7055d0ecf047f42857f59ed34eed114227737c4a0e2c5dcba74cb050a00"
+    },
+    {
+      "bytes": 13118,
+      "path": "metadata/r4.2-preexecution/audit/feature-family-proposals.csv",
+      "sha256": "604949a105abadcd3ff5cadb7d467be25c208f0101b262936aa2dbcffdae7ea6"
+    },
+    {
+      "bytes": 67491,
+      "path": "metadata/r4.2-preexecution/audit/feature-lineage-90.csv",
+      "sha256": "5e8afb5183120e0ff204696215774ad09af18a6f49c4bf894627f5556abd1969"
+    },
+    {
+      "bytes": 178310,
+      "path": "metadata/r4.2-preexecution/audit/feature-lineage-90.json",
+      "sha256": "0f62d28adb3e652b7c90eb375a62af6a1f1cb44a96d65036b313b6f1ec1642d2"
+    },
+    {
+      "bytes": 9664,
+      "path": "metadata/r4.2-preexecution/audit/feature-order-and-fingerprints.json",
+      "sha256": "0746b349b5f4e2d88ffecb2a8ac7e216dc94a2b8a3b767120b72f2ef33e23d41"
+    },
+    {
+      "bytes": 15490,
+      "path": "metadata/r4.2-preexecution/audit/r4.2-feature-contract-report.md",
+      "sha256": "754b532e935d33c50bf22fb502bc143862295afe8d9ee84e97d2dac83d44f55e"
+    },
+    {
+      "bytes": 1964,
+      "path": "metadata/r4.2-preexecution/audit/source-reference-index.md",
+      "sha256": "4d7c4bbe3617a98c78ebf7345b34c3ccf0234cbca09f1b6ecd6ed51df023aa3b"
+    },
+    {
+      "bytes": 3067,
+      "path": "metadata/r4.2-preexecution/audit/timing-equivalence-and-redundancy.md",
+      "sha256": "3483afe46fca98edb5a38211d7025e4df5fd51a0dec79093f023f14b70aec055"
+    }
+  ],
+  "durable_audit_inventory_fingerprint": "sha256:29b2792d1555c51f1d0d5a9aac5ae549ac23c1d6e817023b8acc78e31aab5da1",
+  "preexecution_fingerprint": "sha256:29b2792d1555c51f1d0d5a9aac5ae549ac23c1d6e817023b8acc78e31aab5da1",
+  "schema_version": "r4.2-feature-family-audit-reference-v1"
+}

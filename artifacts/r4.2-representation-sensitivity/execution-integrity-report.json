@@ -1,0 +1,43 @@
+{
+  "schema_version": "r4.2-execution-integrity-report-v1",
+  "status": "PASS_WITH_PREEXISTING_FULL_SUITE_COLLECTION_ERROR",
+  "scientific_execution": {
+    "new_runs": 120,
+    "new_predictions": 10080,
+    "immutable_anchor_runs": 120,
+    "combined_evaluations": 240,
+    "paired_comparisons": 240,
+    "independent_validation": "PASS",
+    "r4_1_artifacts_reverified": 551,
+    "historical_phase4_verification": "PASS"
+  },
+  "implementation_events": [
+    {
+      "event": "initial executor attempt stopped before first estimator fit",
+      "cause": "MatrixBundle attribute was referenced as devices instead of device_keys",
+      "impact": "none; only pre-run manifests existed, the isolated partial namespace was removed, the implementation was corrected, and the complete preflight was rerun before execution",
+      "scientific_artifacts_produced_by_failed_attempt": 0
+    },
+    {
+      "event": "scikit-learn FutureWarning",
+      "cause": "the frozen LogisticRegression penalty='l2' parameter is deprecated in scikit-learn 1.9.0",
+      "impact": "none on this execution; the frozen configuration was preserved without modification"
+    }
+  ],
+  "regression_validation": {
+    "targeted_command": "PYTHONPATH=$PWD/IoT_auth_simulator:$PWD ../PFE_simulator/.venv/bin/python -m pytest -q tests/test_icds_phase1_trace_features.py tests/test_icds_phase2_experiment_manifest.py tests/test_icds_phase3_pipeline.py tests/test_icds_phase4_orchestration.py tests/test_icds_paper_artifacts.py",
+    "targeted_result": "39 passed, 7 warnings",
+    "full_command": "PYTHONPATH=$PWD/IoT_auth_simulator:$PWD ../PFE_simulator/.venv/bin/python -m pytest -q",
+    "full_result": "467 passed, 1 skipped, 7 warnings, 1 error",
+    "full_suite_error": {
+      "file": "tests/test_dp2_profile_provenance.py",
+      "line": 41,
+      "error": "pytest collected helper test_population(configuration, bindings) as a test; fixture configuration was not found",
+      "classification": "pre-existing unrelated collection defect",
+      "last_repository_commit_touching_file": "d8f627c2c000c2b9bded014d2ab5e66de138635a",
+      "r4_2_modified_file": false
+    },
+    "historical_artifact_verification_command": "PYTHONPATH=$PWD/IoT_auth_simulator:$PWD ../PFE_simulator/.venv/bin/python scripts/verify_artifacts.py",
+    "historical_artifact_verification_result": "PASS"
+  }
+}
