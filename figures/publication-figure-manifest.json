@@ -1,0 +1,69 @@
+{
+  "schema_version": "publication-figure-manifest-v1",
+  "manuscript_working_title": "Security-Semantics-Driven Behavioral Dataset Generation for IoT Authentication Anomaly Detection",
+  "manuscript_binding": {
+    "local_draft": "manuscript_V2_scientific_consistency.tex",
+    "local_draft_check": "The draft references the listed figure paths in Figure 1, 2, 3 order.",
+    "overleaf_check": "The researcher confirmed that the three supplied files are the exact assets used in the final Overleaf build. The packaged files match the supplied assets byte-for-byte."
+  },
+  "figures": [
+    {
+      "number": 1,
+      "path": "figures/methodology.png",
+      "sha256": "97f3c3c9a1c0e78850b22438ba4dee7e1755c6eabaff3b1c287e0185c6b527e5",
+      "kind": "static_illustration",
+      "source": "Byte-for-byte copy of the supplied methodology.png. The illustration contains no plotted experiment values.",
+      "overleaf_equivalence_verified": true,
+      "scientific_artifact_references": [
+        "datasets/dataset-v1.0/manifest.json",
+        "validation/dataset-v1.0/manifest.json",
+        "IoT_auth_simulator/ml/icds/feature_spec_icds_v1.json",
+        "experiments/eval-v1.0/manifest.json"
+      ]
+    },
+    {
+      "number": 2,
+      "path": "figures/figure2_boundary_exposure.pdf",
+      "sha256": "619cc7ddff58ab530be83b4c299122cea4f9db292ace713a0a5396318990bce9",
+      "preview": {
+        "path": "figures/figure2_boundary_exposure.png",
+        "sha256": "523713275d2f158e0a4f8ed2df0cb3b850ff57e0c8ba2413338a8db1c40b229d"
+      },
+      "kind": "programmatically_generated",
+      "source": "scripts/generate_paper_figures_2_3.py",
+      "overleaf_equivalence_verified": true,
+      "scientific_artifact_references": [
+        "artifacts/icds-ml-phase4/primary/predictions.jsonl",
+        "artifacts/icds-ml-phase4/primary/per-run-metrics.json",
+        "artifacts/icds-ml-phase4/primary/aggregate-summary.json"
+      ]
+    },
+    {
+      "number": 3,
+      "path": "figures/figure3_device_disjoint_representation.pdf",
+      "sha256": "40eaa430d51bb2c2f3406ff9bf4e4399c0709c6d062f6389c1f3d8da28a405e3",
+      "preview": {
+        "path": "figures/figure3_device_disjoint_representation.png",
+        "sha256": "09031ef7ce23a2447e5c2ed5418f618a4614056a67f369d433778a9d8f396f8b"
+      },
+      "kind": "programmatically_generated",
+      "source": "scripts/generate_paper_figures_2_3.py",
+      "overleaf_equivalence_verified": true,
+      "scientific_artifact_references": [
+        "metadata/r4.1-freeze/freeze-manifest.json",
+        "artifacts/r4.1-device-disjoint-evaluation/predictions.jsonl",
+        "metadata/r4.2-freeze/freeze-manifest.json",
+        "artifacts/r4.2-representation-sensitivity/feature-contracts.json",
+        "artifacts/r4.2-representation-sensitivity/predictions.jsonl"
+      ]
+    }
+  ],
+  "plot_data": {
+    "path": "figures/figure2_figure3_plot_data.csv",
+    "sha256": "7886464b7202069f61be04b74f493ccfb20a6c2ea37accb5c068335e0c86c18d"
+  },
+  "generation_verification": {
+    "path": "figures/figure_generation_verification.json",
+    "sha256": "509911bbc6680d740d40b37c4652ead928ed060fa2e517d9ff4d460385500ef1"
+  }
+}

@@ -1,5 +1,6 @@
 # Ignore all CSV files
 *.csv
+!/figures/figure2_figure3_plot_data.csv
 *.tex
 !artifacts/icds-ml-phase4/**/*.csv
 !artifacts/icds-paper-figures/**/*.csv
