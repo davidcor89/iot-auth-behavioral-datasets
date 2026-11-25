@@ -1,0 +1,40 @@
+name: Verify publication artifact
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONPATH: IoT_auth_simulator
+      PYTHONDONTWRITEBYTECODE: "1"
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14.2"
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-reproducibility.txt
+      - name: Verify archive and reconstruct published evidence
+        run: |
+          python scripts/verify_release.py archive
+          python scripts/verify_release.py metrics
+          python scripts/verify_release.py features
+      - name: Run verification-only unittest regression modules
+        run: |
+          python -m unittest discover -s tests -p 'test_repository_normalization.py'
+          python -m unittest discover -s tests -p 'test_icds_phase1_trace_features.py'
+          python -m unittest discover -s tests -p 'test_icds_phase2_experiment_manifest.py'
+          python -m unittest discover -s tests -p 'test_icds_paper_artifacts.py'
+          python -m unittest discover -s tests -p 'test_publication_package.py'

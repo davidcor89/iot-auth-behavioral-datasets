@@ -14,8 +14,8 @@ The artifact keeps the following concepts distinct:
 2. **Generated trace data** — canonical event evidence after six-decimal
    serialization and admission validation.
 3. **Semantic ground truth** — normal/anomaly truth and violated invariants.
-4. **Hard-negative qualification** — independent confirmation that a generated
-   hard negative remains semantically normal and satisfies its variant rule.
+4. **Boundary qualification** — independent confirmation that a boundary-valid
+   case remains semantically valid and satisfies its variant rule.
 5. **Debug/provenance** — transformation inputs, source references, rejection
    evidence, seeds, versions, and reconstruction metadata.
 6. **Device Profile information** — privileged latent T/A/R/N/L values and
@@ -30,6 +30,29 @@ The artifact keeps the following concepts distinct:
     outputs used for evaluation.
 
 Co-location in a JSON package does not make privileged fields detector-visible.
+
+## Candidate record and target
+
+The frozen candidate contains a top-level `samples` array. Each sample has
+a stable `sample_id`, an ordered `detector_observations` array, and a separate
+`privileged_metadata` object. Join published results to the candidate by
+`sample_id` (recorded as `trace_id` in predictions).
+
+| Privileged field | Use |
+| --- | --- |
+| `role.key` | Six frozen scientific roles listed in the [README](../README.md#frozen-dataset) |
+| `detector_truth` | Binary target source, `normal` or `anomaly` |
+| `complete_validated_invariant_ids` | Independently confirmed property violations |
+| `hn_qualification` | Frozen boundary-qualification field |
+| `device.population_device_key` | Persistent device group used to form and audit splits |
+| `device_profile`, `base`, `transformation` | Generator context and trace lineage |
+
+The 96 ordinary-valid traces and all 144 boundary-valid traces map to
+`normal`. The two violation roles contribute 48 traces each to `anomaly`.
+A violation label means the canonical trace contains evidence of a
+model-defined property violation. It does not establish that a real attack
+occurred or succeeded. Persistent device identifiers remain grouping metadata,
+including in the device-disjoint partitions. They are excluded from features.
 
 ## O03 detector observations
 
@@ -53,6 +76,14 @@ projection:
 The authoritative implementation is the candidate projection plus the frozen
 feature specification referenced by `experiments/eval-v1.0/manifest.json`;
 this guide does not redefine it.
+
+O03 declares **11** observation fields. Full90 uses **10** of them.
+`token_id` is admitted in the observation record but is unused by the
+extractor. The `challenge_sent` event starts a reconstructed attempt
+segment, which ends at the next challenge or the end of the trace. The
+extractor uses the recorded event order and observable nonce evidence.
+Privileged attempt identifiers are outside the representation. This
+reconstruction is scoped to the candidate's serial trace grammar.
 
 ## Manifest index
 
@@ -80,7 +111,7 @@ The build manifest records:
 
 - 336/336 planned samples admitted;
 - 96/96 ordinary normals valid;
-- 144/144 hard negatives normal and qualified;
+- 144/144 boundary-valid cases normal and qualified;
 - 48/48 Timing anomalies with `INV-TIME-OBSERVED-CAUSAL`;
 - 48/48 Nonce anomalies with `INV-REPLAY-NONCE-CROSS-ATTEMPT`;
 - zero unexpected multi-invariant samples;

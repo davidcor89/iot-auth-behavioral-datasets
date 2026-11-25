@@ -1,0 +1,70 @@
+# Proposed V2 release inventory. Each pattern applies to Git-tracked paths.
+# Publication still requires the approvals in docs/publication-release-review.md.
+# The original PUBLICATION_FILES.txt remains the historical export allowlist.
+
+# Required V2 documentation, environment, workflow and verifiers.
+.gitattributes
+.gitignore
+.github/workflows/verify-publication.yml
+CITATION.cff
+LICENSE
+LICENSE-DATA
+README.md
+PUBLICATION_RELEASE_FILES.txt
+requirements-reproducibility.txt
+docs/artifact-versioning.md
+docs/dataset-and-manifests.md
+docs/manuscript-artifact-map.md
+docs/publication-release-review.md
+docs/reproducibility.md
+scripts/verify_release.py
+scripts/verify_r4_1_freeze.py
+scripts/verify_artifacts.py
+scripts/verify_publication.py
+scripts/generate_paper_figures_2_3.py
+tests/**/*.py
+IoT_auth_simulator/**/*.py
+IoT_auth_simulator/ml/icds/*.json
+IoT_auth_simulator/simulator/data/output/.gitkeep
+
+# Required frozen scientific records and public manuscript figures.
+artifacts/icds-timing-nonce-candidate/**/*
+artifacts/icds-ml-phase1/**/*
+artifacts/icds-ml-phase2/**/*
+artifacts/icds-ml-phase3/**/*
+artifacts/icds-ml-phase4/**/*
+artifacts/r4.1-device-disjoint-evaluation/**/*
+artifacts/r4.2-representation-sensitivity/**/*
+metadata/r4.1-freeze/**/*
+metadata/r4.2-preexecution/**/*
+metadata/r4.2-freeze/**/*
+metadata/scientific-artifact-inventory.json
+metadata/scientific-version-registry.json
+metadata/publication-release-index.json
+datasets/dataset-v1.0/manifest.json
+validation/dataset-v1.0/manifest.json
+experiments/eval-v1.0/**/*
+figures/*
+
+# Historical evidence retained and required by the frozen archive checks.
+artifacts/icds-paper-figures/**/*
+publication-artifacts/eval-v1.0/**/*
+submissions/icds2026/*
+
+# Supplementary and historical files retained with the curated lineage.
+# These are optional for reading the current manuscript's numerical results.
+.gitlab-ci.yml
+PUBLICATION_FILES.txt
+PUBLICATION_SNAPSHOT.json
+requirements-publication.txt
+docs/eval-v1-scientific-results.md
+docs/icds-phase4-scientific-results.md
+docs/paper-artifact-map.md
+docs/r4.1-freeze-provenance-2026-11-22.md
+docs/repository-migration-v2-01.md
+metadata/path-mapping.json
+metadata/venue-reference-inventory.json
+notebooks/icds_phase4_paper_artifacts.ipynb
+scripts/build_v2_manifests.py
+scripts/export_publication_snapshot.py
+scripts/export_repository_snapshot.py

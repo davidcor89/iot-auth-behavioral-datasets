@@ -1,0 +1,55 @@
+{
+  "schema_version": "publication-release-index-v1",
+  "intended_repository": "davidcor89/iot-auth-behavioral-datasets",
+  "manuscript_working_title": "Security-Semantics-Driven Behavioral Dataset Generation for IoT Authentication Anomaly Detection",
+  "historical_icds_artifact": {
+    "tag": "icds-2026-artifact-v1.0",
+    "tag_object": "650ffa5321836d903a6ed40fa42dbac602292570",
+    "commit": "952718ab4faa191c870a045dfa8b7b1c075c0b36",
+    "path": "submissions/icds2026/snapshot-manifest.json"
+  },
+  "dataset": {
+    "id": "dataset-v1.0",
+    "path": "datasets/dataset-v1.0/manifest.json",
+    "validation_path": "validation/dataset-v1.0/manifest.json",
+    "governing_model": "behavioral-model-v1.1",
+    "generator_release": "sync-v1.1.0",
+    "original_execution_checkout": null,
+    "original_execution_checkout_status": "unverified",
+    "provenance_path": "metadata/scientific-version-registry.json"
+  },
+  "baseline_evaluation": {
+    "id": "eval-v1.0",
+    "path": "experiments/eval-v1.0/manifest.json",
+    "fingerprints_path": "artifacts/icds-ml-phase4/fingerprints.json"
+  },
+  "repeated_device_disjoint": {
+    "id": "eval-r4.1",
+    "path": "metadata/r4.1-freeze/freeze-manifest.json",
+    "execution_checkout": "97003b1d9448caa105b6e206ceb5deb18c02a207",
+    "archival_checkpoint": "7ad3284f4c45f793c3f7ee10a678c3f73109bf53",
+    "archived_executable_path": "metadata/r4.1-freeze/execution-implementation/r4_1_execution.executed.py",
+    "partition_manifest_path": "metadata/r4.1-freeze/inputs/partition-manifest.json",
+    "replay_policy": "Use the persisted partition and cohort assignments."
+  },
+  "representation_sensitivity": {
+    "id": "eval-r4.2",
+    "path": "metadata/r4.2-freeze/freeze-manifest.json",
+    "execution_checkout": "bd00f098ec86902e5c01e5da1cf1eb4c6e92d77b",
+    "archival_checkpoint": "cc1c61f5e67ed2b9b1091c31cf42022c0f587f7e",
+    "archived_executable_path": "artifacts/r4.2-representation-sensitivity/execution-implementation/r4_2_execution.executed.py",
+    "feature_contract_path": "metadata/r4.2-preexecution/feature-contracts.json",
+    "hash_note": "The frozen A/B hash description omits the two historical profile linkage exclusions. The verifier checks the linkage separately."
+  },
+  "publication_figures": {
+    "packaging_checkpoint": "ea7f43a999feb1fc6d956c61daa4daf0b50ec668",
+    "path": "figures/publication-figure-manifest.json"
+  },
+  "portable_verification": {
+    "packaging_checkpoint": "887b9083b3e771c50a98d82b0b300cedcefc873f",
+    "path": "scripts/verify_release.py",
+    "reproduction_guide_path": "docs/reproducibility.md"
+  },
+  "inventory_path": "PUBLICATION_RELEASE_FILES.txt",
+  "publication_review_path": "docs/publication-release-review.md"
+}
