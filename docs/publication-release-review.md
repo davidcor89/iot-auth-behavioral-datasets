@@ -7,7 +7,7 @@ The proposed publication uses the curated lineage in this repository.
 
 | Local source ref | Proposed destination ref | Contents |
 | --- | --- | --- |
-| `refs/heads/publication/release-preparation` | `refs/heads/main` | Reviewed publication checkpoint, after later release approval |
+| `refs/heads/publication/release-preparation` | `refs/heads/main` | Approved checkpoint `7e3a56109b1a0d4fc46a1ae07fb9830d1d9b210c` and its documentation-only authorization commit |
 | `refs/tags/icds-2026-artifact-v1.0` | `refs/tags/icds-2026-artifact-v1.0` | Unchanged annotated object `650ffa5321836d903a6ed40fa42dbac602292570`, pointing to `952718ab4faa191c870a045dfa8b7b1c075c0b36` |
 
 No other branches or tags are proposed. The execution and archive checkpoints
@@ -45,15 +45,14 @@ identifying data.
   storage and preservation locations. These are engineering provenance,
   contain identifying filesystem context, and are not required local
   dependencies for external verification. The repository has portable
-  artifact paths. Approve disclosure of the frozen locators before release.
+  artifact paths. The author approved disclosure of these three frozen records without redaction.
 - Eleven tracked paths or reachable versions contain transient work
   locators under the system temporary directory. Their function is execution
   or audit provenance. Historical commands can retain these paths because
   the current guide gives portable alternatives.
 - Git history exposes an author/committer address, and the historical lineage
   identifies its authors and institutional host. These refs are unsuitable
-  for anonymous review. Confirm that public attribution and contact exposure
-  are acceptable.
+  for anonymous review. The author approved disclosure of identifying Git metadata.
 - The candidate uses synthetic identifiers and device groups. The selection
   contains no tracked virtual environment, local environment file, agent
   cache, private key file, supervision handover, or reviewer report.
@@ -62,8 +61,8 @@ identifying data.
   and supplementary context.
 - Figure 1's PNG embeds editable diagram markup. Inspection found no home
   path, email address, or external link in the embedded diagram model.
-  The supplied bitmap and its embedded material still require rights
-  confirmation. The current manuscript copy uses boundary-valid terminology.
+  The author confirmed redistribution rights for the supplied bitmap and its
+  embedded material. The current manuscript copy uses boundary-valid terminology.
   The preceding manuscript copy is retained in Git history, and the historical
   submission export remains in its original location.
 
@@ -90,16 +89,23 @@ authors. The [README](../README.md#citation-and-licensing) separately records
 the three provided manuscript authors. No acceptance, publication date, DOI,
 or approval to change license scope is recorded.
 
-Before public distribution, obtain approval for:
+## Author authorization (2026-11-26)
 
-1. Disclosure of identifying Git metadata and the three frozen workstation
-   locators for the exact proposed refs.
-2. Attribution and redistribution rights for the supplied methodology
-   illustration, including its embedded diagram, and any third-party or
-   historical submission material retained with the release.
-3. The final software and manuscript citation metadata and any extension
-   of the existing license scope. Paper authorship does not determine
-   software ownership or authorship.
+The author authorized public distribution of the reviewed
+[release inventory](../PUBLICATION_RELEASE_FILES.txt) and the two refs listed above.
+This approval covers the three frozen workstation-path records, without
+redaction, and identifying Git metadata in the reviewed lineage, including
+author and committer identities, email addresses, timestamps, messages,
+signatures, and historical tag metadata.
+
+The author confirmed redistribution rights for the final methodology figure,
+its embedded editable diagram, previous and historical figure versions,
+experimental figures, and the historical and scientific materials in the
+reviewed inventory. Existing licensing scopes and third-party notices apply.
+
+- Software attribution is David A. Cordova Morales and Lamia Belhadj Sghaier.
+- Manuscript attribution is David A. Cordova Morales, Lamia Belhadj Sghaier,
+  and Gina Gallegos-García.
 
 ## CI and remaining release checks
 
@@ -111,9 +117,10 @@ publication evidence. Full unittest discovery includes model fitting and
 candidate generation, so the publication workflow uses only the modules
 compatible with verification. The existing GitLab workflow is retained.
 
-The GitHub workflow has not run on GitHub. The Ubuntu runner's ability to
-resolve the exact Python build and dependency pins remains to be checked.
+Fresh-environment installation and verification passed on macOS arm64.
+The GitHub workflow still needs verification on the Ubuntu runner, including
+the exact Python build and dependency pins.
 The known pytest collection issue is documented in the
 [reproducibility guide](reproducibility.md#read-only-verification).
-Publication is pending the approvals above and the later clean-environment
-verification. No public URL availability or release DOI is assumed.
+The authorization above permits GitHub publication. It does not cover a new
+release tag or DOI deposit.
