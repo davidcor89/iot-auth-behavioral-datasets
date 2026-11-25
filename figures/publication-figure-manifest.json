@@ -4,15 +4,15 @@
   "manuscript_binding": {
     "local_draft": "manuscript_V2_scientific_consistency.tex",
     "local_draft_check": "The draft references the listed figure paths in Figure 1, 2, 3 order.",
-    "overleaf_check": "The researcher confirmed that the three supplied files are the exact assets used in the final Overleaf build. The packaged files match the supplied assets byte-for-byte."
+    "overleaf_check": "Figure 1 matches the revised Overleaf asset supplied for PUB-04A.1 byte-for-byte. Figures 2 and 3 retain their previously verified Overleaf bindings."
   },
   "figures": [
     {
       "number": 1,
       "path": "figures/methodology.png",
-      "sha256": "97f3c3c9a1c0e78850b22438ba4dee7e1755c6eabaff3b1c287e0185c6b527e5",
+      "sha256": "bbfbf3f22d751abe21c7203b92005774aab4258e9be3cb6c2b8f22af85b9a9fe",
       "kind": "static_illustration",
-      "source": "Byte-for-byte copy of the supplied methodology.png. The illustration contains no plotted experiment values.",
+      "source": "Byte-for-byte copy of the author-supplied final Overleaf methodology.png with boundary-valid terminology. The illustration contains no plotted experiment values.",
       "overleaf_equivalence_verified": true,
       "scientific_artifact_references": [
         "datasets/dataset-v1.0/manifest.json",

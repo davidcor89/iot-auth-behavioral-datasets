@@ -63,8 +63,9 @@ identifying data.
 - Figure 1's PNG embeds editable diagram markup. Inspection found no home
   path, email address, or external link in the embedded diagram model.
   The supplied bitmap and its embedded material still require rights
-  confirmation. Its legacy abbreviation is tracked separately as an
-  editorial issue.
+  confirmation. The current manuscript copy uses boundary-valid terminology.
+  The preceding manuscript copy is retained in Git history, and the historical
+  submission export remains in its original location.
 
 The review preserved the frozen files and history. If disclosure of a frozen
 locator or other historical content is declined, block publication of the

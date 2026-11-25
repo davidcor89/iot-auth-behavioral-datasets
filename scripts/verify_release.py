@@ -28,7 +28,7 @@ R42 = ROOT / "artifacts/r4.2-representation-sensitivity"
 PREEXEC = ROOT / "metadata/r4.2-preexecution"
 FREEZE = ROOT / "metadata/r4.2-freeze"
 FIGURES = ROOT / "figures"
-FIGURE_MANIFEST_SHA = "4a62b208c6b932ffa50925c632f71b8c02c2fda5027fbb67b25b59b16ac405be"
+FIGURE_MANIFEST_SHA = "8be0ed01208cb6e42a13ec7a59c0174a36fce1429b9ab466947d6600de1be546"
 FIGURE_SCRIPT_SHA = "5cab1309f772ccecf4c4a3e16c806d22664882499f72aaef3a33f0046ccd4f67"
 
 
